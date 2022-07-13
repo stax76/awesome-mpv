@@ -1,5 +1,5 @@
 
-# Awesome mpv [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/stax76/awesome-mpv/)
+# Awesome mpv [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of awesome mpv resources.
 
