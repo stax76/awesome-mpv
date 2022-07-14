@@ -20,7 +20,8 @@ Frontends
 User Script Highlights
 ----------------------
 
-- [mpv-file-browser](CogentRedTester/mpv-file-browser) On-Screen file browser, especially useful for users of a classic remote control.
+- [mpv-file-browser](https://github.com/CogentRedTester/mpv-file-browser) File browser, especially useful for users of a classic remote control.
+- [mpv-search-page](https://github.com/CogentRedTester/mpv-search-page) Allows searching for keybinds, properties, options and commands and have matching entries display on the OSD.
 
 
 User Scripts
