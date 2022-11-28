@@ -1,25 +1,40 @@
 
 # Awesome mpv [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome mpv resources.
+A curated list of mpv resources.
 
-Builds
-------
 
-- [shinchiro](https://github.com/shinchiro/mpv-winbuild-cmake)
-- [zhongfly](https://github.com/zhongfly/mpv-winbuild)
+Table Of Contents
+-----------------
+
+Not available but might be generated using the [Smart Toc](https://www.google.com/search?q=Smart+TOC) browser extension.
 
 
 Frontends
 ---------
 
-- [mpv.net](https://github.com/stax76/mpv.net) (Windows only)
-- [IINA](https://iina.io) (macOS only)
+- [IINA](https://iina.io) Media player for for MacOS.
+- [mpv.net](https://github.com/stax76/mpv.net) Media player for Windows.
+- [Celluloid](https://github.com/celluloid-player/celluloid) Media player for Linux.
+- [MPV-EASY-Player](https://github.com/422658476/MPV-EASY-Player) Beginner friendly media player.
+- [Harmonoid](https://github.com/harmonoid/harmonoid) Music player and manager.
+- [Vidcutter](https://github.com/ozmartian/vidcutter) Video cutter and joiner.
+- [jellyfin mpv shim](https://github.com/jellyfin/jellyfin-mpv-shim) Jellyfin (Emby/Plex alternative) Client.
+- [Kawaii Player](https://github.com/kanishka-linux/kawaii-player) Media player, library manager and server.
+- [MoonPlayer](https://github.com/coslyk/moonplayer) Media player specialized for online videos.
 
+
+Builds
+------
+
+- [shinchiro](https://github.com/shinchiro/mpv-winbuild-cmake) Daily Windows builds.
+- [zhongfly](https://github.com/zhongfly/mpv-winbuild) Daily Windows builds.
+- [Media Autobuild Suite (MABS)](https://github.com/m-ab-s/media-autobuild_suite) Batchscript for building ffmpeg and other media tools under Windows.
 
 User Script Highlights
 ----------------------
 
+- [M-x](https://github.com/Seme4eg/mpv-scripts) Searchable command and binding menu (Command Palette)([Screenshot](img/m-x.png)).
 - [mpv-file-browser](https://github.com/CogentRedTester/mpv-file-browser) File browser, especially useful for users of a classic remote control.
 - [mpv-search-page](https://github.com/CogentRedTester/mpv-search-page) Allows searching for keybinds, properties, options and commands and have matching entries display on the OSD.
 
@@ -49,7 +64,7 @@ Remote Control
 - https://github.com/mcastorina/mpv-remote-app
 - https://github.com/open-dynaMIX/simple-mpv-webui
 - https://github.com/datasone/MPVMediaControl
-- https://kdeconnect.kde.org
+- [Macast](https://github.com/xfangfang/Macast) A menu bar application using mpv as DLNA Media Renderer. You can push videos, pictures or musics from your mobile phone to your computer.
 
 
 Tutorial
