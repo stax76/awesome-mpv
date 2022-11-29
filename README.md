@@ -22,7 +22,7 @@ Frontends
 ---------
 
 - [IINA](https://iina.io) - Media player for for MacOS.
-- [dia player for Windows.] [mpv.net](https://github.com/mpvnet-player/mpv.net) - Media player for Windows.
+- [mpv.net](https://github.com/mpvnet-player/mpv.net) - Media player for Windows.
 - [Celluloid](https://github.com/celluloid-player/celluloid) - Media player for Linux.
 - [MPV-EASY-Player](https://github.com/422658476/MPV-EASY-Player) - Beginner friendly media player.
 - [Harmonoid](https://github.com/harmonoid/harmonoid) - Music player and manager.
