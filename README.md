@@ -7,41 +7,53 @@ A curated list of mpv resources.
 Table Of Contents
 -----------------
 
-Not available but might be generated using the [Smart Toc](https://www.google.com/search?q=Smart+TOC) browser extension.
+- [Frontends](#frontends)
+- [Builds](#builds)
+- [User Script Highlights](#user-script-highlights)
+- [User Scripts](#user-scripts)
+- [External Tools](#external-tools)
+- [Remote Control](#remote-control)
+- [Tutorial](#tutorial)
+- [Building](#building)
+- [Libraries](#libraries)
 
 
 Frontends
 ---------
 
-- [IINA](https://iina.io) Media player for for MacOS.
-- [mpv.net](https://github.com/stax76/mpv.net) Media player for Windows.
-- [Celluloid](https://github.com/celluloid-player/celluloid) Media player for Linux.
-- [MPV-EASY-Player](https://github.com/422658476/MPV-EASY-Player) Beginner friendly media player.
-- [Harmonoid](https://github.com/harmonoid/harmonoid) Music player and manager.
-- [Vidcutter](https://github.com/ozmartian/vidcutter) Video cutter and joiner.
-- [jellyfin mpv shim](https://github.com/jellyfin/jellyfin-mpv-shim) Jellyfin (Emby/Plex alternative) Client.
-- [Kawaii Player](https://github.com/kanishka-linux/kawaii-player) Media player, library manager and server.
-- [MoonPlayer](https://github.com/coslyk/moonplayer) Media player specialized for online videos.
+- [IINA](https://iina.io) - Media player for for MacOS.
+- [dia player for Windows.] [mpv.net](https://github.com/mpvnet-player/mpv.net) - Media player for Windows.
+- [Celluloid](https://github.com/celluloid-player/celluloid) - Media player for Linux.
+- [MPV-EASY-Player](https://github.com/422658476/MPV-EASY-Player) - Beginner friendly media player.
+- [Harmonoid](https://github.com/harmonoid/harmonoid) - Music player and manager.
+- [Vidcutter](https://github.com/ozmartian/vidcutter) - Video cutter and joiner.
+- [Macast](https://github.com/xfangfang/Macast) - DLNA Client.
+- [jellyfin mpv shim](https://github.com/jellyfin/jellyfin-mpv-shim) - Jellyfin (Emby/Plex alternative) Client.
+- [Kawaii Player](https://github.com/kanishka-linux/kawaii-player) - Media player, library manager and server.
+- [MoonPlayer](https://github.com/coslyk/moonplayer) - Media player specialized for online videos.
 
 
 Builds
 ------
 
-- [shinchiro](https://github.com/shinchiro/mpv-winbuild-cmake) Daily Windows builds.
-- [zhongfly](https://github.com/zhongfly/mpv-winbuild) Daily Windows builds.
-- [Media Autobuild Suite (MABS)](https://github.com/m-ab-s/media-autobuild_suite) Batchscript for building ffmpeg and other media tools under Windows.
+- [shinchiro](https://github.com/shinchiro/mpv-winbuild-cmake) - Daily Windows builds.
+- [zhongfly](https://github.com/zhongfly/mpv-winbuild) - Daily Windows builds.
+
 
 User Script Highlights
 ----------------------
 
-- [M-x](https://github.com/Seme4eg/mpv-scripts) Searchable command and binding menu (Command Palette)([Screenshot](img/m-x.png)).
-- [mpv-file-browser](https://github.com/CogentRedTester/mpv-file-browser) File browser, especially useful for users of a classic remote control.
-- [mpv-search-page](https://github.com/CogentRedTester/mpv-search-page) Allows searching for keybinds, properties, options and commands and have matching entries display on the OSD.
+- [M-x](https://github.com/Seme4eg/mpv-scripts) - Searchable command and binding menu (Command Palette)([Screenshot](img/m-x.png)).
+- [mpv-file-browser](https://github.com/CogentRedTester/mpv-file-browser) - File browser, especially useful for users of a classic remote control.
+- [mpv-search-page](https://github.com/CogentRedTester/mpv-search-page) - Allows searching for keybinds, properties, options and commands and have matching entries display on the OSD.
+- [mpv_thumbnail_script](https://github.com/TheAMM/mpv_thumbnail_script) - Shows preview thumbnails in mpv's OSC seekbar.
+- [uosc](https://github.com/tomasklaen/uosc) - Feature-rich minimalist proximity-based UI for MPV player.
 
 
 User Scripts
 ------------
 
+- [mpv-webm](https://github.com/ekisu/mpv-webm) - mpv WebM converter with no external dependencies.
 - https://github.com/mpv-player/mpv/wiki/User-Scripts
 - https://github.com/topics/mpv-script
 
@@ -64,7 +76,7 @@ Remote Control
 - https://github.com/mcastorina/mpv-remote-app
 - https://github.com/open-dynaMIX/simple-mpv-webui
 - https://github.com/datasone/MPVMediaControl
-- [Macast](https://github.com/xfangfang/Macast) A menu bar application using mpv as DLNA Media Renderer. You can push videos, pictures or musics from your mobile phone to your computer.
+- [mpv-mpris](https://github.com/hoyon/mpv-mpris) - On Linux allows controlling mpv using standard media keys.
 
 
 Tutorial
@@ -77,7 +89,13 @@ Tutorial
 Building
 --------
 
-- https://github.com/stax76/mpv.net/wiki/Building-mpv-and-libmpv-using-wsl2-and-Ubuntu
+- https://github.com/mpvnet-player/mpv.net/wiki/Building-mpv-and-libmpv-using-wsl2-and-Ubuntu
 - https://github.com/mpv-player/mpv/blob/master/DOCS/compile-windows.md
+- https://github.com/m-ab-s/media-autobuild_suite
 - https://github.com/qyot27/mpv/blob/extra-new/DOCS/crosscompile-mingw-tedious.txt
 - https://mxe.cc
+
+
+Libraries
+---------
+- [python-mpv](https://github.com/jaseg/python-mpv) - mpv Python interface.
