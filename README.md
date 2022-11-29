@@ -4,8 +4,7 @@
 A curated list of mpv resources.
 
 
-Table Of Contents
------------------
+# Table Of Contents
 
 - [Frontends](#frontends)
 - [Builds](#builds)
@@ -18,8 +17,7 @@ Table Of Contents
 - [Libraries](#libraries)
 
 
-Frontends
----------
+## Frontends
 
 - [IINA](https://iina.io) - Media player for for MacOS.
 - [mpv.net](https://github.com/mpvnet-player/mpv.net) - Media player for Windows.
@@ -33,15 +31,13 @@ Frontends
 - [MoonPlayer](https://github.com/coslyk/moonplayer) - Media player specialized for online videos.
 
 
-Builds
-------
+## Builds
 
 - [shinchiro](https://github.com/shinchiro/mpv-winbuild-cmake) - Daily Windows builds.
 - [zhongfly](https://github.com/zhongfly/mpv-winbuild) - Daily Windows builds.
 
 
-User Script Highlights
-----------------------
+## User Script Highlights 🚀
 
 - [M-x](https://github.com/Seme4eg/mpv-scripts) - Searchable command and binding menu (Command Palette)([Screenshot](img/m-x.png)).
 - [mpv-file-browser](https://github.com/CogentRedTester/mpv-file-browser) - File browser, especially useful for users of a classic remote control.
@@ -50,16 +46,14 @@ User Script Highlights
 - [uosc](https://github.com/tomasklaen/uosc) - Feature-rich minimalist proximity-based UI for MPV player.
 
 
-User Scripts
-------------
+## User Scripts
 
 - [mpv-webm](https://github.com/ekisu/mpv-webm) - mpv WebM converter with no external dependencies.
 - https://github.com/mpv-player/mpv/wiki/User-Scripts
 - https://github.com/topics/mpv-script
 
 
-External Tools
---------------
+## External Tools
 
 - https://add0n.com/external-application-button.html
 - https://github.com/Flow-Launcher/Flow.Launcher
@@ -68,8 +62,7 @@ External Tools
 - https://github.com/ikas-mc/ContextMenuForWindows11
 
 
-Remote Control
---------------
+## Remote Control
 
 - Classic remote control: One For All Contour URC1210 using Philips code 0556 together with FLIRC USB (gen2)
 - https://github.com/husudosu/mpv-remote-app
@@ -79,15 +72,13 @@ Remote Control
 - [mpv-mpris](https://github.com/hoyon/mpv-mpris) - On Linux allows controlling mpv using standard media keys.
 
 
-Tutorial
---------
+## Tutorial
 
 - [How to Use MPV on Windows](https://www.makeuseof.com/how-to-use-mpv-on-windows)
 - [mpv: The Best Video Player for Language Learning](https://www.youtube.com/watch?v=bbg6ztWecbU)
 
 
-Building
---------
+## Building
 
 - https://github.com/mpvnet-player/mpv.net/wiki/Building-mpv-and-libmpv-using-wsl2-and-Ubuntu
 - https://github.com/mpv-player/mpv/blob/master/DOCS/compile-windows.md
@@ -96,6 +87,6 @@ Building
 - https://mxe.cc
 
 
-Libraries
----------
+## Libraries
+
 - [python-mpv](https://github.com/jaseg/python-mpv) - mpv Python interface.
