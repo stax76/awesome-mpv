@@ -8,7 +8,7 @@ A curated list of mpv resources.
 
 - [Frontends](#frontends)
 - [Builds](#builds)
-- [User Script Highlights](#user-script-highlights)
+- [User Script Highlights](#user-script-highlights-)
 - [User Scripts](#user-scripts)
 - [External Tools](#external-tools)
 - [Remote Control](#remote-control)
@@ -39,7 +39,7 @@ A curated list of mpv resources.
 
 ## User Script Highlights 🚀
 
-- [M-x](https://github.com/Seme4eg/mpv-scripts) - Searchable command and binding menu (Command Palette)([Screenshot](img/m-x.png)).
+- [M-x](https://github.com/Seme4eg/mpv-scripts) - Searchable command menu that allows to quickly find bindings and execute commands.
 - [mpv-file-browser](https://github.com/CogentRedTester/mpv-file-browser) - File browser, especially useful for users of a classic remote control.
 - [mpv-search-page](https://github.com/CogentRedTester/mpv-search-page) - Allows searching for keybinds, properties, options and commands and have matching entries display on the OSD.
 - [mpv_thumbnail_script](https://github.com/TheAMM/mpv_thumbnail_script) - Shows preview thumbnails in mpv's OSC seekbar.
