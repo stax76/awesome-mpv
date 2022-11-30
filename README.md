@@ -23,17 +23,28 @@ A curated list of mpv resources.
 
 ## Players
 
-- [IINA](https://iina.io) - Media player for for MacOS.
-- [mpv.net](https://github.com/mpvnet-player/mpv.net) - Media player for Windows.
-- [Celluloid](https://celluloid-player.github.io/) - Media player for Linux.
+### Cross-platform
+
 - [MPV-EASY-Player](https://github.com/422658476/MPV-EASY-Player) - Media player.
-- [Haruna](https://invent.kde.org/multimedia/haruna) - Media player.
 - [Harmonoid](https://harmonoid.com/) - Music player and manager.
 - [Macast](https://xfangfang.github.io/Macast/) - DLNA Client.
 - [jellyfin mpv shim](https://github.com/jellyfin/jellyfin-mpv-shim) - Jellyfin (Emby/Plex alternative) Client.
-- [Kawaii Player](https://github.com/kanishka-linux/kawaii-player) - Media player, library manager and server.
 - [MoonPlayer](https://github.com/coslyk/moonplayer) - Media player specialized for online videos.
 - [Memento](https://github.com/ripose-jp/Memento) - Video player for studying Japanese.
+
+### Windows
+
+- [mpv.net](https://github.com/mpvnet-player/mpv.net) - Media player for Windows.
+
+### MacOS
+
+- [IINA](https://iina.io) - Media player for for MacOS.
+
+### Linux
+
+- [Celluloid](https://celluloid-player.github.io/) - Media player for Linux.
+- [Haruna](https://invent.kde.org/multimedia/haruna) - Media player.
+- [Kawaii Player](https://github.com/kanishka-linux/kawaii-player) - Media player, library manager and server.
 
 
 ## Discontinued Players
