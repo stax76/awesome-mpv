@@ -6,9 +6,11 @@ A curated list of mpv resources.
 
 # Table Of Contents
 
-- [Frontends](#frontends)
+- [Players](#players)
+- [Discontinued Players](#discontinued-players)
+- [Tools](#tools)
 - [Builds](#builds)
-- [User Script Highlights](#user-script-highlights-)
+- [Popular or underrated user scripts 🚀](#popular-or-underrated-user-scripts-)
 - [User Scripts](#user-scripts)
 - [External Tools](#external-tools)
 - [Remote Control](#remote-control)
@@ -17,19 +19,29 @@ A curated list of mpv resources.
 - [Libraries](#libraries)
 
 
-## Frontends
+## Players
 
 - [IINA](https://iina.io) - Media player for for MacOS.
 - [mpv.net](https://github.com/mpvnet-player/mpv.net) - Media player for Windows.
-- [Celluloid](https://github.com/celluloid-player/celluloid) - Media player for Linux.
-- [MPV-EASY-Player](https://github.com/422658476/MPV-EASY-Player) - Beginner friendly media player.
-- [Harmonoid](https://github.com/harmonoid/harmonoid) - Music player and manager.
-- [Vidcutter](https://github.com/ozmartian/vidcutter) - Video cutter and joiner.
-- [Macast](https://github.com/xfangfang/Macast) - DLNA Client.
+- [Celluloid](https://celluloid-player.github.io/) - Media player for Linux.
+- [MPV-EASY-Player](https://github.com/422658476/MPV-EASY-Player) - Media player.
+- [Harmonoid](https://harmonoid.com/) - Music player and manager.
+- [Macast](https://xfangfang.github.io/Macast/) - DLNA Client.
 - [jellyfin mpv shim](https://github.com/jellyfin/jellyfin-mpv-shim) - Jellyfin (Emby/Plex alternative) Client.
 - [Kawaii Player](https://github.com/kanishka-linux/kawaii-player) - Media player, library manager and server.
 - [MoonPlayer](https://github.com/coslyk/moonplayer) - Media player specialized for online videos.
 
+
+## Discontinued Players
+
+- [movie-monad](https://github.com/lettier/movie-monad) - Media player for MacOS and Linux.
+
+
+## Tools
+
+- [Vidcutter](https://github.com/ozmartian/vidcutter) - Video cutter and joiner.
+- [boram](https://github.com/Kagami/boram) - WebM converter.
+- [Botflix/stream-cli](https://github.com/kaboussi/Botflix) - Python scrapping CLI that combines scrapy and webtorrent for streaming movies.
 
 ## Builds
 
@@ -37,7 +49,7 @@ A curated list of mpv resources.
 - [zhongfly](https://github.com/zhongfly/mpv-winbuild) - Daily Windows builds.
 
 
-## User Script Highlights 🚀
+##  Popular or underrated user scripts 🚀
 
 - [M-x](https://github.com/Seme4eg/mpv-scripts) - Searchable command menu that allows to quickly find bindings and execute commands.
 - [mpv-file-browser](https://github.com/CogentRedTester/mpv-file-browser) - File browser, especially useful for users of a classic remote control.
@@ -90,3 +102,4 @@ A curated list of mpv resources.
 ## Libraries
 
 - [python-mpv](https://github.com/jaseg/python-mpv) - mpv Python interface.
+- [mpv.js](https://github.com/Kagami/mpv.js) - Embeddable player for Electron/NW.js applications.
