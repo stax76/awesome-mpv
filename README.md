@@ -1,3 +1,10 @@
+- []() - 
+- []() - 
+- []() - 
+- []() - 
+- []() - 
+- []() - 
+- []() - 
 
 # Awesome mpv [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
@@ -9,6 +16,8 @@ A curated list of mpv resources.
 - [Players](#players)
 - [Discontinued Players](#discontinued-players)
 - [Tools](#tools)
+- [Streaming](#streaming)
+- [Video Processing](#video-processing)
 - [Builds](#builds)
 - [Popular or underrated user scripts 🚀](#popular-or-underrated-user-scripts-)
 - [User Scripts](#user-scripts)
@@ -25,11 +34,13 @@ A curated list of mpv resources.
 - [mpv.net](https://github.com/mpvnet-player/mpv.net) - Media player for Windows.
 - [Celluloid](https://celluloid-player.github.io/) - Media player for Linux.
 - [MPV-EASY-Player](https://github.com/422658476/MPV-EASY-Player) - Media player.
+- [Haruna](https://invent.kde.org/multimedia/haruna) - Media player.
 - [Harmonoid](https://harmonoid.com/) - Music player and manager.
 - [Macast](https://xfangfang.github.io/Macast/) - DLNA Client.
 - [jellyfin mpv shim](https://github.com/jellyfin/jellyfin-mpv-shim) - Jellyfin (Emby/Plex alternative) Client.
 - [Kawaii Player](https://github.com/kanishka-linux/kawaii-player) - Media player, library manager and server.
 - [MoonPlayer](https://github.com/coslyk/moonplayer) - Media player specialized for online videos.
+- [Memento](https://github.com/ripose-jp/Memento) - Video player for studying Japanese.
 
 
 ## Discontinued Players
@@ -39,14 +50,32 @@ A curated list of mpv resources.
 
 ## Tools
 
+- [mpv-rofi-menu](https://github.com/mpvnet-player/mpv-rofi-menu) - Control mpv using Rofi (Linux key stroke launcher).
 - [Vidcutter](https://github.com/ozmartian/vidcutter) - Video cutter and joiner.
 - [boram](https://github.com/Kagami/boram) - WebM converter.
+- [mpv-install](https://github.com/rossy/mpv-install) - Sets up file associations for mpv on Windows.
+- [Glow](https://glowmpv.github.io/) - mpv Config File Generator for Windows.
+- [mpv-image-viewer](https://github.com/occivink/mpv-image-viewer) - Configuration, scripts and tips for using mpv as an image viewer.
+- [mpv-autosub](https://github.com/davidde/mpv-autosub) - Automatic subtitle downloading for mpv.
+
+
+## Streaming
+
+- [ff2mpv](https://github.com/woodruffw/ff2mpv) - A Firefox/Chrome extension for playing URLs in mpv.
+- [play-with-mpv](https://github.com/Thann/play-with-mpv) - Chrome extension for playing URLs in mpv.
 - [Botflix/stream-cli](https://github.com/kaboussi/Botflix) - Python scrapping CLI that combines scrapy and webtorrent for streaming movies.
+- [orion](https://github.com/alamminsalo/orion) - Cross platform Twitch.tv client (discontinued).
+- [plex-mpv-shim](https://github.com/iwalton3/plex-mpv-shim) - Cast media from Plex Mobile and Web apps to MPV. (Unofficial)
+
+## Video Processing
+
+- [mpv-prescalers](https://github.com/bjin/mpv-prescalers) - Prescalers for mpv, as user shaders.
+
 
 ## Builds
 
-- [shinchiro](https://github.com/shinchiro/mpv-winbuild-cmake) - Daily Windows builds.
-- [zhongfly](https://github.com/zhongfly/mpv-winbuild) - Daily Windows builds.
+- [shinchiro](https://github.com/shinchiro/mpv-winbuild-cmake) - Daily Windows builds of mpv and libmpv.
+- [zhongfly](https://github.com/zhongfly/mpv-winbuild) - Daily Windows builds of mpv and libmpv.
 
 
 ##  Popular or underrated user scripts 🚀
@@ -60,9 +89,10 @@ A curated list of mpv resources.
 
 ## User Scripts
 
-- [mpv-webm](https://github.com/ekisu/mpv-webm) - mpv WebM converter with no external dependencies.
 - https://github.com/mpv-player/mpv/wiki/User-Scripts
 - https://github.com/topics/mpv-script
+- [mpv-webm](https://github.com/ekisu/mpv-webm) - mpv WebM converter with no external dependencies.
+- [occivink/mpv-scripts](https://github.com/occivink/mpv-scripts) - Various scripts for mpv.
 
 
 ## External Tools
