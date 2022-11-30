@@ -27,24 +27,23 @@ A curated list of mpv resources.
 
 - [MPV-EASY-Player](https://github.com/422658476/MPV-EASY-Player) - Media player.
 - [Harmonoid](https://harmonoid.com/) - Music player and manager.
-- [Macast](https://xfangfang.github.io/Macast/) - DLNA Client.
 - [jellyfin mpv shim](https://github.com/jellyfin/jellyfin-mpv-shim) - Jellyfin (Emby/Plex alternative) Client.
-- [MoonPlayer](https://github.com/coslyk/moonplayer) - Media player specialized for online videos.
+- [MoonPlayer](https://github.com/coslyk/moonplayer) - Media player.
 - [Memento](https://github.com/ripose-jp/Memento) - Video player for studying Japanese.
 
 ### Windows
 
 - [mpv.net](https://github.com/mpvnet-player/mpv.net) - Media player for Windows.
 
-### MacOS
-
-- [IINA](https://iina.io) - Media player for for MacOS.
-
 ### Linux
 
 - [Celluloid](https://celluloid-player.github.io/) - Media player for Linux.
 - [Haruna](https://invent.kde.org/multimedia/haruna) - Media player.
 - [Kawaii Player](https://github.com/kanishka-linux/kawaii-player) - Media player, library manager and server.
+
+### MacOS
+
+- [IINA](https://iina.io) - Media player for for MacOS.
 
 
 ## Discontinued Players
@@ -65,6 +64,7 @@ A curated list of mpv resources.
 
 ## Streaming
 
+- [Macast](https://xfangfang.github.io/Macast/) - DLNA Client.
 - [ff2mpv](https://github.com/woodruffw/ff2mpv) - A Firefox/Chrome extension for playing URLs in mpv.
 - [play-with-mpv](https://github.com/Thann/play-with-mpv) - Chrome extension for playing URLs in mpv.
 - [Botflix/stream-cli](https://github.com/kaboussi/Botflix) - Python scrapping CLI that combines scrapy and webtorrent for streaming movies.
