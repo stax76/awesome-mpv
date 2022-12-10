@@ -3,7 +3,6 @@
 
 A curated list of mpv resources.
 
-
 # Table Of Contents
 
 - [Players](#players)
@@ -19,15 +18,16 @@ A curated list of mpv resources.
 - [Tutorial](#tutorial)
 - [Building](#building)
 - [Libraries](#libraries)
-
+- [Frontend Details](#frontend-details)
 
 ## Players
 
+Listed are actively maintained players, unmaintained players are listed
+in the [Frontend Details](#frontend-details) section.
+
 ### Cross-platform
 
-- [MPV-EASY-Player](https://github.com/422658476/MPV-EASY-Player) - Media player.
-- [Harmonoid](https://harmonoid.com/) - Music player and manager.
-- [jellyfin mpv shim](https://github.com/jellyfin/jellyfin-mpv-shim) - Jellyfin (Emby/Plex alternative) Client.
+- [Harmonoid](https://harmonoid.com) - Music player and manager.
 - [MoonPlayer](https://github.com/coslyk/moonplayer) - Media player.
 - [Memento](https://github.com/ripose-jp/Memento) - Video player for studying Japanese.
 
@@ -45,12 +45,6 @@ A curated list of mpv resources.
 
 - [IINA](https://iina.io) - Media player for for MacOS.
 
-
-## Discontinued Players
-
-- [movie-monad](https://github.com/lettier/movie-monad) - Media player for MacOS and Linux.
-
-
 ## Tools
 
 - [mpv-rofi-menu](https://github.com/mpvnet-player/mpv-rofi-menu) - Control mpv using Rofi (Linux key stroke launcher).
@@ -64,12 +58,14 @@ A curated list of mpv resources.
 
 ## Streaming
 
+- [jellyfin mpv shim](https://github.com/jellyfin/jellyfin-mpv-shim) - Jellyfin (Emby/Plex alternative) Client.
 - [Macast](https://xfangfang.github.io/Macast/) - DLNA Client.
 - [ff2mpv](https://github.com/woodruffw/ff2mpv) - A Firefox/Chrome extension for playing URLs in mpv.
 - [play-with-mpv](https://github.com/Thann/play-with-mpv) - Chrome extension for playing URLs in mpv.
 - [Botflix/stream-cli](https://github.com/kaboussi/Botflix) - Python scrapping CLI that combines scrapy and webtorrent for streaming movies.
 - [orion](https://github.com/alamminsalo/orion) - Cross platform Twitch.tv client (discontinued).
 - [plex-mpv-shim](https://github.com/iwalton3/plex-mpv-shim) - Cast media from Plex Mobile and Web apps to MPV. (Unofficial)
+
 
 ## Video Processing
 
@@ -137,3 +133,33 @@ A curated list of mpv resources.
 
 - [python-mpv](https://github.com/jaseg/python-mpv) - mpv Python interface.
 - [mpv.js](https://github.com/Kagami/mpv.js) - Embeddable player for Electron/NW.js applications.
+
+## Frontend Details
+
+### [Harmonoid](https://harmonoid.com)
+
+- Music player and manager
+- Last Release: 2022
+- Cross-platform
+- Programming Language: Dart
+- UI Framework: Flutter
+
+### [MPV-EASY-Player](https://github.com/422658476/MPV-EASY-Player)
+
+- Media player hosted on GitHub but not open source, there is no code to be found.
+
+### [movie-monad](https://github.com/lettier/movie-monad)
+
+- Media player
+- Last Release: 2018
+- Cross-platform
+- Programming Language: Haskell
+- UI Framework: GTK
+
+### [Baka-MPlayer](https://github.com/u8sand/Baka-MPlayer)
+
+- Media player
+- Last Release: 2015
+- Cross-platform
+- Programming Language: C++
+- UI Framework: QT
