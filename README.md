@@ -22,11 +22,11 @@ A curated list of mpv resources.
 ## Linux
 
 - [Celluloid](https://celluloid-player.github.io) - 840 Stars, based on C/GTK.
-- [xt7-player-mpv](https://github.com/kokoko3k/xt7-player-mpv) 84 Stars, based on Gambas/QT.
-- [Haruna](https://invent.kde.org/multimedia/haruna) - 17 Stars, based on C++/QT/QML.
 - [Kawaii Player](https://github.com/kanishka-linux/kawaii-player) - Player/Library/Server, 523 Stars, based on Python/QT.
-- [Deepin Movie](https://github.com/linuxdeepin/deepin-movie-reborn) - Unmaintained, 60 Stars, based on C++/QT.
+- [xt7-player-mpv](https://github.com/kokoko3k/xt7-player-mpv) 84 Stars, based on Gambas/QT.
 - [mpvz](https://github.com/Zren/mpvz) - 38 Stars, based on C++/QT/QML.
+- [Haruna](https://invent.kde.org/multimedia/haruna) - 17 Stars, based on C++/QT/QML.
+- [Deepin Movie](https://github.com/linuxdeepin/deepin-movie-reborn) - Unmaintained, 60 Stars, based on C++/QT.
 
 ## MacOS
 
