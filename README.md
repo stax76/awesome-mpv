@@ -1,7 +1,7 @@
 
 # Awesome mpv [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of mpv resources.
+A curated list of mpv related projects, this page is new and currently under construction, feedback is welcomed.
 
 # Media Players
 
