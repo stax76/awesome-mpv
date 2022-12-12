@@ -17,7 +17,7 @@ A curated list of mpv resources.
 - [Tutorial](#tutorial)
 - [Building](#building)
 - [Libraries](#libraries)
-- [Frontend Details](#frontend-details)
+- [Apps using mpv/libmpv](#apps-using-mpv-libmpv)
 
 ## Players
 
@@ -123,15 +123,15 @@ in the [Frontend Details](#frontend-details) section.
 - [python-mpv](https://github.com/jaseg/python-mpv) - mpv Python interface.
 - [mpv.js](https://github.com/Kagami/mpv.js) - Embeddable player for Electron/NW.js applications.
 
-## Frontend Details
+## Apps using mpv/libmpv
 
-Active maintained frontends with high rating are listed
-above unmaintained frontends with low rating.
+Maintained apps with high rating are listed
+above unmaintained apps with low rating.
 
 ### [IINA](https://iina.io)
 
 - Media player
-- Last Release: 2022
+- Last Activity: 2022
 - Only for MacOS
 - Rating: 31.9k Stars
 - Programming Language: Swift
@@ -140,7 +140,7 @@ above unmaintained frontends with low rating.
 ### [Harmonoid](https://harmonoid.com)
 
 - Music player and manager
-- Last Release: 2022
+- Last Activity: 2022
 - Cross-platform
 - Rating: 2.3k Stars
 - Programming Language: Dart
@@ -149,75 +149,305 @@ above unmaintained frontends with low rating.
 ### [mpv.net](https://github.com/mpvnet-player/mpv.net)
 
 - Media player
-- Last Release: 2022
+- Last Activity: 2022
 - Only for Windows
 - Rating: 1.7k Stars
 - Programming Language: C#
 - UI Frameworks: WinForms and WPF
 
+### [Syncplay](https://syncplay.pl)
+
+- Client/server to synchronize media playback on mpv/VLC/MPC on many computers
+- Last Activity: 2022
+- Cross-platform
+- Rating: 1.6k Stars
+- Programming Language: Python
+- UI Framework: -
+
+### [vidcutter](https://github.com/ozmartian/vidcutter)
+
+- Video cutter and joiner
+- Last Activity: 2022
+- Cross-platform
+- Rating: 1.2k Stars
+- Programming Language: Python
+- UI Framework: QT
+
+### [mpv-android](https://github.com/mpv-android/mpv-android)
+
+- Media player
+- Last Activity: 2022
+- Only for Android
+- Rating: 1.1k Stars
+- Programming Language: Kotlin
+- UI Framework: ?
+
 ### [Celluloid](https://celluloid-player.github.io)
 
 - Media player
-- Last Release: 2022
+- Last Activity: 2022
 - Only for Linux
 - Rating: 840 Stars
 - Programming Language: C
 - UI Frameworks: GTK
 
+### [KikoPlay](https://github.com/KikoPlayProject/KikoPlay)
+
+- Danmu player
+- Last Activity: 2022
+- Cross-platform
+- Rating: 828 Stars
+- Programming Language: C++
+- UI Framework: QT
+
 ### [MoonPlayer](https://github.com/coslyk/moonplayer)
 
 - Media player
-- Last Release: 2022
+- Last Activity: 2022
 - Cross-platform
 - Rating: 525 Stars
 - Programming Language: C++
 - UI Framework: QT QML
 
+### [Stremio](https://github.com/Stremio)
+
+- Media center
+- Last Activity: 2022
+- Cross-platform
+- Rating: 334 Stars
+- Programming Language: C++
+- UI Framework: QT
+
+### [SMPlayer](https://github.com/smplayer-dev/smplayer)
+
+- Media player
+- Last Activity: 2022
+- Cross-platform
+- Rating: 319 Stars
+- Programming Language: C++
+- UI Framework: QT
+
+### [Olivia](https://github.com/keshavbhatt/olivia)
+
+- Cloud Music Player
+- Last Activity: 2022
+- Only Linux
+- Rating: 317 Stars
+- Programming Language: C++
+- UI Framework: QT/Web
+
 ### [Memento](https://github.com/ripose-jp/Memento)
 
 - Video player for studying Japanese
-- Last Release: 2022
+- Last Activity: 2022
 - Cross-platform
 - Rating: 240 Stars
 - Programming Language: C++
 - UI Framework: QT
 
+### [mpc-qt](https://github.com/mpc-qt/mpc-qt)
+
+- Media player
+- Last Activity: 2022
+- Cross-platform
+- Rating: 144 Stars
+- Programming Language: C++
+- UI Frameworks: QT
+
+### [xt7-player-mpv](https://github.com/kokoko3k/xt7-player-mpv)
+
+- Media player
+- Last Activity: 2022
+- Only for Linux
+- Rating: 84 Stars
+- Programming Language: Gambas
+- UI Frameworks: QT
+
+### [mpvz](https://github.com/Zren/mpvz)
+
+- Media player
+- Last Activity: 2022
+- Only for Linux
+- Rating: 38 Stars
+- Programming Language: C++
+- UI Framework: QT QML
+
+### [ImPlay](https://github.com/tsl0922/ImPlay)
+
+- Media player
+- Last Activity: 2022
+- Cross-platform
+- Rating: 22 Stars
+- Programming Language: C++
+- UI Framework: imgui
+
 ### [Haruna](https://invent.kde.org/multimedia/haruna)
 
 - Media player
-- Last Release: 2022
+- Last Activity: 2022
 - Only for Linux
 - Rating: 17 Stars
 - Programming Language: C++
 - UI Frameworks: QT QML
 
+### [DLNAmpvRenderer](https://github.com/PCigales/DLNAmpvRenderer)
+
+- DLNA / UPnP renderer
+- Last Activity: 2022
+- Only Windows
+- Rating: 11 Stars
+- Programming Language: Python
+- UI Frameworks: -
+
+### [Karaoke Mugen](https://karaokes.moe/de/)
+
+- Karaoke management app
+- Last Activity: 2022
+- Cross-platform
+- Rating: 10 Stars
+- Programming Language: JavaScript (node.js)
+- UI Frameworks: Web
+
+### [tsv_edl.vim](https://github.com/scateu/tsv_edl.vim)
+
+- Video editing with vim/spreadsheet/sed/python
+- Last Activity: 2022
+- Cross-platform
+- Rating: 5 Stars
+- Programming Language: Python
+- UI Framework: vim
+
+### [TubiTui](https://codeberg.org/777/TubiTui)
+
+- A lightweight, libre, TUI-based YouTube client
+- Last Activity: 2022
+- Cross-platform
+- Rating: 4 Stars
+- Programming Language: Rust
+- UI Framework: TUI
+
+### [qimgv](https://github.com/easymodo/qimgv)
+
+- Image viewer
+- Last Activity: 2021
+- Cross-platform
+- Rating: 1.5k Stars
+- Programming Language: C++
+- UI Frameworks: QT
+
+### [vidify](https://vidify.org)
+
+- Detect the songs playing on your device and play their music videos anywhere
+- Last Activity: 2021
+- Cross-platform
+- Rating: 114 Stars
+- Programming Language: Python
+- UI Framework: ?
+
+### [vmn](https://github.com/Dudemanguy/vmn)
+
+- Simplistic cli music player built on mpv and curses
+- Last Activity: 2021
+- Cross-platform
+- Rating: 31 Stars
+- Programming Language: C
+- UI Framework: TUI
+
 ### [Kawaii Player](https://github.com/kanishka-linux/kawaii-player)
 
 - Media player, library manager and server
-- Last Release: 2020
+- Last Activity: 2020
 - Only for Linux
 - Rating: 523 Stars
 - Programming Language: Python
 - UI Frameworks: QT
 
+### [blitzloop](https://github.com/marcan/blitzloop)
+
+- Karaoke software
+- Last Activity: 2020
+- Only for Linux
+- Rating: 174 Stars
+- Programming Language: Python
+- UI Frameworks: OpenGL
+
+### [webm.py](https://github.com/Kagami/webm.py)
+
+- Command-line WebM converter
+- Last Activity: 2020
+- Cross-platform
+- Rating: 128 Stars
+- Programming Language: Python
+- UI Framework: -
+
+### [mpvQC](https://github.com/mpvqc/mpvQC)
+
+- Application for quality control of videos
+- Last Activity: 2020
+- Cross-platform
+- Rating: 34 Stars
+- Programming Language: Python
+- UI Frameworks: QT
+
+### [qtube](https://github.com/hdb/qtube)
+
+- YouTube frontend
+- Last Activity: 2020
+- Only for Linux
+- Rating: 19 Stars
+- Programming Language: Python
+- UI Frameworks: QT
+
+### [boram](https://github.com/Kagami/boram)
+
+- WebM converter
+- Last Activity: 2019
+- Cross-platform
+- Rating: 393 Stars
+- Programming Language: JavaScript
+- UI Framework: Web (Electron)
+
+### [Deepin Movie](https://github.com/linuxdeepin/deepin-movie-reborn)
+
+- Media player
+- Last Activity: 2019
+- Only for Linux
+- Rating: 60 Stars
+- Programming Language: C++
+- UI Frameworks: QT
+
 ### [movie-monad](https://github.com/lettier/movie-monad)
 
 - Media player
-- Last Release: 2018
+- Last Activity: 2018
 - Cross-platform
 - Rating: 397 Stars
 - Programming Language: Haskell
 - UI Framework: GTK
 
+### [Plaincast](https://github.com/aykevl/plaincast)
+
+- Server that acts like a lightweight/headless Chromecast that only includes YouTube
+- Last Activity: 2018
+- Only Linux
+- Rating: 116 Stars
+- Programming Language: Go
+- UI Framework: -
+
+### [OvoPlayer](https://github.com/varianus/ovoplayer)
+
+- Media player
+- Last Activity: 2017
+- Cross-platform
+- Rating: 41 Stars
+- Programming Language: Pascal
+- UI Framework: ?
+
 ### [Baka-MPlayer](https://github.com/u8sand/Baka-MPlayer)
 
 - Media player
-- Last Release: 2015
+- Last Activity: 2015
 - Cross-platform
 - Rating: 375 Stars
 - Programming Language: C++
 - UI Framework: QT
-
-### [MPV-EASY-Player](https://github.com/422658476/MPV-EASY-Player)
-
-- Not open source
