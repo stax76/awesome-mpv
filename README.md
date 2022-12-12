@@ -17,7 +17,7 @@ A curated list of mpv resources.
 - [Tutorial](#tutorial)
 - [Building](#building)
 - [Libraries](#libraries)
-- [Apps using mpv/libmpv](#apps-using-mpv-libmpv)
+- [Apps using mpv/libmpv](#apps-using-mpvlibmpv)
 
 ## Players
 
