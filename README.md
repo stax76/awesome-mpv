@@ -41,8 +41,8 @@ A curated list of mpv related projects.
 
 # Support
 
-https://www.reddit.com/r/mpv
-https://github.com/mpv-player/mpv/issues
+- https://www.reddit.com/r/mpv
+- https://github.com/mpv-player/mpv/issues
 
 # User Scripts
 
