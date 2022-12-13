@@ -120,13 +120,16 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [filenavigator](https://github.com/jonniek/mpv-filenavigator) - Navigate and open local files, 55 stars.
 - [delete-current-file](https://github.com/stax76/mpv-scripts/blob/main/delete-current-file.lua) - Instantly delete the file that is currently playing via keyboard shortcut, the file is moved to the recycle bin and removed from the playlist.
 - [file-rating](https://github.com/stax76/mpv-scripts/blob/main/file-rating.lua) - Writes a star rating to the filename of rated files.
+- [open-file-dialog](https://github.com/rossy/mpv-open-file-dialog) - Launch a regular Windows open file dialog from a key binding, 25 stars.
 
 ## On Screen Controller (OSC)
 
-- [mpv_thumbnail_script](https://github.com/TheAMM/mpv_thumbnail_script) - Shows preview thumbnails in the seekbar, 575 stars.
+- [thumbnail_script](https://github.com/TheAMM/mpv_thumbnail_script) - Shows preview thumbnails in the seekbar, 575 stars.
 - [uosc](https://github.com/tomasklaen/uosc) - Minimalist proximity-based UI, 412 stars.
 - [ModernX](https://github.com/cyl0/ModernX) - Modern OSC replacement, 188 stars.
-- [mpv-osc-tethys](https://github.com/Zren/mpv-osc-tethys) - OSC replacement with seekbar thumbnail preview, 94 stars.
+- [tethys](https://github.com/Zren/mpv-osc-tethys) - OSC replacement with seekbar thumbnail preview, 94 stars.
+- [dark-box](https://github.com/maoiscat/mpv-dark-box) - OSC replacement, 25 stars.
+- [modern-x-compact](https://github.com/1-minute-to-midnight/mpv-modern-x-compact) - Compact version of modern-x, 22 stars.
 
 ## Subtitle
 
@@ -155,6 +158,7 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [crop_script](https://github.com/TheAMM/mpv_crop_script) - Take cropped screenshots, 81 stars.
 - [gif-generator](https://github.com/the-honey/mpv-gif-generator) - Creates animated gifs using hotkeys, 33 stars.
 - [auto-mode](https://github.com/stax76/mpv-scripts/blob/main/auto-mode.lua) - Use mpv as music player and image viewer.
+- [waifu2x](https://github.com/jonniek/mpv-waifu2x) - Take screenshot and convert images with waifu2x, 25 stars.
 
 ## Video Editing
 
@@ -170,6 +174,7 @@ Searchable menus (also known as command palette) are used to find key bindings a
 ## Configuration
 
 - [persist-properties](https://github.com/d87/mpv-persist-properties) - Keep selected property values (like volume) between player sessions, 55 stars.
+- [dotfiles Awan](https://github.com/Awan/cfg/tree/master/mpv/.config/mpv)
 
 ## Script collection miscellaneous
 
@@ -185,7 +190,8 @@ Searchable menus (also known as command palette) are used to find key bindings a
 
 ## Other
 
-- [mpv-webm](https://github.com/ekisu/mpv-webm) - WebM converter based on MoonScript.
+- [webm](https://github.com/ekisu/mpv-webm) - WebM converter based on MoonScript.
+- [manager](https://github.com/po5/mpv_manager) - Script and shader manager, 21 stars.
 
 # Music Player
 
