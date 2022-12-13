@@ -3,6 +3,46 @@
 
 A curated list of projects related to the mpv media player.
 
+# Table of contents
+
+- [Media Player](#media-player)
+  - [Cross-platform](#cross-platform)
+  - [Windows](#windows)
+  - [MacOS](#macos)
+  - [Linux](#linux)
+- [Build/Installation](#buildinstallation)
+- [Support](#support)
+- [User Script](#user-script)
+  - [GUI](#gui)
+  - [Playback](#playback)
+  - [File Managment](#file-managment)
+  - [On Screen Controller (OSC)](#on-screen-controller-osc)
+  - [Subtitle](#subtitle)
+  - [Learning](#learning)
+  - [Streaming](#streaming)
+  - [Image](#image)
+  - [Video Editing](#video-editing)
+  - [Social](#social)
+  - [Configuration](#configuration)
+  - [Script collection miscellaneous](#script-collection-miscellaneous)
+  - [Other](#other)
+- [Music Player](#music-player)
+- [Mobile Player](#mobile-player)
+- [Media Center](#media-center)
+- [Streaming](#streaming)
+- [Configuration](#configuration)
+- [Social](#social)
+- [Video Conversion](#video-conversion)
+- [Video Processing](#video-processing)
+- [Video Editing](#video-editing)
+- [Image Viewer](#image-viewer)
+- [External Tools](#external-tools)
+- [Remote Control](#remote-control)
+- [Tutorial](#tutorial)
+- [Building](#building)
+- [Library](#library)
+- [Other](#other)
+
 # Media Player
 
 ## Cross-platform
