@@ -3,7 +3,7 @@
 
 A curated list of mpv related projects.
 
-# Media Players
+# Media Player
 
 ## Cross-platform
 
@@ -33,7 +33,7 @@ A curated list of mpv related projects.
 - [Haruna](https://invent.kde.org/multimedia/haruna) - 17 stars, based on C++/QT/QML.
 - [Deepin Movie](https://github.com/linuxdeepin/deepin-movie-reborn) - Unmaintained, 60 stars, based on C++/QT.
 
-# Builds/Installation
+# Build/Installation
 
 - [Official installation instruction](https://mpv.io/installation)
 - [mpv-winbuild-cmake by shinchiro](https://github.com/shinchiro/mpv-winbuild-cmake) - Daily Windows builds of mpv and libmpv, 219 stars, based on CMake/C/Shell.
@@ -44,14 +44,14 @@ A curated list of mpv related projects.
 - https://www.reddit.com/r/mpv
 - https://github.com/mpv-player/mpv/issues
 
-# User Scripts
+# User Script
 
 - [User scripts listed in the mpv wiki](https://github.com/mpv-player/mpv/wiki/User-Scripts) - This is the most important and most complete list of available mpv scripts.
 - [Users scripts on GitHub tagged with 'mpv-script'](https://github.com/topics/mpv-script)
 
 ## GUI
 
-### Searchable Menus
+### Searchable Menu
 
 Searchable menus (also known as command palette) are used to find key bindings and many other things like searching the playlist.
 
@@ -71,11 +71,11 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [ModernX](https://github.com/cyl0/ModernX) - Modern OSC replacement, 188 stars.
 - [mpv-osc-tethys](https://github.com/Zren/mpv-osc-tethys) - OSC replacement with seekbar thumbnail preview, 94 stars.
 
-### Subtitles
+### Subtitle
 
 - [mpv-autosub](https://github.com/davidde/mpv-autosub) - Automatic subtitle downloading, 200 stars.
 
-### Script collections miscellaneous
+### Script collection miscellaneous
 
 - [occivink](https://github.com/occivink/mpv-scripts) - 298 stars.
 - [Eisa01](https://github.com/Eisa01/mpv-scripts) - 211 stars.
@@ -93,7 +93,7 @@ Searchable menus (also known as command palette) are used to find key bindings a
 
 - [mpv-video-splice](https://github.com/pvpscript/mpv-video-splice) - Video cutting, 35 stars.
 
-# Music Players
+# Music Player
 
 - [Harmonoid](https://harmonoid.com) - Cross-platform, 2.3k stars, based on Dart/Flutter.
 - [Olivia](https://github.com/keshavbhatt/olivia) - Linux cloud music player, 317 stars, based on C++/QT/Web.
@@ -182,7 +182,7 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [Media Auto Build Suite (MABS)](https://github.com/m-ab-s/media-autobuild_suite)
 - [crosscompile-mingw-tedious](https://github.com/qyot27/mpv/blob/extra-new/DOCS/crosscompile-mingw-tedious.txt)
 
-# Libraries
+# Library
 
 - [python-mpv](https://github.com/jaseg/python-mpv) - Python interface, 401 stars.
 - [mpv.js](https://github.com/Kagami/mpv.js) - Embeddable player for Electron/NW.js applications, 377 stars.
