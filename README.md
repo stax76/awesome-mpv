@@ -1,7 +1,7 @@
 
 # Awesome mpv [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of mpv related projects.
+A curated list of projects related to the mpv media player.
 
 # Media Player
 
@@ -12,6 +12,7 @@ A curated list of mpv related projects.
 - [SMPlayer](https://github.com/smplayer-dev/smplayer) - 319 stars, based on C++/QT.
 - [mpc-qt](https://github.com/mpc-qt/mpc-qt) - 144 stars, based on C++/QT.
 - [ImPlay](https://github.com/tsl0922/ImPlay) - 22 stars, based on C++/imgui.
+- [MPV-EASY Player](https://github.com/422658476/MPV-EASY-Player) - 617 stars.
 - [Baka-MPlayer](https://github.com/u8sand/Baka-MPlayer) - Unmaintained, 375 stars, based on C++/QT.
 - [movie-monad](https://github.com/lettier/movie-monad) - Unmaintained, 397 stars, based on Haskell/GTK.
 - [OvoPlayer](https://github.com/varianus/ovoplayer) - Unmaintained, 41 stars, based on Pascal.
@@ -48,6 +49,7 @@ A curated list of mpv related projects.
 
 - [User scripts listed in the mpv wiki](https://github.com/mpv-player/mpv/wiki/User-Scripts) - This is the most important and most complete list of available mpv scripts.
 - [Users scripts on GitHub tagged with 'mpv-script'](https://github.com/topics/mpv-script)
+- [mpv-script-directory](https://nudin.github.io/mpv-script-directory)
 
 ## GUI
 
@@ -56,42 +58,94 @@ A curated list of mpv related projects.
 Searchable menus (also known as command palette) are used to find key bindings and many other things like searching the playlist.
 
 - [mpv-search-page](https://github.com/CogentRedTester/mpv-search-page) - On screen menu.
-- [search_menu](https://github.com/stax76/mpv-scripts) - Based on Rofi or fzf.
+- [search_menu](https://github.com/stax76/mpv-scripts) - Menu based on Rofi or terminal based on fzf.
 - [M-x](https://github.com/Seme4eg/mpv-scripts) - On screen menu.
-- [mdmenu](https://codeberg.org/NRK/mpv-toolbox/src/branch/master/mdmenu) - Based on dmenu.
+- [mdmenu](https://codeberg.org/NRK/mpv-toolbox/src/branch/master/mdmenu) - Menu based on dmenu.
 
-### File Managment
+### Custom on screen menu
 
-- [mpv-file-browser](https://github.com/CogentRedTester/mpv-file-browser) - On screen file browser. 
+- [menu](https://github.com/jonniek/mpv-menu) - On screen menu to launch custom commands, 33 stars.
+- [osm](https://github.com/stax76/mpv-scripts/blob/main/osm.lua) - On screen menu to launch custom commands.
 
-### On Screen Controller (OSC)
+## Playback
+
+- [playlist-manager](https://github.com/jonniek/mpv-playlistmanager) - Create and manage playlists, 348 stars.
+- [recent](https://github.com/hacel/recent) - Recently played menu,  35 stars.
+- [history](https://github.com/stax76/mpv-scripts/blob/main/history.lua) - Writes filename and time to a log file.
+- [smart-volume](https://github.com/stax76/mpv-scripts/blob/main/smart-volume.lua) - Records the relative volume per song in order to restore it in future sessions.
+
+## File Managment
+
+- [file-browser](https://github.com/CogentRedTester/mpv-file-browser) - On screen file browser. 
+- [filenavigator](https://github.com/jonniek/mpv-filenavigator) - Navigate and open local files, 55 stars.
+- [delete-current-file](https://github.com/stax76/mpv-scripts/blob/main/delete-current-file.lua) - Instantly delete the file that is currently playing via keyboard shortcut, the file is moved to the recycle bin and removed from the playlist.
+- [file-rating](https://github.com/stax76/mpv-scripts/blob/main/file-rating.lua) - Writes a star rating to the filename of rated files.
+
+## On Screen Controller (OSC)
 
 - [mpv_thumbnail_script](https://github.com/TheAMM/mpv_thumbnail_script) - Shows preview thumbnails in the seekbar, 575 stars.
 - [uosc](https://github.com/tomasklaen/uosc) - Minimalist proximity-based UI, 412 stars.
 - [ModernX](https://github.com/cyl0/ModernX) - Modern OSC replacement, 188 stars.
 - [mpv-osc-tethys](https://github.com/Zren/mpv-osc-tethys) - OSC replacement with seekbar thumbnail preview, 94 stars.
 
-### Subtitle
+## Subtitle
 
-- [mpv-autosub](https://github.com/davidde/mpv-autosub) - Automatic subtitle downloading, 200 stars.
+- [autosub](https://github.com/davidde/mpv-autosub) - Automatic subtitle downloading, 200 stars.
+- [sub-select](https://github.com/CogentRedTester/mpv-sub-select) - Advanced conditional subtitle track selector, 40 stars.
 
-### Script collection miscellaneous
+## Learning
+
+- [mpvacious](https://github.com/Ajatt-Tools/mpvacious) - Add keybindings to create Anki flashcards for (language) learning, 286 stars.
+- [interSubs](https://github.com/oltodosel/interSubs) - Interactive subtitles, instantly translate selected word/sentence, 159 stars.
+- [immersive](https://github.com/Ben-Kerman/immersive) - Language learning script for looking up words generating Anki flashcards, 55 stars.
+- [sub-scripts](https://github.com/Ben-Kerman/mpv-sub-scripts) - Automatically pause after each subtitle line and skipping intervals between subtitles, 44 stars.
+
+## Streaming
+
+- [sponsorblock](https://github.com/po5/mpv_sponsorblock) - Script to skip sponsored segments of YouTube videos, 379 stars.
+- [quality-menu](https://github.com/christoph-heinrich/mpv-quality-menu) - Change the streamed video and audio quality (ytdl-format) on the fly, 39 stars.
+- [youtube-download](https://github.com/cvzi/mpv-youtube-download) - Download youtube audio and video with one key press, 37 stars.
+- [youtube-upnext](https://github.com/cvzi/mpv-youtube-upnext) - Play "up next"/recommended YouTube videos, 36 stars.
+- [streamsave](https://github.com/Sagnac/streamsave) - Save live streams without encoding, 30 stars.
+- [ytdlautoformat](https://github.com/Samillion/mpv-ytdlautoformat) - Auto change ytdl-format for Youtube and Twitch, 29 stars.
+
+## Image
+
+- [thumbfast](https://github.com/po5/thumbfast) - High-performance on-the-fly thumbnailer for mpv, 141 stars.
+- [crop_script](https://github.com/TheAMM/mpv_crop_script) - Take cropped screenshots, 81 stars.
+- [gif-generator](https://github.com/the-honey/mpv-gif-generator) - Creates animated gifs using hotkeys, 33 stars.
+- [auto-mode](https://github.com/stax76/mpv-scripts/blob/main/auto-mode.lua) - Use mpv as music player and image viewer.
+
+## Video Editing
+
+- [trim](https://github.com/aerobounce/trim.lua) - Trim clips without transcoding, 65 stars.
+- [easycrop](https://github.com/aidanholm/mpv-easycrop) - Cropping videos with ease, 64 stars.
+- [videoclip](https://github.com/Ajatt-Tools/videoclip) - Easily create video and audio clips in a few keypresses, 49 stars.
+- [video-splice](https://github.com/pvpscript/mpv-video-splice) - Video cutting, 35 stars.
+
+## Social
+
+- [Discord RPC](https://github.com/cniw/mpv-discordRPC) - Discord Rich Presence integration, 112 stars.
+
+## Configuration
+
+- [persist-properties](https://github.com/d87/mpv-persist-properties) - Keep selected property values (like volume) between player sessions, 55 stars.
+
+## Script collection miscellaneous
 
 - [occivink](https://github.com/occivink/mpv-scripts) - 298 stars.
 - [Eisa01](https://github.com/Eisa01/mpv-scripts) - 211 stars.
+- [jonniek](https://github.com/jonniek/mpv-scripts) - 140 stars.
 - [CogentRedTester](https://github.com/CogentRedTester/mpv-scripts) - 118 stars.
+- [detuur](https://github.com/detuur/mpv-scripts) - 38 stars.
 - [stax76](https://github.com/stax76/mpv-scripts) - 26 stars.
 - [Seme4eg](https://github.com/Seme4eg/mpv-scripts) - 11 stars.
 - [dyphire](https://github.com/dyphire/mpv-scripts) - 7 stars.
-- [mpv-script-directory](https://nudin.github.io/mpv-script-directory)
+- [misc.lua](https://github.com/stax76/mpv-scripts/blob/main/misc.lua)
 
-### Other
+## Other
 
 - [mpv-webm](https://github.com/ekisu/mpv-webm) - WebM converter based on MoonScript.
-
-### Video Editing
-
-- [mpv-video-splice](https://github.com/pvpscript/mpv-video-splice) - Video cutting, 35 stars.
 
 # Music Player
 
@@ -123,7 +177,9 @@ Searchable menus (also known as command palette) are used to find key bindings a
 
 # Configuration
 
+- [MPV_lazy](https://github.com/hooke007/MPV_lazy) - Full Windows configuration including scripts for Chinese users, 1k stars.
 - [Glow](https://glowmpv.github.io) - Config File Generator for Windows, 237 stars.
+- [dyphire/mpv-config](https://github.com/dyphire/mpv-config) - Full Windows configuration including scripts for Chinese users, 67 stars.
 
 # Social
 
