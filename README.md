@@ -409,7 +409,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [vidify](https://vidify.org) - Cross-platform app that detects playing songs on your device and plays their music videos anywhere, based on Python.
 - [Karaoke Mugen](https://karaokes.moe/de/) - Cross-platform karaoke management app, based on JavaScript/node.js/Web.
 
-# To Do
+# Not yet categorized
 
 - [abs-screenshot](https://github.com/Thann/mpv-abs-screenshot/blob/master/abs-screenshot.lua) - Uses Exiftool to get the "Date/Time Original" and saves a screenshot with the name being the actual time the video was taken.
 - [acompressor](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/acompressor.lua) - Dynamic range compressor using acompressor ffmpeg filter with controls to dynamically adjust parameters.
