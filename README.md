@@ -13,13 +13,13 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [Build/Installation](#buildinstallation)
 - [Support](#support)
 - [User Script](#user-script)
-  - [Searchable Menu](#searchable-menu)
-  - [Custom on screen menu](#custom-on-screen-menu)
+  - [Menu](#menu)
   - [Playback](#playback)
   - [File Managment](#file-managment)
-  - [On Screen Controller (OSC)](#on-screen-controller-osc)
+  - [On Screen Controller](#on-screen-controller)
   - [Input](#input)
   - [Subtitle](#subtitle)
+  - [Music](#music)
   - [Audio](#audio)
   - [Learning](#learning)
   - [Streaming](#streaming)
@@ -77,6 +77,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [mpvz](https://github.com/Zren/mpvz) - Based on C++/QT/QML.
 - [Haruna](https://invent.kde.org/multimedia/haruna) - Based on C++/QT/QML.
 - [Deepin Movie](https://github.com/linuxdeepin/deepin-movie-reborn) - Unmaintained, based on C++/QT.
+- [bomi player](https://bomi-player.github.io) - Unmaintained, based on C++/QT.
 
 # Build/Installation
 
@@ -91,19 +92,18 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 
 # User Script
 
-## Searchable Menu
+## Menu
 
-Searchable menus (also known as command palette) are used to find key bindings and many other things like searching the playlist.
-
-- [mpv-search-page](https://github.com/CogentRedTester/mpv-search-page) - On screen menu.
-- [search_menu](https://github.com/stax76/mpv-scripts) - Menu based on Rofi or terminal based on fzf.
-- [M-x](https://github.com/Seme4eg/mpv-scripts) - On screen menu.
-- [mdmenu](https://codeberg.org/NRK/mpv-toolbox/src/branch/master/mdmenu) - Menu based on dmenu.
-
-## Custom on screen menu
-
-- [menu](https://github.com/jonniek/mpv-menu) - On screen menu to launch custom commands.
-- [osm](https://github.com/stax76/mpv-scripts/blob/main/osm.lua) - On screen menu to launch custom commands.
+- [M-x](https://github.com/Seme4eg/mpv-scripts/tree/master#m-x) - Searchable and configurable menu to quickly find key bindings and commands.
+- [search-menu](https://github.com/stax76/mpv-scripts) - Searchable and configurable menu to quickly find key bindings, commands, properties, audio/subtitle tracks and playlist entries.
+- [mpv-search-page](https://github.com/CogentRedTester/mpv-search-page) - Searchable and configurable menu to quickly find key bindings, commands, options and properties.
+- [mdmenu](https://codeberg.org/NRK/mpv-toolbox/src/branch/master/mdmenu) - Use dmenu (Linux launcher) for selecting audio/subtitle/chapters etc.
+- [Tcl/Tk context-menu](https://gist.github.com/avih/bee746200b5712220b8bd2f230e535de) - Configurable context-menu based on Tcl/Tk (cross-platform).
+- [menu](https://github.com/jonniek/mpv-menu) - Configurable on screen menu to launch custom commands.
+- [osm](https://github.com/stax76/mpv-scripts/blob/main/osm.lua) - Configurable on screen menu to launch custom commands.
+- [mpvc-tui](https://github.com/gmt4/mpvc) - Command-line and TUI for mpv.
+- [contextmenu](https://gitlab.com/carmanaught/mpvcontextmenu) - Configurable context-menu based on Tcl/Tk (cross-platform).
+- [menu](https://github.com/nezumisama/mpvmenu) - Configurable on screen context-menu.
 
 ## Playback
 
@@ -114,8 +114,6 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [sort_script](https://github.com/TheAMM/mpv_sort_script) - Sort directories and files.
 - [fastforward](https://github.com/zsugabubus/mpv-fastforward) - Fast-forward instead of skipping.
 - [chapters](https://github.com/zxhzxhz/mpv-chapters) - Display chapters and switch between chapters.
-- [history](https://github.com/stax76/mpv-scripts/blob/main/history.lua) - Writes filename and time to a log file.
-- [smart-volume](https://github.com/stax76/mpv-scripts/blob/main/smart-volume.lua) - Records the relative volume per song in order to restore it in future sessions.
 - [libunity](https://github.com/mrlotfi/mpv-libunity) - Show a nice progress bar on your Linux panel/dock.
 - [plugin-bookmark](https://github.com/yozorayuki/mpv-plugin-bookmark) - Record your playing history for each folder.
 - [segment-linking](https://github.com/CogentRedTester/mpv-segment-linking) - Supports Matroska hard segment linking.
@@ -129,7 +127,7 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [dvd-browser](https://github.com/CogentRedTester/mpv-dvd-browser) - Browse and load DVD titles.
 - [plugin-myshows](https://github.com/gim-/mpv-plugin-myshows) - Automatically marks a currently watched episode in MyShows.
 - [notify](https://github.com/kauron/mpv-notify) - Now-playing-desktop notifications.
-- [taskbar-buttons](https://github.com/qwerty12/mpv-taskbar-buttons) - Adds thumbbar buttons to mpv on Windows.
+- [taskbar-buttons](https://github.com/qwerty12/mpv-taskbar-buttons) - (Windows) Adds thumbbar buttons.
 - [xscreensaver](https://gist.github.com/elenril/f8ff9475a7882b7a16cdd723c7dce150) - (Linux) Disables XScreensaver while video playback is active, a replacement for heartbeat-cmd.
 - [xfce-genmonify](https://github.com/budRich/mpv-xfce-genmonify) - Update a [xfce4-panel](https://docs.xfce.org/xfce/xfce4-panel/start) [genmon](https://docs.xfce.org/panel-plugins/xfce4-genmon-plugin/start) plugin that is set up with [genmonify](https://github.com/budlabs/genmonify) to display the currently playing media file and elpapsed or remaining time in xfce4-panel.
 - [writename](https://github.com/paradox460/mpv-scripts/tree/master/writename) - Write the currently playing filename/path to a file, optionally skipping/removing from current playlist and muting.
@@ -140,12 +138,12 @@ Searchable menus (also known as command palette) are used to find key bindings a
 
 - [file-browser](https://github.com/CogentRedTester/mpv-file-browser) - On screen file browser. 
 - [filenavigator](https://github.com/jonniek/mpv-filenavigator) - Navigate and open local files.
-- [delete-current-file](https://github.com/stax76/mpv-scripts/blob/main/delete-current-file.lua) - Instantly delete the file that is currently playing via keyboard shortcut, the file is moved to the recycle bin and removed from the playlist.
-- [file-rating](https://github.com/stax76/mpv-scripts/blob/main/file-rating.lua) - Writes a star rating to the filename of rated files.
-- [open-file-dialog](https://github.com/rossy/mpv-open-file-dialog) - Launch a regular Windows open file dialog from a key binding.
+- [delete-current-file](https://github.com/stax76/mpv-scripts) - Moves the current file instantly to the recycle bin.
+- [file-rating](https://github.com/stax76/mpv-scripts) - Writes a star rating to the filename of the current file.
+- [open-file-dialog](https://github.com/rossy/mpv-open-file-dialog) - Launch a Windows open file dialog.
 - [zenity-open-files](https://github.com/alifarazz/mpv-zenity-open-files) - Use GTK's zenity to add files to playlist, subtitles to playing video or open URLs.
 
-## On Screen Controller (OSC)
+## On Screen Controller
 
 - [TheAMM/mpv_thumbnail_script](https://github.com/TheAMM/mpv_thumbnail_script) - Shows preview thumbnails in the seekbar.
 - [uosc](https://github.com/tomasklaen/uosc) - Minimalist proximity-based UI.
@@ -176,20 +174,22 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [tts-subs](https://github.com/jgreco/mpv-scripts/blob/master/tts-subs.lua) - Use voice synthesis to read subtitles out-loud.
 - [trueautosub](https://github.com/fullmetalsheep/mpv-iina-scripts) - Fork of autosub, automatically downloads subtitles if not present using **subliminal**. (osx/linux only)
 
-## Audio
+## Music
 
 - [coverart](https://github.com/CogentRedTester/mpv-coverart) - Automatically loads external cover art for music files.
+- [metadata-osd](https://github.com/vc-01/metadata-osd) - Adds OSD showing song name, album name and other metadata.
+
+## Audio
+
 - [Open Sound Control](https://github.com/lvm/mpv-osc) - Open Sound Control listener.
-- [metadata-osd](https://github.com/vc-01/metadata-osd) - Metadata OSD.
-- [waveform](https://github.com/MikelSotomonte/mpv-waveform/tree/main) - Displays a waveform of the video in real-time using [ffmpeg waveforms](https://trac.ffmpeg.org/wiki/WaveformMonitor). ([Preview](https://cdn.discordapp.com/attachments/446054699439882250/1001900605557710888/mpv-shot0002.jpg)). Based on detuur and microraptor's [histogram script](https://github.com/detuur/mpv-scripts), that can also be found on this list.
-- [visualizer](https://github.com/mfcc64/mpv-scripts/blob/master/visualizer.lua) - Various audio visualization.
+- [visualizer](https://github.com/mfcc64/mpv-scripts/blob/master/visualizer.lua) - Various audio visualizations.
+- [smart-volume](https://github.com/stax76/mpv-scripts) - Replay gain alternative.
 
 ## Learning
 
 - [mpvacious](https://github.com/Ajatt-Tools/mpvacious) - Add keybindings to create Anki flashcards for (language) learning.
 - [interSubs](https://github.com/oltodosel/interSubs) - Interactive subtitles, instantly translate selected word/sentence.
-- [immersive](https://github.com/Ben-Kerman/immersive) - Language learning script for looking up words generating Anki flashcards.
-- [sub-scripts](https://github.com/Ben-Kerman/mpv-sub-scripts) - Automatically pause after each subtitle line and skipping intervals between subtitles.
+- [immersive](https://github.com/Ben-Kerman/immersive) - Looking up words generating Anki flashcards.
 - [migaku](https://github.com/migaku-official/migaku-mpv) - Learn languages together with the Migaku browser extension.
 - [Yomichampv](https://github.com/laelnasan/yomichampv) - A simple solution for integration with Yomichan - a browser-based japanese dictionay.
 
@@ -222,6 +222,7 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [cycle-video-rotate](https://github.com/VideoPlayerCode/mpv-tools/) - Allows you to perform video rotation which perfectly cycles through all 360 degrees without any glitches.
 - [vlccrop](https://github.com/kism/mpvscripts/blob/main/scripts/vlccrop.lua) - Implements a VLC style crop hotkey 'c' that cycles through crop settings, useful for cropping letter-boxed or pillar-boxed content.
 - [use-cpu](https://github.com/422658476/MPV-EASY-Player/blob/master/portable-data/scripts/use-cpu.lua) - If the width of the video is greater than 3000 or the height of the video is greater than 2000, it will automatically switch back to using cpu decoding.
+- [waveform](https://github.com/MikelSotomonte/mpv-waveform/tree/main) - Displays a waveform of the video in real-time.
 
 ## Image
 
@@ -235,8 +236,8 @@ Searchable menus (also known as command palette) are used to find key bindings a
 
 - [trim](https://github.com/aerobounce/trim.lua) - Trim clips without transcoding.
 - [easycrop](https://github.com/aidanholm/mpv-easycrop) - Cropping videos with ease.
-- [videoclip](https://github.com/Ajatt-Tools/videoclip) - Easily create video and audio clips in a few keypresses.
-- [video-splice](https://github.com/pvpscript/mpv-video-splice) - Video cutting.
+- [videoclip](https://github.com/Ajatt-Tools/videoclip) - Create video and audio clips.
+- [video-splice](https://github.com/pvpscript/mpv-video-splice) - Create a video out of cuts.
 - [Pure](https://github.com/4ndrs/PureMPV) - Get the file path, timestamps, and cropping coordinates for ffmpeg.
 - [cut](https://github.com/b1scoito/mpv-cut) - Video cutting/clipping/slicing script.
 
@@ -357,7 +358,7 @@ Searchable menus (also known as command palette) are used to find key bindings a
 
 - [qimgv](https://github.com/easymodo/qimgv) - Cross-platform, based on C++/QT.
 - [mpv-image-viewer](https://github.com/occivink/mpv-image-viewer) - Configuration, scripts and tips for using mpv as an image viewer.
-- [auto-mode](https://github.com/stax76/mpv-scripts/blob/main/auto-mode.lua)
+- [auto-mode](https://github.com/stax76/mpv-scripts)
 
 # External Tools
 
@@ -416,10 +417,9 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [always-play-on-startup](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/always-play-on-startup.lua) - Always play on startup, never start playback in a paused state.
 - [Audio WebDAV & Sub WebDAV](https://github.com/Kibakus/mpv-scripts) - Auto connection of external subtitles and sound, using the "WEBDAV" protocol. The connection is explicit due to explicitly specifying folders on the WebDAV server.
 - [audio-balance](https://github.com/wiiaboo/mpv-scripts/blob/master/audio-balance.lua) - Port of mpv's balance property to FFmpeg lavfi pan filter.
-- [audio-dupe](https://gist.github.com/bitingsock/5e9714efff963c9689b0671d68f195ad) - Runs a child process to play a second audio stream. Synced through named pipe. Recommend using with [cycle-adevice](https://gist.github.com/bitingsock/ad58ee5da560ecb922fa4a867ac0ecfd) to change the output device of the parent process.
+- [audio-dupe](https://gist.github.com/bitingsock/5e9714efff963c9689b0671d68f195ad) - Runs a child process to play a second audio stream. Synced through named pipe.
 - [audio-file-keys](https://github.com/fbriere/mpv-scripts/blob/master/scripts/audio-file-keys.lua) - Automatically apply key bindings when playing audio files.
 - [auto-keep-gui-open](https://github.com/VideoPlayerCode/mpv-tools/) - Intelligently switches mpv's "keep-open" behavior based on whether you are running in video-mode or audio-only mode.
-- [auto-mode](https://github.com/stax76/mpv-scripts) - Allows to automatically switch between video, audio and image mode.
 - [auto-save-state](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/auto-save-state.lua) - Periodically saves progress with write-watch-later-config, and also cleans up the watch later data after the file is finished playing (so playlists may continue at the correct file).
 - [autocrop](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autocrop.lua) - Automatically crop the video by using lavfi's cropdetect filter to detect black bars.
 - [autodeint](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autodeint.lua) - Automatically deinterlace the video by using lavfi's idet filter to detect interlaced content.
@@ -428,7 +428,6 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [autosave](https://gist.github.com/Hakkin/5489e511bd6c8068a0fc09304c9c5a82) - Periodically saves "watch later" data during playback, rather than only saving on quit. Newer fork: https://gist.github.com/CyberShadow/2f71a97fb85ed42146f6d9f522bc34ef
 - [autospeed](https://github.com/kevinlekiller/mpv_scripts/blob/master/autospeed/) - To adjust monitor refresh rate and video speed for almost 1:1 playback. (*nix)
 - [autospeedwin](https://github.com/kevinlekiller/mpv_scripts/tree/master/autospeedwin) - To adjust monitor refresh rate and video speed for almost 1:1 playback. (Windows)
-- [autosub](https://github.com/davidde/mpv-autosub) - Fully automatic subtitle downloading. No hotkeys required. Clear setup instructions for **Windows, Mac and Linux**.
 - [autosub](https://github.com/vayan/autosub-mpv/blob/master/autosub.lua) - Automatically download subtitles using **subliminal**.
 - [autosubsync](https://github.com/joaquintorres/autosubsync-mpv) - Automatically sync subtitles using **ffsubsync**.
 - [betterchapters](https://gist.github.com/Hakkin/4f978a5c87c31f7fe3ae) ([update](https://github.com/mpv-player/mpv/issues/4738#issuecomment-321298846)) - Loads the next or previous playlist entry if there are no more chapters in the seek direction.
@@ -436,7 +435,7 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [blackout](https://github.com/sibwaf/mpv-scripts) - A fast crossplatform boss-key, but without window minimization (and possible problems with some VO drivers).
 - [blur-edges](https://github.com/occivink/mpv-scripts#blur-edgeslua) - Replace black bars with a blurry copy of the video
 - [bookmark](https://github.com/sorayuki-winter/mpv-plugin-bookmark) - Record and resume last play in current playing folder
-- [bookmarker-menu](https://github.com/NurioHin/mpv-bookmarker) - A bookmarker menu to manage all your bookmarks in MPV, based on [mpv-bookmarker](https://github.com/nimatrueway/mpv-bookmark-lua-script) but with a menu
+- [bookmarker-menu](https://github.com/NurioHin/mpv-bookmarker) - Menu to manage all your bookmarks.
 - [boss-key](https://github.com/detuur/mpv-scripts) - Minimise and pause video at the same time. Windows/Linux. Eliminated the time lag in previous versions.
 - [btfs-hook](https://github.com/aitet/mpv-btfs-hook) - Allows streaming torrents using FUSE via btfs. 
 - [btfs-stream](https://github.com/noctuid/mpv-btfs-stream) - Allows streaming torrents using btfs. As far as I can tell, it is much simpler than the above scripts (no long shell script execution) and much more configurable (the other scripts have no settings). This is much slower than using webtorrent though, so I recommend using webtorrent-hook instead.
@@ -445,7 +444,6 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [chapter-list](https://github.com/CogentRedTester/mpv-scroll-list/blob/master/examples/chapter-list.lua) - Interractive chapter-list menu.
 - [chapter-make-read](https://github.com/dyphire/mpv-scripts/blob/main/chapter-make-read.lua) - Automatically read an load the namesake external chapter file with extension of CHP. Temporarily mark the current playback position as a chapter so you can seek to it later. Also allows writing current chapters as CHP or XML. Based on `createchapter`.
 - [chapters-menu](https://github.com/Seme4eg/mpv-scripts/tree/master#chapters-menu) - List all chapters of current video, search and choose any.
-- [chapterskip](https://github.com/po5/chapterskip) - Automatically skip chapters based on title.
 - [cicle-through-existing](https://github.com/viniciusbm/mpv-cycle-through-existing) - Cycle through existing video/audio/subtitle tracks, skipping the "none" option.
 - [clipboard](https://github.com/CogentRedTester/mpv-clipboard) - Provides a set of generic commands to interact with the clipboard. Specifically it allows user to copy arbitrary text to the clipboard and provides the ability to paste the contents of the clipboard into other commands.
 - [clipshot](https://github.com/ObserverOfTime/mpv-scripts/blob/master/clipshot.lua) - Screenshot the video (with subs, without subs or the whole window) and copy it to the clipboard. For Windows, Linux/BSD and MacOs
@@ -454,18 +452,14 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [config-saver](https://github.com/Static39/mpv-scripts/tree/main/config-saver) - Saves current audio track, subtitle track, subtitle position, etc. for all videos in the folder.
 - [confluence](https://github.com/ftk/mpv-confluence) - Open magnet links using [confluence](https://github.com/anacrolix/confluence) HTTP service.
 - [contact-sheet](https://github.com/occivink/mpv-gallery-view) - Display thumbnails of the current file in the style of a contact sheet
-- [control](https://github.com/oe-d/control) - Various features mainly for controlling playback.
 - [convert_script](https://gist.github.com/Zehkul/25ea7ae77b30af959be0) - Script to quickly convert and crop videos from within mpv, with a GUI.
 - [copy to music](https://github.com/yazeed44/mpv-scripts) - Copies the current media file you're playing to a predefined directory, and plays the next entry in the playlist (Unix-like)
 - [copy-paste-URL](https://github.com/zenyd/mpv-scripts) - Paste URLs directly from clipboard into mpv
 - [copy-permalink](https://gist.github.com/olejorgenb/a5194d9bc183dbe0bfb02aac18fe37f9) - Copy `mpv --time=<current-position> <path-playing>` to clipboard. Useful for sharing when playing URLs.
 - [copy-subtitle](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-subtitle) - Copies currently displayed subtitle line to clipboard. Cross-platform (Mac, Windows, Linux). [Video demonstration](https://www.youtube.com/watch?v=b-5XOZpXZMg&t=1h8m16s)
-- [copy-time-in-seconds](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-time-in-seconds) - Copies current playback position in seconds with milliseconds to clipboard. Cross-platform (Mac, Windows, Linux). Based on [Arieleg's mpv-copyTime](https://github.com/Arieleg/mpv-copyTime). [Video demonstration](https://www.youtube.com/watch?v=b-5XOZpXZMg&t=1h9m37s)
-- [copy-time](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-time) - Copies current timecode in HH:MM:SS.MS format to clipboard. Cross-platform (Mac, Windows, Linux). Based on [Arieleg's mpv-copyTime](https://github.com/Arieleg/mpv-copyTime). [Video demonstration](https://www.youtube.com/watch?v=b-5XOZpXZMg&t=1h9m37s)
-- [copyStuff](https://github.com/0xR3V/mpv-copyStuff) - Copy to clipboard the filename, full filename path, relative filename path, current video time, current displayed subtitle text, video duration/metadata. Based on [Arieleg's mpv-copyTime](https://github.com/Arieleg/mpv-copyTime).  
-- [copyTime](https://github.com/Arieleg/mpv-copyTime) - Get the current time of the video and copy it to the clipboard with the format HH:MM:SS.MS .
-- [coverart](https://github.com/CogentRedTester/mpv-coverart) - Automatically load external music cover art
-- [cp-paste-URL](https://github.com/yassin-l/cp-paste-url.git) - a fork of [copy-paste-URL](https://github.com/zenyd/mpv-scripts) with support for **linux**.
+- [copy-time-in-seconds](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-time-in-seconds) - Copies current playback position in seconds with milliseconds to clipboard.
+- [copy-time](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-time) - Copies current timecode in HH:MM:SS.MS format to clipboard.
+- [cp-paste-URL](https://github.com/yassin-l/cp-paste-url.git) - Fork of copy-paste-URL with support for Linux.
 - [createchapter](https://github.com/shinchiro/mpv-createchapter) - Temporarily mark the current playback position as a chapter so you can seek to it later. Also allows writing current chapters as XML.
 - [crop](https://github.com/occivink/mpv-scripts#croplua) - Crop the video by defining the target rectangle with the cursor
 - [cropmode](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/cropmode.lua) - Adds a keyboard-oriented mode for cropping, outputting the result in a format suitable for ffmpeg.
@@ -477,24 +471,17 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [cycle-denoise](https://gist.github.com/myfreeer/d744c445aa71c0eeb165ca39cf6c0511) - Cycle between lavfi's denoise filters (press n)
 - [dbvol](https://gist.github.com/Artefact2/0a9c87d6d0f0ef6a565e44d830943fff) - Replaces the default volume controls with a decibel (dB) scale instead of arbitrary percentages.
 - [deframe](https://github.com/b4zz4/mpv-deframe) - (Unmaintained) It removes the frame of youtube videos (press g).
-- [delete-current-file](https://github.com/stax76/mpv-scripts) - Move the currently playing file instantly to the recycle bin.
 - [delete-file](https://github.com/zenyd/mpv-scripts) - Provides the ability to delete files being played through mpv
 - [dessubdb](https://github.com/demanuel/dessubdb/blob/master/mpv.lua) - Download automatically subtitles from the thesubdb.com using [DESSubdb](https://github.com/demanuel/dessubdb).
-- [drag-to-pan](https://github.com/occivink/mpv-image-viewer) - Pan the current video or image with the cursor.
 - [drcbox](https://gist.github.com/richardpl/0c8011dc23d7ac7b7831b2e6d680114f) - Dynamic Audio Normalizer filter with visual feedback.
 - [dynamic-crop](https://github.com/Ashyni/mpv-scripts#dynamic-croplua) - Dynamically crop the video by using lavfi's cropdetect filter to detect hard-coded black bars for Ultra Wide Screen (21:9) or any screen different from 16:9 (phone/old TV).
-- [easycrop](https://github.com/aidanholm/mpv-easycrop) - Manually crop a video during playback.
 - [encode](https://github.com/occivink/mpv-scripts#encodelua) - Re-encode or remux part of the current video. Can also preserve some filters, such as "crop".
 - [equalizer](https://gist.github.com/avih/41acff712abd32e1f436235388c8b523) - 5-bands equalizer with colorful display.
 - [evafast](https://github.com/po5/evafast) - Fast-forwarding and seeking on a single key, with quality of life features like slowing down a bit when subtitles are shown.
 - [excerpt](https://gitlab.com/lvml/mpv-plugin-excerpt) - Allows you to quickly create excerpts from media files, you just have to set begin and end markers.
 - [excessive-history](https://gist.github.com/Abject-Web/3f4f0e85dad73303b9dd1ef1f55c3147) - Excessive played media logger. Logs file name, time, and which parts were played. Will generate a `history.txt` in the mpv config folder. Only tested on Windows.
 - [exit-fullscreen](https://github.com/zc62/mpv-scripts/blob/master/exit-fullscreen.lua) - If you use `--keep-open=yes`, this script exits fullscreen mode when the playback reaches the end of file/playlist.
-- [fast-forward](https://github.com/zsugabubus/mpv-fastforward) - Another fast-forward plugin with some added features and a bit more customization options.
 - [fastforward](https://github.com/jgreco/mpv-scripts/blob/master/fastforward.lua) - Instead of skipping forward in media files, speed up the playback for a few seconds.  Playback speed decays back to 1x after a few seconds.  Tap rapidly or hold down to go faster.
-- [file-browser](https://github.com/CogentRedTester/mpv-file-browser) - A script that implements an interactive file browser on the OSD, which allows one to browse their system and open or append files and folders to the playlist. The user can specify keybinds to perform custom commands on items and can download addons for advanced additional behaviour.
-- [file-rating](https://github.com/stax76/mpv-scripts) - Write a star rating to the filename of the currently playing file.
-- [filenavigator](https://github.com/jonniek/mpv-filenavigator) - Navigate directories and open files from your system.
 - [filter-test](https://gitlab.com/mozbugbox/mpv-script-mozbugbox) - Test mpv/FFmpeg video filter(vf) strings with editable popup dialog. 
 - [find_subtitles](https://github.com/directorscut82/find_subtitles) - (Down)load subtitles with subliminal.
 - [firequalizer15](https://github.com/mfcc64/mpv-scripts/blob/master/firequalizer15.lua) - Linear phase 15-bands equalizer.
@@ -503,19 +490,12 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [fuzzydir](https://github.com/dya-tel/mpv-scripts) - This script will read your paths from `mpv.conf`, find those which end with `**` and explode them for good! For example, imagine we have a directory named `subs`, which contains `a` and `b` subdirectories.
 - [fuzzydir](https://github.com/sibwaf/mpv-scripts) - Allows using wildcards for `sub-file-paths` and `audio-file-paths`.
 - [gallery-dl_hook](https://github.com/jgreco/mpv-scripts/blob/master/gallery-dl_hook.lua) - Load online image galleries (imgur, etc) as playlists using [gallery-dl](https://github.com/mikf/gallery-dl/).
-- [gestures](https://github.com/omeryagmurlu/mpv-gestures) - Touchscreen and mouse gestures for mpv.
 - [gnome-inhibit](https://gist.github.com/crazygolem/a7d3a2d3c0cee5d072c0cbbbdee69286) - Prevent the screen from blanking under GNOME+Wayland while a video is playing.
-- [gpufreq](https://github.com/CounterPillow/mpv-gpufreq) - Show current and maximum GPU frequencies for GPUs using the DRM stack on Linux.
-- [groupwatch_sync](https://github.com/po5/groupwatch_sync) - Quickly get back in sync with a group watch by adjusting playback speed.
 - [guess-media-title](https://github.com/zenwarr/mpv-config/blob/master/scripts/guess-media-title.lua) - Uses [guessit](https://github.com/guessit-io/guessit) to detect a media title by filename and set `force-media-title` variable. Useful for getting cleaner screenshot file names.
 - [histogram](https://github.com/detuur/mpv-scripts) - Exposes a configurable way to overlay ffmpeg histograms in mpv. There is a substantial amount of config available.
 - [history-bookmark](https://github.com/yuukidach/mpv-scripts) - Create a history file to store the episode we watched last time. And let us easily jump to the video we watched last time.
-- [history](https://github.com/stax76/mpv-scripts) - Writes date, time, playtime and filename to a log file: `10.09.2022 19:50  3 D:\Samples\Big Buck Bunny.mkv`
 - [image-config](https://sr.ht/~guidocella/mpv-image-config) - A configuration to use mpv as an image viewer.
-- [image-viewer](https://github.com/occivink/mpv-image-viewer) - Configurations, scripts and tips for using mpv as an image viewer.
-- [Immersive](https://github.com/Ben-Kerman/immersive) - Versatile language learning script for generating Anki notes/cards with dictionary definitions, audio clips and screenshots from the current video, and word pronunciation audio. Also includes some other features that are useful for language immersion.
 - [interactive-video](https://github.com/mosquito-byte/mpv-interactive-video) - Script for watching interactive videos (such as Netflix's *Black Mirror: Bandersnatch*).
-- [interSubs](https://github.com/oltodosel/interSubs) - Interactive subtitles. Instantly translate selected word/sentence. Works on Linux, macOS.
 - [kde-do-not-disturb](https://gitlab.com/smaniottonicola/kde-do-not-disturb) - Disable the notifications while mpv is running
 - [kde-night-color](https://gitlab.com/smaniottonicola/kde-night-color) - Disable Night Color while mpv is running
 - [KDialog-open-files](https://gist.github.com/ntasos/d1d846abd7d25e4e83a78d22ee067a22) - Use KDE's KDialog to add files to playlist, subtitles to playing video or open URLs.
@@ -530,111 +510,71 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [locate-file](https://github.com/nimatrueway/mpv-locatefile-lua-script) - Locate current media file on your OS file browser 
 - [lrc](https://sr.ht/~guidocella/mpv-lrc) - Download synchronized lyrics of the currently playing song.
 - [lua-mpris](https://github.com/dodo/lua-mpris) - Adds mpris support to mpv.
-- [M-x](https://github.com/Seme4eg/mpv-scripts/tree/master#m-x) - A menu that shows all commands you have available, key bindings and commends (if present) and from which you can call any of those commands. [demo](https://i.imgur.com/8zTPTzK.gif)
 - [matroska-crop](https://github.com/sbruder/mpv-matroska-crop) - Automatically crop video using the Matroska PixelCrop properties. Includes optional workaround for hardware decoding.
-- [mdmenu](https://codeberg.org/NRK/mpv-toolbox/src/branch/master/mdmenu) - A script to use dmenu for selecting audio/subtitle/chapters etc.
-- [metadata-osd](https://github.com/vc-01/metadata-osd) - Adds OSD showing song name, album name and other metadata.
 - [mfpbar](https://codeberg.org/NRK/mpv-toolbox/src/branch/master/mfpbar) - A minimalistic progressbar and osc replacement.
 - [minesweeper](https://github.com/wiiaboo/mpv-scripts/blob/master/mines.lua) - Minesweeper game.
-- [misc](https://github.com/stax76/mpv-scripts) - Cycle audio and subtitle tracks, include only languages you know
-- [misc](https://github.com/stax76/mpv-scripts) - Execute Lua code from input.conf
-- [misc](https://github.com/stax76/mpv-scripts) - Jump to a random position in the playlist
-- [misc](https://github.com/stax76/mpv-scripts) - Load or append files/URLs from clipboard
-- [misc](https://github.com/stax76/mpv-scripts) - Navigate in playlist to next/previous/first/last file
-- [misc](https://github.com/stax76/mpv-scripts) - Restart mpv restoring the properties path, time-pos, pause and volume
-- [misc](https://github.com/stax76/mpv-scripts) - Show detailed media info on screen
-- [misc](https://github.com/stax76/mpv-scripts) - When seeking display position and duration like so: 70:00 / 80:00
 - [MordenX](https://github.com/cyl0/MordenX) - A modern OSC UI replacement for MPV that retains the functionality of the default OSC.
 - [mpegts-truncate](https://github.com/hoehermann/mpv-mpegts-truncate) - Removes beginning of MPEG TS file up to current position without re-writing the whole file.
-- [crop_script](https://github.com/TheAMM/mpv_crop_script) - Take cropped screenshots directly within mpv, without the need for external dependencies.
-- [discordRPC](https://github.com/cniw/mpv-discordRPC) *(alternative version)* - Discord Rich Presence integration for mpv Media Player. Added some features and support: Linux, MacOS and Windows.
 - [discordRPC](https://github.com/noaione/mpv-discordRPC) - Discord RPC integration for mpv using lua-discordRPC as base.
 - [frame_info](https://github.com/Kagami/mpv_frame_info) - Show frame info, similar to ffdshow's OSD.
 - [inhibit_gnome](https://github.com/Guldoman/mpv_inhibit_gnome) - Prevent screen blanking on GNOME while content is playing
-- [irc](https://github.com/po5/mpv_irc) - Display lines from an IRC channel or any text file.
-- [manager](https://github.com/po5/mpv_manager) - User script and shader manager for mpv
 - [reduce_stream_cache](https://github.com/divout/mpv_reduce_stream_cache) - Reduces MPV cache for streams by increasing playback speed. Works with Twitch through Streamlink.
-- [slicing_copying](https://github.com/snylonue/mpv_slicing_copy) - A fork from [mpv_slicing](https://github.com/Kagami/mpv_slicing). It will cut fragments of the video in original format instead of RGB
+- [slicing_copying](https://github.com/snylonue/mpv_slicing_copy) - Cut fragments of video in original format.
 - [slicing](https://github.com/Kagami/mpv_slicing) - Cut uncompressed fragments of the video.
-- [sort_script](https://github.com/TheAMM/mpv_sort_script) - Sort files and directories by name, age, size or randomly, recursively or when coming across a directory.
-- [sponsorblock](https://github.com/po5/mpv_sponsorblock) - Script to skip sponsored segments of YouTube videos.
 - [thumbnail_script](https://github.com/marzzzello/mpv_thumbnail_script) - Show preview thumbnails when hovering over the seekbar, without the need for external dependencies.
-- [thumbnail_script](https://github.com/TheAMM/mpv_thumbnail_script)
 - [acestream](https://github.com/Digitalone1/mpv-acestream) - Add AceStream protocol handler to mpv. Let the user open streams by dropping Acestream links into mpv GUI or by passing them as command line argument.
-- [bluetooth-av-delay](https://github.com/fatihkaan22/mpv-bluetooth-av-delay) - Adds desired A-V delay automatically, if default audio sink is a bluetooth device.
 - [bookmarker](https://github.com/nimatrueway/mpv-bookmark-lua-script) - Bookmark your favorite time on media files
 - [BoxToWide](https://github.com/Samillion/mpv-boxtowide) - A simple mpv script to change 4:3 aspect-ratio of video files/streams to 16:9 automatically.
 - [Change-OSD-Media-Title](https://github.com/nmoorthy1/mpv-Change-OSD-Media-Title) - Displays filename, percentage watched, current chapter, and number of frames dropped in the OSD media title and updates it whenever one of the values has changed.
 - [discord](https://github.com/tnychn/mpv-discord) - A cross-platform Discord Rich Presence integration for mpv with no external dependencies. Consists of a Go binary for updating the presence and a Lua script for launching it.
 - [history](https://gist.github.com/garoto/e0eb539b210ee077c980e01fb2daef4a) - Simple played media logger. Will generate a `mpvhistory.log` in the default mpv config folder (%APPDATA%/mpv/ or $HOME/.config/mpv/) in the format `[$DATE $TIME] $PATH ($?MEDIA-TITLE)`. Only tested on Windows.
 - [i3-floating-centered](https://github.com/mdnghtman/mpv-i3-floating-centered) - Show mpv window in the center of the display when it is in floating mode (i3wm)
-- [libunity](https://github.com/mrlotfi/mpv-libunity) - Shows a progress bar on your panel/dock using libunity
 - [limited-autoload](https://github.com/glubsy/mpv-limited-autoload) - Auto-load files in a lazy way by limiting how many are loaded into playlist at once
 - [manga-reader](https://github.com/Dudemanguy/mpv-manga-reader) - Script for using mpv as a manga reader.
-- [mpris](https://github.com/hoyon/mpv-mpris) - Adds support for MPRIS2 protocol
-- [osc-framework](https://github.com/maoiscat/mpv-osc-framework) - A simple toolbox to help you build your own osc.
 - [osc-orange](https://github.com/maoiscat/mpv-osc-orange) - An osc/ui replacement in dark theme.
 - [pdf](https://github.com/jgreco/mpv-pdf) - View PDFs in mpv using ImageMagick.   Supports: Linux, MacOS
 - [peerflix-hook](https://github.com/noctuid/mpv-peerflix-hook) - Alternate version of the above gist that works with multiple running peerflix instances and only kills the correct peerflix instance when exiting.
 - [rename](https://github.com/Kayizoku/mpv-rename) - Rename files on the go directly from within MPV player window without leaving it.
-- [taskbar-buttons](https://github.com/qwerty12/mpv-taskbar-buttons) - Hackish script to add [thumbbar media control buttons](https://raw.githubusercontent.com/qwerty12/mpv-taskbar-buttons/preview/screenshot.png) for mpv on Windows
-- [twitch-chat-irc](https://github.com/morrah/mpv-twitch-chat-irc) - Show Twitch chat messages as subtitles when watching Twitch LIVE with mpv. Based on [mpv Twitch Chat](https://github.com/CrendKing/mpv-twitch-chat/) for VODs, but since `mpv-twitch-chat` uses Twitch API to retrieve comments history, it doesn't support live chat comments. This script uses a python subprocess to keep a background irc connection to a channel and dump last 10 messages to file in SubRip format.
+- [twitch-chat-irc](https://github.com/morrah/mpv-twitch-chat-irc) - Show Twitch chat messages as subtitles when watching Twitch LIVE.
 - [twitch-chat](https://github.com/CrendKing/mpv-twitch-chat/) - Show Twitch chat messages as subtitles when watching Twitch VOD with mpv.
 - [txt](https://github.com/jgreco/mpv-txt) - Play text files using text-to-speech (TTS). (Works on Linux, MacOS; see Dependencies).
 - [volnorm](https://gitlab.com/derobert/mpv-volnorm) - Client-server setup to provide EBU R.128 volume leveling to MPV, even if files stored on a server and played on multiple machines. (Works on Linux, probably all Unix-like; server in Perl).
 - [webp-generator](https://github.com/DonCanjas/mpv-webp-generator) - Creates high quality animated webp using mpv hotkeys. (For windows only)
 - [yledl](https://github.com/pekkarr/mpv-yledl) - Watch videos from YLE Areena in mpv using yle-dl
-- [youtube-chat](https://github.com/BanchouBoo/mpv-youtube-chat) - Overlay YouTube chat replays in mpv using yt-dlp.
-- [youtube-search](https://github.com/rozari0/mpv-youtube-search) - Use Zenity and youtube-dl to search youtube videos.
-- [ytdlAutoFormat](https://github.com/Samillion/mpv-ytdlautoformat) - A simple mpv LUA script to auto change ytdl-format for Youtube and Twitch or the domains you desire, to 480p or the quality you desire.
 - [mpv2anki](https://github.com/SenneH/mpv2anki) - A simple way to add notes to Anki with Audio, screenshots and/or subtitles, with few dependencies.
-- [mpvacious](https://github.com/Ajatt-Tools/mpvacious) - Make subs2srs-style Anki cards with automatically generated audio-clips and snapshots. Media files are saved in `ogg/opus` and `webp` formats to save space on AnkiWeb.
-- [mpvc-tui](https://github.com/gmt4/mpvc) - mpc command-line and tui for mpv.
-- [mpvcontextmenu](https://gitlab.com/carmanaught/mpvcontextmenu) - Comprehensive context-menu forked from [Tcl/Tk context menu](https://gist.github.com/avih/bee746200b5712220b8bd2f230e535de). Uses other scripts (see Requirements).
 - [mpvcord](https://github.com/yutotakano/mpvcord) - Discord integration for mpv, using the Game SDK instead of Discord RPC. Supports: MacOS and Windows. (Linux is not supported by Game SDK)
-- [MPVMediaControl](https://github.com/datasone/MPVMediaControl) - Integrate MPV with Windows System Media Transport Controls (the control buttons near the volume indicator thingy). See [pic](https://raw.githubusercontent.com/datasone/MPVMediaControl/master/img/screenshot.png) for reference.
-- [mpvmenu](https://github.com/nezumisama/mpvmenu) - Adds a pop-up menu to mpv, which can be bound to a key or button
 - [mpvSockets](https://github.com/wis/mpvSockets) - creates one IPC sockets per mpv instance, instead of one socket for the last started instance.   _Supports_: Linux, MacOS and Windows.
 - [multi-command-if](https://github.com/VideoPlayerCode/mpv-tools/) - Very powerful conditional logic and multiple action engine for your keybindings, without having to write a single line of code!
-- [multiloop](https://github.com/unusualpepe/mpv-multiloop) - Loop over multiple A-B points (and save them for future use)
 - [multisocket](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/multisocket.lua) - Creates a numbered socket for each instance of mpv
-- [myshows](https://github.com/gim-/mpv-plugin-myshows) - Marks currently watched episode on MyShows website.
 - [nextfile](https://github.com/jonniek/mpv-nextfile) - Force opens next or previous file in the currently playing files directory.
 - [notify-send](https://github.com/emilazy/mpv-notify-send) - A simpler and more recent notifications script for libnotify-compatible (i.e. Unix-like) notifications daemons only. Supports cover art.
 - [notify](https://github.com/rohieb/mpv-notify) - Adds desktop notifications to the mpv media player, which show metadata like artist, album name and track name when the track changes.
 - [oled-screensaver](https://github.com/Akemi/mpv-oled-screensaver) - To prevent burn-ins on OLED TVs, this script fades-in a black screen after 15 seconds when paused in fullscreen.
 - [ontop-only-while-playing](https://github.com/kungfubeaner/mpv-ontop-only-while-playing-lua/blob/master/on_top_only_while_playing.lua) - Ontop is only active during video playback. Ontop is automatically disabled during idle, pause and is able to be dynamically disabled without having to restart unlike the previous script.
 - [ontop-playback](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/ontop-playback.lua) - Disables the ontop property when pausing, and enables it again when unpausing the video, if it was disabled. Change it only when the player is not in fullscreen to prevent screen flickering.
-- [ontop-window](https://github.com/wishyu/mpv-ontop-window/blob/main/ontop-window.lua) - Disables the ontop property when in fullscreen, and enables it again when in window mode, if it was disabled. Heavily inspired by [ontop-playback](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/ontop-playback.lua).
+- [ontop-window](https://github.com/wishyu/mpv-ontop-window/blob/main/ontop-window.lua) - Disables the ontop property when in fullscreen, and enables it again when in window mode, if it was disabled.
 - [open-anilist-page](https://github.com/ehoneyse/mpv-open-anilist-page) - Opens the Anilist page that corresponds to the currently playing (anime) file.
-- [open-file-dialog](https://github.com/rossy/mpv-open-file-dialog) - (Windows) Launches a regular Windows file open dialog for loading videos.
 - [open-imdb-page](https://github.com/ctlaltdefeat/mpv-open-imdb-page) - Opens the IMDb page that corresponds to the currently playing media file.
 - [open-kinopoisk-page](https://github.com/WANDEX/mpv-open-kinopoisk-page) - Opens the kinopoisk page that corresponds to the currently playing media file.
 - [osc-show-hide-hotkey](https://github.com/linguisticmind/mpv-scripts/tree/master/osc-show-hide-hotkey) - Toggles the on-screen controller with a hotkey. [Video demonstration](https://www.youtube.com/watch?v=b-5XOZpXZMg&t=1h7m17s)
 - [osc-style](https://github.com/422658476/MPV-EASY-Player/tree/master/mpv-easy-data/osc-style) - Change the mpv osc to a more beautiful and practical look, which is the osc theme feature, a variety of styles to choose from,this is a [tutorial and a preview](https://github.com/422658476/MPV-EASY-Player#%E7%9C%8B%E5%88%B0%E4%B8%8A%E9%9D%A2%E5%9B%BE%E4%B8%8A%E8%BF%99%E4%BA%9Bosc%E6%A0%B7%E5%BC%8F%E4%BA%86%E5%90%97%E5%AE%83%E4%BB%AC%E4%B8%8D%E4%BB%85%E5%8F%AF%E4%BB%A5%E5%AD%98%E5%9C%A8%E4%BA%8Empv-easy-player%E4%B8%AD%E4%BD%A0%E4%BD%BF%E7%94%A8%E7%9A%84mpv%E7%9A%84osc%E4%B9%9F%E5%8F%AF%E4%BB%A5%E5%8F%98%E6%88%90%E8%BF%99%E6%A0%B7).
 - [osd-bar](https://github.com/422658476/MPV-EASY-Player/blob/master/portable-data/scripts/osd-bar.lua) - Always show osd progress bar, with the more beautiful color matching in the [configuration file](https://github.com/422658476/MPV-EASY-Player/blob/master/mpv-easy-data/rjno1.conf), you can make the osd progress bar display the current progress at the bottom of the window beautifully,this is a [preview](https://raw.githubusercontent.com/422658476/MPV-EASY-Player/master/img/mpv-easy-player-osd-bar-lua.jpg).
 - [osd-clock](https://github.com/blue-sky-r/mpv/blob/master/scripts/osd-clock.lua) - Periodically shows OSD clock (many configurable options).
-- [osm](https://github.com/stax76/mpv-scripts) - Shows a customizable on screen menu, which is useful to navigate via remote control.
 - [pause-indicator](https://gist.github.com/torque/9dbc69543118347d2e5f43239a7e609a) - Displays a momentary icon that flashes in the middle of the screen, similar to YouTube.
 - [pause-when-minimize](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/pause-when-minimize.lua) - Pauses the player video when minimizing, and unpauses it when brought up again.
 - [peerflix-hook](https://gist.github.com/ekisu/bba287693830055a6bad90081c1ad4e2) - Allows streaming of magnet links using peerflix, similar to youtube-dl.
 - [permanent-pause-indicator](https://github.com/oltodosel/mpv-scripts#pause-indicatorlua) - Displays a permanent indicator in the middle of the screen while mpv is paused. [Preview](https://github.com/oltodosel/mpv-scripts/raw/master/pause-indicator.jpg)
-- [persist-properties](https://github.com/d87/mpv-persist-properties) - Keeps volume and other properties between sessions
 - [pitchcontrol](https://github.com/FichteFoll/mpv-scripts/blob/master/pitchcontrol.lua) - Adjusts audio pitch in half-tone steps.
 - [play-with](https://github.com/grmat/play-with) - A WebExtension that can open a video stream on a web page with an external player.
 - [playlist-navigator](https://github.com/drogers141/mpv-playlist-navigator) - OSD display features easy navigation with scrolling and search to select files to play or remove from playlist.
 - [playlist-view](https://github.com/occivink/mpv-gallery-view) - Display and navigate the playlist in a grid view of thumbnails.
-- [playlistmanager](https://github.com/jonniek/mpv-playlistmanager) - This script allows you to see and interact with your playlist in an intuitive way.
 - [playlistnoplayback](https://github.com/422658476/MPV-EASY-Player/blob/master/portable-data/scripts/playlistnoplayback.lua) - If you enable the save play history and progress function, this lua script can solve the problem of automatically jumping to the previous playback progress when playing the next file when playing the playlist, that is, let the playlist always play the next file from the beginning every time. the limitations of this script, please see the comments section in the content.
 - [playphrase](https://github.com/kelciour/playphrase) - Search and play phrases from movies and audiobooks.
 - [pointer-event](https://github.com/christoph-heinrich/mpv-pointer-event) - Low latency mouse/touch input event detection. Executes configurable commands on single-click, double-click, long-click and dragging. Events are mutually exclusive. See [example](https://github.com/christoph-heinrich/mpv-pointer-event#example) for simple gesture detection.
 - [profile-cycle](https://github.com/Funami580/dotfiles/blob/master/.config/mpv/scripts/profile-cycle.lua) - Cycle between your custom defined profiles while watching the video.
 - [progressbar](https://github.com/torque/mpv-progressbar) - A minimalistic OSC replacement. It provides a small, unintrusive progress bar that persists at the bottom of the video window.
-- [quack](https://github.com/CounterPillow/mpv-quack) - Temporarily lower the volume after a seek to save your ears from unpleasant sudden volume changes.
-- [quality-menu](https://github.com/christoph-heinrich/mpv-quality-menu) - A menu for changing the streamed video and audio quality (ytdl-format) on the fly. [preview](https://github.com/christoph-heinrich/mpv-quality-menu/raw/master/preview.jpg)
 - [quick-scale](https://github.com/VideoPlayerCode/mpv-tools/) - Quickly scale the video player to a target size, with full control over target scale and max scale. Helps you effortlessly resize a video to fit on your desktop, or any other video dimensions you need!
 - [radio-title](https://github.com/olivierlemoal/mpv-radio-title-script/) - Automatically fetch current playing title from webradio website when not provided by stream.
-- [recent](https://github.com/hacel/recent) - Recently played menu using a history log file in `config` directory, display using a hotkey or automatically when idle.
 - [redshift_toggle](https://git.sr.ht/~q3cpma/dotfiles/tree/master/.config/mpv/scripts/redshift_toggle.lua) - Toggle redshift when loading a video file and when reaching the end of said file. Now also handles pause.
 - [reload](https://github.com/4e6/mpv-reload) - When an online video is stuck during buffering or got slow CDN source, restarting often helps. This script provides automatic reloading of videos that didn't have buffering progress for some time, keeping the current time position. It also adds `Ctrl+r` keybinding to reload video manually.
 - [reload](https://github.com/dya-tel/mpv-scripts) - Sometimes you have unstable internet connection, or YouTube server dies, or your computer was sleeping for too long, or whatever. The thing is: you were watching something, you lost the connection, MPV doesn't want to play it further, you don't want to find the video again and then seek it to the moment you were watching.
@@ -648,38 +588,31 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [save-playlist](https://github.com/NaiveInvestigator/save-playlist) - This script saves your playlist to the working directory of the mpv process.
 - [save-sub-delay](https://github.com/zc62/mpv-scripts/blob/master/save-sub-delay.lua) - This script saves the sub-delay quantity for each file. When next time the file is opened, sub-delay is automatically restored.
 - [scale-win](https://gist.github.com/garoto/920b7456d2bdd8f48aa8e7094a12ce47) - Restore old "window-scale" behavior, so to make "add window-scale +/-<value>" keybinds work again when any of the autofit-* options are defined.
-- [search-menu](https://github.com/stax76/mpv-scripts) - A searchable menu to quickly find keybinds, commands, properties and audio/subtitle tracks.
-- [search-page](https://github.com/CogentRedTester/mpv-search-page) - Allows users to search for keybinds, commands, options, and properties, and have the results display on the OSD. Good for reminding oneself about   forgotten keybinds without leaving the player.
 - [seek-to](https://github.com/occivink/mpv-scripts#seek-tolua) - Seek to an absolute timestamp specified via keyboard input.
-- [segment-linking](https://github.com/CogentRedTester/mpv-segment-linking) - Adds support for matroska next/prev segment linking using the mkvinfo commandline tool.
 - [Serkio Tagger](https://github.com/SerkioTeam/Tagger) - Annotate videos with tags while you watch.
 - [show-filename](https://github.com/yuukidach/mpv-scripts) - Show the name of the current playing file.
 - [show-stream-title](https://github.com/blue-sky-r/mpv/blob/master/scripts/show-stream-title.lua) - Show OSD stream/channel title when switching the IPTV channels from m3u playlist.
 - [shutup](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/shutup.c) - Set --quiet when stderr or stdout aren't connected to a terminal
 - [simple-loader](https://github.com/fhlfibh/simple-loader) - (Linux) Browse dirs and files on OSD, and launch them with mpv.
-- [simple-mpv-webui](https://github.com/open-dynaMIX/simple-mpv-webui) - Web-based remote control.
 - [SimpleBookmark-1.0](https://github.com/Eisa01/mpv-scripts#simplebookmark) - Bookmark with a [ctrl]+[b], then list and access your bookmarks with [b]. Assign your favorites to a keybind then access your favorites with that same keybind. Much more explained in the link above.
 - [SimpleHistory-1.0](https://github.com/Eisa01/mpv-scripts#simplehistory) - Powerful history features that logs videos that you opened into a log file along with the time you have reached on each video. Select, filter, and search from your history list, Optional resume by [ctrl]+[r] for all videos you have played. Much more explained in the link above.
 - [SimpleUndo-3.2](https://github.com/Eisa01/mpv-scripts#simpleundo) - Simple undo feature. If you accidentally seek/jump to a different time in the video, press undo [ctrl]+[z] to return to your previous time and vice-versa. More details in the link above.
 - [skipchapters](https://github.com/haasn/gentoo-conf/blob/xor/home/nand/.mpv/scripts/avail/skipchapters.lua) - Automatically skip chapters matching a given list of regular expressions (eg. "OP" or "Opening").
 - [skiptofade](https://gist.github.com/bossen/3cfe86a6cdd61452dbb96865128fb327) - Seeks forward until a black screen appears. Built to skip openings. Uses the lavfi blackdetect filter. 
 - [skiptosilence](https://github.com/detuur/mpv-scripts) - This script skips to the next silence in the file. The intended use for this is to skip until the end of an opening or ending sequence, at which point there's often a short period of silence.
-- [smart-volume](https://github.com/stax76/mpv-scripts) - Records the volume per file in order to restore it in future sessions. What is recorded and restored is the volume offset relative to the session average volume. For every song the last six sessions are recorded, the average of that is used.
 - [SmartCopyPaste-3.0](https://github.com/Eisa01/mpv-scripts#smartcopypaste) - Powerful copy paste features. Paste URL or local videos directly to mpv. Copy URL or currently playing video in mpv player then paste to access at a later time. Add videos to playlist simply by pasting. Much more explained in the link above.
 - [SmartCopyPaste-II-3.0](https://github.com/Eisa01/mpv-scripts#smartcopypaste_ii) - Powerful copy paste and clipboard list features using a log file. Select, filter, and search from your clipboard list. Paste URL or local videos directly to mpv. Copy URL or currently playing video in mpv player then paste to access at a later time. Paste to access previously copied times of same video. Much more explained in the link above.
 - [sopcast](https://github.com/Akemi/mpv-sopcast-hook) - Adds support for sop:// urls.
 - [sosc](https://github.com/christoph-heinrich/sosc) - An OSC supplement for OSC replacements. Provides the idle message and script messages from the original OSC.
 - [speed - adjusted timings](https://github.com/oltodosel/mpv-scripts#speed_osd3lua) - Recalculates osd-msg3 timecodes with speed != 1
-- [speed-transition-Audio](https://gist.github.com/bitingsock/e8a56446ad9c1ed92d872aeb38edf124) - Experiment similar to [speed-transition](https://github.com/zenyd/mpv-scripts). changes playback speed based on volume thresholds.
+- [speed-transition-Audio](https://gist.github.com/bitingsock/e8a56446ad9c1ed92d872aeb38edf124) - Changes playback speed based on volume thresholds.
 - [speed-transition](https://github.com/zenyd/mpv-scripts) - Increases playback speed if a subtitle will not be displayed soon. Resumes normal speed just before the subtitle shows up.
 - [speed](https://github.com/oltodosel/mpv-scripts#speedlua) - Changing speed based on regex of filename/path.
 - [speed](https://github.com/vflorelle/mpv-scripts#speed) - Always show current playback speed on the OSD
-- [splice](https://github.com/pvpscript/mpv-video-splice) - A script that helps you create a video out of cuts made in the current playing video. 
 - [spotify](https://github.com/olivierlemoal/mpv-spotify-script) - Add current playing title to an user defined Spotify playlist.
 - [stats](https://github.com/Argon-/mpv-stats/) - Display some statistics about the currently played file on-screen.
 - [stopCache](https://gist.github.com/bitingsock/19c3094cc8680bb7b97b09aaf7d11176) - stops the demuxer from downloading more if it is already past --end 
 - [streamcache](https://gitlab.com/lvml/mpv-plugin-streamcache) - Provides for more network-glitch-robust caching of live streams by adjusting replay speed.
-- [streamsave](https://github.com/Sagnac/streamsave) - Save live streams and clip videos without encoding.
 - [sub_export](https://github.com/dyphire/mpv-scripts/blob/main/sub_export.lua) - fork, updated. Extract selected subtitles from .mkv file.
 - [sub-bilingual](https://github.com/kelciour/mpv-scripts/blob/master/sub-bilingual.lua) - Generate bilingual subtitles.
 - [sub-bookmarks](https://github.com/kelciour/mpv-scripts/blob/master/sub-bookmarks.lua) - Save current position and subtitles in .txt file.
@@ -689,7 +622,6 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [sub-playback](https://github.com/kelciour/mpv-scripts/blob/master/sub-playback.lua) - Add interactive move, i.e. automatically pause at the end of the fragment with option to continue playback or replay it again with or without subtitles.
 - [sub-replay](https://github.com/kelciour/mpv-scripts/blob/master/sub-replay.lua) - Replay previous sentence.
 - [sub-search](https://github.com/kelciour/mpv-scripts/blob/master/sub-search.lua) - Search for phrase in subtitles and skip to it.
-- [sub-select](https://github.com/CogentRedTester/mpv-sub-select) - An advanced subtitle track selector that utilises the current audio language, and the language and titles of the subtitle tracks. 
 - [sub-sentences](https://github.com/kelciour/mpv-scripts/blob/master/sub-sentences.lua) - Generate subtitles with sentences.
 - [sub-skip](https://github.com/Ben-Kerman/mpv-sub-scripts) - Automatically skip parts of a video that don't contain any subtitles. Does so by either fast-forwarding or seeking.
 - [sub-transition](https://github.com/Ajatt-Tools/sub_transition) - Speed up playback when no subtitles are visible. 
@@ -699,15 +631,19 @@ Searchable menus (also known as command palette) are used to find key bindings a
 - [subs2srs](https://github.com/kelciour/mpv-scripts/blob/master/subs2srs.lua) - Automatically add new card in Anki with audio, picture and text.
 - [subselect Tk](https://github.com/zenyd/mpv-scripts) - Download subtitles with a GUI - select the one you want and automatically load them up in mpv. Supports searching for arbitrary names and different subtitle languages. Works on Windows and Linux, possibly macOS.
 - [subtitle-search](https://github.com/zenwarr/mpv-config/blob/master/scripts/subtitle-search.lua) - Script to search for a phrase inside an active `.srt` subtitle. Displays matched lines in OSD list, takes `sub-delay` into account and allows searching for Unicode text in utf8 subtitle files.
-- [Tcl/Tk context menu](https://gist.github.com/avih/bee746200b5712220b8bd2f230e535de) - Configurable context-menu based on Tcl/Tk, for *nix/Windows and probably macOS too.
-- [tethys](https://github.com/Zren/mpv-osc-tethys) - An OSC UI replacement for MPV with icons from the bomi video player. Also contains thumbnail preview and a picture-in-picture button.
-- [thumbfast](https://github.com/po5/thumbfast) - High-performance on-the-fly thumbnailer for mpv. Can integrate with any UI/custom osc.lua.
 - [time](https://github.com/mustaqimM/mpv-scripts/blob/master/time.lua) - Shows the current time or the time at which playback will end.
 - [timer](https://github.com/AdamD2/mpv-timer) - Allows the user to set a starting time and an ending time and see the time elapsed between those points with millisecond precision.
 - [toggle-redshift-on-play](https://gist.github.com/CreamyCookie/d036b66af4e17ea527d08e303eb96145) - [kill-restart-version](https://gist.github.com/CreamyCookie/079570ad0dd27d322421f6637c828ab8). Based on the above one, this one also re-enables redshift when pausing and disables it again when unpausing. The alternative version achieves the same by killing and restarting redshift (more consistent).
 - [total_playtime](https://github.com/oltodosel/mpv-scripts/blob/master/total_playtime.lua) - Shows total playtime of current playlist.
 - [track-list](https://github.com/dyphire/mpv-scripts/blob/main/track-list.lua) - Interractive track-list menu.
-- [trackselect](https://github.com/po5/trackselect) - Automatically select your preferred tracks based on title.
 - [trakt-mpv](https://github.com/LiTO773/trakt-mpv) - Connects trakt.tv with mpv and automatically scrobbles movies/shows. (Python is also needed for this script to function). [trakt-mpv fork](https://github.com/qwerty12/mpv-config/tree/main/scripts/trakt-mpv) that lets you add episodes to your Trakt watched history instead of checking in
 - [tree-profiles](https://github.com/fbriere/mpv-scripts/blob/master/scripts/tree-profiles.lua) - Automatically apply profiles to certain directories or files.
-- [trim.lua](https://github.com/aerobounce/trim.lua) - Adds trim mode for mpv — turn mpv into Lossless Audio / Video Editor.
+- [misc](https://github.com/stax76/mpv-scripts) - Cycle audio and subtitle tracks, include only languages you know
+- [misc](https://github.com/stax76/mpv-scripts) - Execute Lua code from input.conf
+- [misc](https://github.com/stax76/mpv-scripts) - Jump to a random position in the playlist
+- [misc](https://github.com/stax76/mpv-scripts) - Load or append files/URLs from clipboard
+- [misc](https://github.com/stax76/mpv-scripts) - Navigate in playlist to next/previous/first/last file
+- [misc](https://github.com/stax76/mpv-scripts) - Restart mpv restoring the properties path, time-pos, pause and volume
+- [misc](https://github.com/stax76/mpv-scripts) - Show detailed media info on screen
+- [misc](https://github.com/stax76/mpv-scripts) - When seeking display position and duration like so: 70:00 / 80:00
+- [history](https://github.com/stax76/mpv-scripts) - Writes date, time, playtime and filename to a log file: `10.09.2022 19:50  3 D:\Samples\Big Buck Bunny.mkv`
