@@ -634,6 +634,8 @@ into popular sections, like Subtitles etc.
 - [mpv-mpris](https://github.com/hoyon/mpv-mpris) - On Linux allows controlling mpv using standard media keys.
 - [lua-mpris](https://github.com/dodo/lua-mpris) - Adds mpris support to mpv.
 - [simple-mpv-webui](https://github.com/open-dynaMIX/simple-mpv-webui) Based on Python/Lua/JavaScript/Web.
+- [KDE Connect](https://kdeconnect.kde.org)
+  - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
 - [mpv-remote-app](https://github.com/mcastorina/mpv-remote-app) - For Android, based on Java/Python.
 - [mpv-remote-app](https://github.com/husudosu/mpv-remote-app) - For Android, based on Web/VUI/Ionic/Node.js.
 - [MPVMediaControl](https://github.com/datasone/MPVMediaControl) - Windows 10 System Media Transport Controls (SMTC).
