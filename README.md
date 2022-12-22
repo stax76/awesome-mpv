@@ -100,6 +100,11 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 
 # User Script
 
+The most complete/up-to-date list of user scrips can be found
+in the [wiki](https://github.com/mpv-player/mpv/wiki/User-Scripts),
+the advantage of the following list is that everything is categorized
+into popular sections, like Subtitles etc.
+
 ## Menu
 
 - [M-x](https://github.com/Seme4eg/mpv-scripts/tree/master#m-x) - Searchable and configurable menu to quickly find key bindings and commands.
