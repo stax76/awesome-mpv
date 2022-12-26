@@ -567,6 +567,7 @@ into popular sections, like Subtitles etc.
 - [DonCanjas](https://github.com/DonCanjas/mpv-dotfiles)
 - [zenwarr](https://github.com/zenwarr/mpv-config)
 - [mustaqimM](https://github.com/mustaqimM/mpv-scripts)
+- [Zabooby](https://github.com/Zabooby/mpv-config)
 
 # Social Tools
 
