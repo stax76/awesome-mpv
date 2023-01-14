@@ -111,13 +111,14 @@ into popular sections, like Subtitles etc.
 
 ## Menu
 
+- [command_palette](https://github.com/stax76/mpv-scripts) - Searchable menu for bindings, commands, properties, the playlist, chapters and audio/subtitle tracks.
 - [M-x](https://github.com/Seme4eg/mpv-scripts/tree/master#m-x) - Searchable and configurable menu to quickly find key bindings and commands.
 - [mpv-search-page](https://github.com/CogentRedTester/mpv-search-page) - Searchable and configurable menu to quickly find key bindings, commands, options and properties.
 - [search-menu](https://github.com/stax76/mpv-scripts) - Searchable and configurable menu to quickly find key bindings, commands, properties, audio/subtitle tracks and playlist entries.
 - [mdmenu](https://codeberg.org/NRK/mpv-toolbox/src/branch/master/mdmenu) - Use dmenu (Linux launcher) for selecting audio/subtitle/chapters etc.
 - [Tcl/Tk context-menu](https://gist.github.com/avih/bee746200b5712220b8bd2f230e535de) - Configurable context-menu based on Tcl/Tk (cross-platform).
-- [menu](https://github.com/jonniek/mpv-menu) - Configurable on screen menu to launch custom commands.
-- [osm](https://github.com/stax76/mpv-scripts/blob/main/osm.lua) - Configurable on screen menu to launch custom commands.
+- [menu](https://github.com/jonniek/mpv-menu) - Configurable on screen menu to run custom commands.
+- [osm](https://github.com/stax76/mpv-scripts) - Configurable on screen menu to run custom commands.
 - [mpvc-tui](https://github.com/gmt4/mpvc) - Command-line and TUI for mpv.
 - [contextmenu](https://gitlab.com/carmanaught/mpvcontextmenu) - Configurable context-menu based on Tcl/Tk (cross-platform).
 - [menu](https://github.com/nezumisama/mpvmenu) - Configurable on screen context-menu.
@@ -243,10 +244,12 @@ into popular sections, like Subtitles etc.
 - [sosc](https://github.com/christoph-heinrich/sosc) - An OSC supplement for OSC replacements. Provides the idle message and script messages from the original OSC.
 - [progressbar](https://github.com/torque/mpv-progressbar) - A minimalistic OSC replacement. It provides a small, unintrusive progress bar that persists at the bottom of the video window.
 - [osd-bar](https://github.com/422658476/MPV-EASY-Player/blob/master/portable-data/scripts/osd-bar.lua) - Always show osd progress bar, with the more beautiful color matching in the [configuration file](https://github.com/422658476/MPV-EASY-Player/blob/master/mpv-easy-data/rjno1.conf), you can make the osd progress bar display the current progress at the bottom of the window beautifully,this is a [preview](https://raw.githubusercontent.com/422658476/MPV-EASY-Player/master/img/mpv-easy-player-osd-bar-lua.jpg).
-- [osc-style](https://github.com/422658476/MPV-EASY-Player/tree/master/mpv-easy-data/osc-style) - Change the mpv osc to a more beautiful and practical look, which is the osc theme feature, a variety of styles to choose from,this is a [tutorial and a preview](https://github.com/422658476/MPV-EASY-Player#%E7%9C%8B%E5%88%B0%E4%B8%8A%E9%9D%A2%E5%9B%BE%E4%B8%8A%E8%BF%99%E4%BA%9Bosc%E6%A0%B7%E5%BC%8F%E4%BA%86%E5%90%97%E5%AE%83%E4%BB%AC%E4%B8%8D%E4%BB%85%E5%8F%AF%E4%BB%A5%E5%AD%98%E5%9C%A8%E4%BA%8Empv-easy-player%E4%B8%AD%E4%BD%A0%E4%BD%BF%E7%94%A8%E7%9A%84mpv%E7%9A%84osc%E4%B9%9F%E5%8F%AF%E4%BB%A5%E5%8F%98%E6%88%90%E8%BF%99%E6%A0%B7).
+- [osc-style](https://github.com/422658476/MPV-EASY-Player/tree/master/mpv-easy-data/osc-style) - Change the mpv OSC to a more beautiful and practical look, which is the osc theme feature, a variety of styles to choose from,this is a [tutorial and a preview](https://github.com/422658476/MPV-EASY-Player#%E7%9C%8B%E5%88%B0%E4%B8%8A%E9%9D%A2%E5%9B%BE%E4%B8%8A%E8%BF%99%E4%BA%9Bosc%E6%A0%B7%E5%BC%8F%E4%BA%86%E5%90%97%E5%AE%83%E4%BB%AC%E4%B8%8D%E4%BB%85%E5%8F%AF%E4%BB%A5%E5%AD%98%E5%9C%A8%E4%BA%8Empv-easy-player%E4%B8%AD%E4%BD%A0%E4%BD%BF%E7%94%A8%E7%9A%84mpv%E7%9A%84osc%E4%B9%9F%E5%8F%AF%E4%BB%A5%E5%8F%98%E6%88%90%E8%BF%99%E6%A0%B7).
 - [osc-show-hide-hotkey](https://github.com/linguisticmind/mpv-scripts/tree/master/osc-show-hide-hotkey) - Toggles the on-screen controller with a hotkey. [Video demonstration](https://www.youtube.com/watch?v=b-5XOZpXZMg&t=1h7m17s)
 - [osc-orange](https://github.com/maoiscat/mpv-osc-orange) - An osc/ui replacement in dark theme.
 - [mfpbar](https://codeberg.org/NRK/mpv-toolbox/src/branch/master/mfpbar) - A minimalistic progressbar and osc replacement.
+- [osc-simple](https://github.com/maoiscat/mpv-osc-simple) - An OSC/UI replacement of white theme.
+- [osc-modern-f](https://github.com/FinnRaze/mpv-osc-modern-f) - OSC script forked from [mpv-osc-modern](https://github.com/maoiscat/mpv-osc-modern).
 
 ## Input
 
@@ -267,7 +270,7 @@ into popular sections, like Subtitles etc.
 - [blackout](https://github.com/dya-tel/mpv-scripts) - Couldn't find the "Boss key", but you don't want someone (or simply anyone) to see what you are watching?
 - [blackout](https://github.com/sibwaf/mpv-scripts) - A fast crossplatform boss-key, but without window minimization (and possible problems with some VO drivers).
 - [audio-file-keys](https://github.com/fbriere/mpv-scripts/blob/master/scripts/audio-file-keys.lua) - Automatically apply key bindings when playing audio files.
-- [auto-mode](https://github.com/stax76/mpv-scripts/blob/main/auto-mode.lua) - Use mpv as video player, music player and image viewer, switch automatically between, video, audio and image mode.
+- [auto-mode](https://github.com/stax76/mpv-scripts) - Use mpv as video player, music player and image viewer, switch automatically between, video, audio and image mode.
 
 ## Subtitle
 
@@ -394,7 +397,7 @@ into popular sections, like Subtitles etc.
 - [vlccrop](https://github.com/kism/mpvscripts/blob/main/scripts/vlccrop.lua) - Implements a VLC style crop hotkey 'c' that cycles through crop settings, useful for cropping letter-boxed or pillar-boxed content.
 - [matroska-crop](https://github.com/sbruder/mpv-matroska-crop) - Automatically crop video using the Matroska PixelCrop properties. Includes optional workaround for hardware decoding.
 - [dynamic-crop](https://github.com/Ashyni/mpv-scripts#dynamic-croplua) - Dynamically crop the video by using lavfi's cropdetect filter to detect hard-coded black bars for Ultra Wide Screen (21:9) or any screen different from 16:9 (phone/old TV).
-- [crop](https://github.com/occivink/mpv-scripts#croplua) - Crop the video by defining the target rectangle with the cursor
+- [crop](https://github.com/occivink/mpv-scripts#croplua) - Crop the video by defining the target rectangle with the cursor.
 - [cropmode](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/cropmode.lua) - Adds a keyboard-oriented mode for cropping, outputting the result in a format suitable for ffmpeg.
 - [use-cpu](https://github.com/422658476/MPV-EASY-Player/blob/master/portable-data/scripts/use-cpu.lua) - If the width of the video is greater than 3000 or the height of the video is greater than 2000, it will automatically switch back to using cpu decoding.
 - [waveform](https://github.com/MikelSotomonte/mpv-waveform/tree/main) - Displays a waveform of the video in real-time.
@@ -407,7 +410,8 @@ into popular sections, like Subtitles etc.
 - [autodeint](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autodeint.lua) - Automatically deinterlace the video by using lavfi's idet filter to detect interlaced content.
 - [cycle-deinterlace-pullup](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/cycle-deinterlace-pullup.lua) - Cycle between deinterlacing, pullup (IVTC), and both filters off.
 - [curvesman](https://gitlab.com/mozbugbox/mpv-script-mozbugbox) - Manipulate color curves filter of FFmpeg with hotkeys. Brighten up color, change color temperature/tone, hopefully more. Adjust yellow light tone to white light tone.
-- [blur-edges](https://github.com/occivink/mpv-scripts#blur-edgeslua) - Replace black bars with a blurry copy of the video
+- [blur-edges](https://github.com/occivink/mpv-scripts#blur-edgeslua) - Replace black bars with a blurry copy of the video.
+- [delogo](https://github.com/GitHubUserKaito/mpv-delogo) - Remove channel logo from videos.
 
 ## Image
 
@@ -417,7 +421,7 @@ into popular sections, like Subtitles etc.
 - [clipshot](https://github.com/ObserverOfTime/mpv-scripts/blob/master/clipshot.lua) - Screenshot the video (with subs, without subs or the whole window) and copy it to the clipboard. For Windows, Linux/BSD and MacOs
 - [crop_script](https://github.com/TheAMM/mpv_crop_script) - Take cropped screenshots.
 - [gif-generator](https://github.com/the-honey/mpv-gif-generator) - Creates animated gifs using hotkeys.
-- [auto-mode](https://github.com/stax76/mpv-scripts/blob/main/auto-mode.lua) - Use mpv as video player, music player and image viewer, switch automatically between, video, audio and image mode.
+- [auto-mode](https://github.com/stax76/mpv-scripts) - Use mpv as video player, music player and image viewer, switch automatically between, video, audio and image mode.
 - [waifu2x](https://github.com/jonniek/mpv-waifu2x) - Take screenshot and convert images with waifu2x.
 - [webp-generator](https://github.com/DonCanjas/mpv-webp-generator) - Creates animated webp using mpv hotkeys. (Windows only)
 - [image-config](https://sr.ht/~guidocella/mpv-image-config) - A configuration to use mpv as an image viewer.
@@ -490,7 +494,7 @@ into popular sections, like Subtitles etc.
 - [ontop-only-while-playing](https://github.com/kungfubeaner/mpv-ontop-only-while-playing-lua/blob/master/on_top_only_while_playing.lua) - Ontop is only active during video playback. Ontop is automatically disabled during idle, pause and is able to be dynamically disabled without having to restart unlike the previous script.
 - [ontop-playback](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/ontop-playback.lua) - Disables the ontop property when pausing, and enables it again when unpausing the video, if it was disabled. Change it only when the player is not in fullscreen to prevent screen flickering.
 - [pause-when-minimize](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/pause-when-minimize.lua) - Pauses the player video when minimizing, and unpauses it when brought up again.
-- [deframe](https://github.com/b4zz4/mpv-deframe) - (Unmaintained) It removes the frame of youtube videos (press g).
+- [deframe](https://github.com/dimitris888/mpv-deframe) - Removes the frame of YouTube videos.
 - [scale-win](https://gist.github.com/garoto/920b7456d2bdd8f48aa8e7094a12ce47) - Restore old "window-scale" behavior, so to make "add window-scale +/-<value>" keybinds work again when any of the autofit-* options are defined.
 - [quick-scale](https://github.com/VideoPlayerCode/mpv-tools/) - Quickly scale the video player to a target size, with full control over target scale and max scale. Helps you effortlessly resize a video to fit on your desktop, or any other video dimensions you need!
 - [profile-cycle](https://github.com/Funami580/dotfiles/blob/master/.config/mpv/scripts/profile-cycle.lua) - Cycle between your custom defined profiles while watching the video.
@@ -629,6 +633,7 @@ into popular sections, like Subtitles etc.
 - https://github.com/davatorium/rofi
 - https://github.com/stax76/OpenWithPlusPlus
 - https://github.com/ikas-mc/ContextMenuForWindows11
+- https://github.com/mpv-player/mpv/blob/master/TOOLS/umpv
 
 # Remote Control
 
