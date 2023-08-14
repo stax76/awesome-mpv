@@ -16,7 +16,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [User Script](#user-script)
   - [Menu](#menu)
   - [Playback](#playback)
-  - [Files](#files)
+  - [File](#file)
   - [On Screen Controller](#on-screen-controller)
   - [Input](#input)
   - [Subtitle](#subtitle)
@@ -210,7 +210,7 @@ into popular sections, like Subtitles etc.
 - [auto-save-state](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/auto-save-state.lua) - Periodically saves progress with write-watch-later-config, and also cleans up the watch later data after the file is finished playing (so playlists may continue at the correct file).
 - [always-play-on-startup](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/always-play-on-startup.lua) - Always play on startup, never start playback in a paused state.
 
-## Files
+## File
 
 - [file-browser](https://github.com/CogentRedTester/mpv-file-browser) - On screen file browser. 
 - [filenavigator](https://github.com/jonniek/mpv-filenavigator) - Navigate and open local files.
