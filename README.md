@@ -156,7 +156,6 @@ into popular sections, like Subtitles etc.
 - [excessive-history](https://gist.github.com/Abject-Web/3f4f0e85dad73303b9dd1ef1f55c3147) - Excessive played media logger. Logs file name, time, and which parts were played. Will generate a `history.txt` in the mpv config folder. Only tested on Windows.
 - [history-bookmark](https://github.com/yuukidach/mpv-scripts) - Create a history file to store the episode we watched last time. And let us easily jump to the video we watched last time.
 - [plugin-bookmark](https://github.com/yozorayuki/mpv-plugin-bookmark) - Record your playing history for each folder.
-- [bookmark](https://github.com/sorayuki-winter/mpv-plugin-bookmark) - Record and resume last play in current playing folder
 - [bookmarker-menu](https://github.com/NurioHin/mpv-bookmarker) - Menu to manage all your bookmarks.
 - [misc](https://github.com/stax76/mpv-scripts) - When seeking display position and duration like so: 70:00 / 80:00
 - [misc](https://github.com/stax76/mpv-scripts) - Navigate in playlist to next/previous/first/last file.
@@ -226,7 +225,6 @@ into popular sections, like Subtitles etc.
 - [rename](https://github.com/Kayizoku/mpv-rename) - Rename files on the go directly from within MPV player window without leaving it.
 - [limited-autoload](https://github.com/glubsy/mpv-limited-autoload) - Auto-load files in a lazy way by limiting how many are loaded into playlist at once
 - [locate-file](https://github.com/nimatrueway/mpv-locatefile-lua-script) - Locate current media file on your OS file browser 
-- [fuzzydir](https://github.com/dya-tel/mpv-scripts) - This script will read your paths from `mpv.conf`, find those which end with `**` and explode them for good! For example, imagine we have a directory named `subs`, which contains `a` and `b` subdirectories.
 - [fuzzydir](https://github.com/sibwaf/mpv-scripts) - Allows using wildcards for `sub-file-paths` and `audio-file-paths`.
 
 ## On Screen Controller
