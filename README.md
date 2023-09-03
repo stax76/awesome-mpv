@@ -393,7 +393,7 @@ into popular sections, like Subtitles etc.
 
 ## Video
 
-- [changerefresh](https://github.com/CogentRedTester/mpv-changerefresh) - Automatically change the refresh rate of the current display to match the playing video.
+- [changerefresh](https://github.com/CogentRedTester/mpv-changerefresh) - Automatically change the refresh rate of the current display to match the playing video (Windows).
 - [autospeed](https://github.com/kevinlekiller/mpv_scripts/blob/master/autospeed/) - To adjust monitor refresh rate and video speed for almost 1:1 playback. (*nix)
 - [autospeedwin](https://github.com/kevinlekiller/mpv_scripts/tree/master/autospeedwin) - To adjust monitor refresh rate and video speed for almost 1:1 playback. (Windows)
 - [gpufreq](https://github.com/CounterPillow/mpv-gpufreq) - Displays the current and maximum GPU frequency as an osd message.
