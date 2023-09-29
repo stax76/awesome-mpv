@@ -394,8 +394,8 @@ into popular sections, like Subtitles etc.
 ## Video
 
 - [changerefresh](https://github.com/CogentRedTester/mpv-changerefresh) - Automatically change the refresh rate of the current display to match the playing video (Windows).
-- [autospeed](https://github.com/kevinlekiller/mpv_scripts/blob/master/autospeed/) - Adjusts monitor refresh rate and video speed for almost 1:1 playback (Unix-like OSes, Xorg / X11).
-- [autospeedwin](https://github.com/kevinlekiller/mpv_scripts/tree/master/autospeedwin) - Adjusts monitor refresh rate and video speed for almost 1:1 playback (Windows).
+- [autospeed](https://github.com/kevinlekiller/mpv_scripts/blob/master/autospeed/) - Adjusts the display refresh rate and video speed for almost 1:1 playback (Unix-like OSes, Xorg / X11).
+- [autospeedwin](https://github.com/kevinlekiller/mpv_scripts/tree/master/autospeedwin) - Adjusts the display refresh rate and video speed for almost 1:1 playback (Windows).
 - [gpufreq](https://github.com/CounterPillow/mpv-gpufreq) - Displays the current and maximum GPU frequency as an osd message.
 - [mvtools-script](https://github.com/maoiscat/mpv-mvtools-script) - vapoursynth-mvtools script.
 - [store-shaders](https://github.com/butterw/bShaders/blob/master/mpv/settings/scripts/store-shaders.js) - Store current glsl-shaders config on first run, this config will then be restored by subsequent calls.
