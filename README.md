@@ -235,6 +235,7 @@ into popular sections, like Subtitles etc.
 - [fuzzydir](https://github.com/sibwaf/mpv-scripts) - Allows using wildcards for `sub-file-paths` and `audio-file-paths`.
 - [move-file](https://github.com/ayghub/move-file) - Moves files to the watched folder.
 - [separator](https://github.com/pvpscript/mpv-separator) - Copy or move video files you wanna keep.
+- [print-playlist](https://git.sr.ht/~jagrg/dotfiles/tree/master/item/common/.config/mpv/scripts/print-playlist.lua) - cleans [the playlist formatting](https://github.com/mpv-player/mpv/issues/5868#issue-327675880) on the command-line.
 
 ## On Screen Controller
 
