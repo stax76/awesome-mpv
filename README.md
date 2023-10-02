@@ -113,7 +113,7 @@ into popular sections, like Subtitles etc.
 
 - [command_palette](https://github.com/stax76/mpv-scripts) - Searchable menu for bindings, commands, properties, the playlist, chapters and audio/subtitle tracks.
 - [M-x](https://github.com/Seme4eg/mpv-scripts/tree/master#m-x) - Searchable and configurable menu to quickly find key bindings and commands.
-- [mpv-search-page](https://github.com/CogentRedTester/mpv-search-page) - Searchable and configurable menu to quickly find key bindings, commands, options and properties.
+- [search-page](https://github.com/CogentRedTester/mpv-search-page) - Searchable and configurable menu to quickly find key bindings, commands, options and properties.
 - [search-menu](https://github.com/stax76/mpv-scripts) - Searchable and configurable menu to quickly find key bindings, commands, properties, audio/subtitle tracks and playlist entries.
 - [mdmenu](https://codeberg.org/NRK/mpv-toolbox/src/branch/master/mdmenu) - Use dmenu (Linux launcher) for selecting audio/subtitle/chapters etc.
 - [Tcl/Tk context-menu](https://gist.github.com/avih/bee746200b5712220b8bd2f230e535de) - Configurable context-menu based on Tcl/Tk (cross-platform).
@@ -215,6 +215,7 @@ into popular sections, like Subtitles etc.
 - [always-play-on-startup](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/always-play-on-startup.lua) - Always play on startup, never start playback in a paused state.
 - [lilskippa](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/lilskippa.lua) - Skip to black, skip to silence, skip to scene change.
 - [mpv_segment_length](https://github.com/shadax1/mpv_segment_length) - Displays the length of a segment/range from point A to point B.
+- [print-playlist](https://git.sr.ht/~jagrg/dotfiles/tree/master/item/common/.config/mpv/scripts/print-playlist.lua) - cleans [the playlist formatting](https://github.com/mpv-player/mpv/issues/5868#issue-327675880) on the command-line.
 
 ## File
 
@@ -235,7 +236,6 @@ into popular sections, like Subtitles etc.
 - [fuzzydir](https://github.com/sibwaf/mpv-scripts) - Allows using wildcards for `sub-file-paths` and `audio-file-paths`.
 - [move-file](https://github.com/ayghub/move-file) - Moves files to the watched folder.
 - [separator](https://github.com/pvpscript/mpv-separator) - Copy or move video files you wanna keep.
-- [print-playlist](https://git.sr.ht/~jagrg/dotfiles/tree/master/item/common/.config/mpv/scripts/print-playlist.lua) - cleans [the playlist formatting](https://github.com/mpv-player/mpv/issues/5868#issue-327675880) on the command-line.
 
 ## On Screen Controller
 
