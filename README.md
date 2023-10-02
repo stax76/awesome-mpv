@@ -649,7 +649,7 @@ into popular sections, like Subtitles etc.
 
 # Launcher
 
-- https://add0n.com/external-application-button.html
+- https://www.google.com/search?q=external+application+launcher
 - https://github.com/Flow-Launcher/Flow.Launcher
 - https://github.com/stax76/Flow.Launcher.Plugin.Favorites
 - https://albertlauncher.github.io
@@ -696,3 +696,4 @@ into popular sections, like Subtitles etc.
 - [mpvQC](https://github.com/mpvqc/mpvQC) - Cross-platform application for quality control of videos, based on Python/QT.
 - [vidify](https://vidify.org) - Cross-platform app that detects playing songs on your device and plays their music videos anywhere, based on Python.
 - [Karaoke Mugen](https://karaokes.moe/de/) - Cross-platform karaoke management app, based on JavaScript/node.js/Web.
+- [gnome-shell-extension-caffeine](https://github.com/eonpatapon/gnome-shell-extension-caffeine) - Prevent the display from turning off (Gnome doesn't support the idle-inhibit protocol on Wayland) and disable the 'night light' when a mpv window is in focus.
