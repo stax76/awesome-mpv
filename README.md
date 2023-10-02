@@ -215,7 +215,7 @@ into popular sections, like Subtitles etc.
 - [always-play-on-startup](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/always-play-on-startup.lua) - Always play on startup, never start playback in a paused state.
 - [lilskippa](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/lilskippa.lua) - Skip to black, skip to silence, skip to scene change.
 - [mpv_segment_length](https://github.com/shadax1/mpv_segment_length) - Displays the length of a segment/range from point A to point B.
-- [print-playlist](https://git.sr.ht/~jagrg/dotfiles/tree/master/item/common/.config/mpv/scripts/print-playlist.lua) - cleans [the playlist formatting](https://github.com/mpv-player/mpv/issues/5868#issue-327675880) on the command-line.
+- [print-playlist](https://git.sr.ht/~jagrg/dotfiles/tree/master/item/common/.config/mpv/scripts/print-playlist.lua) - Cleans [the playlist formatting](https://github.com/mpv-player/mpv/issues/5868#issue-327675880) on the terminal.
 
 ## File
 
