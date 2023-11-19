@@ -112,6 +112,7 @@ into popular sections, like Subtitles etc.
 ## Menu
 
 - [command_palette](https://github.com/stax76/mpv-scripts) - Searchable menu for bindings, commands, properties, the playlist, chapters and audio/subtitle tracks.
+- [uosc](https://github.com/tomasklaen/uosc) - Popular OSC with menu.
 - [M-x](https://github.com/Seme4eg/mpv-scripts/tree/master#m-x) - Searchable and configurable menu to quickly find key bindings and commands.
 - [search-page](https://github.com/CogentRedTester/mpv-search-page) - Searchable and configurable menu to quickly find key bindings, commands, options and properties.
 - [search-menu](https://github.com/stax76/mpv-scripts) - Searchable and configurable menu to quickly find key bindings, commands, properties, audio/subtitle tracks and playlist entries.
@@ -239,7 +240,7 @@ into popular sections, like Subtitles etc.
 
 ## On Screen Controller
 
-- [uosc](https://github.com/tomasklaen/uosc) - Minimalist proximity-based UI.
+- [uosc](https://github.com/tomasklaen/uosc) - Popular OSC with menu.
 - [osc-modern](https://github.com/maoiscat/mpv-osc-modern) - Modern OSC replacement.
 - [ModernX](https://github.com/cyl0/ModernX) - Modern OSC replacement.
 - [modern-x-compact](https://github.com/1-minute-to-midnight/mpv-modern-x-compact) - Compact version of modern-x.
