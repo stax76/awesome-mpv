@@ -152,7 +152,7 @@ into popular sections, like Subtitles etc.
 - [plugin-myshows](https://github.com/gim-/mpv-plugin-myshows) - Automatically marks a currently watched episode in MyShows.
 - [writename](https://github.com/paradox460/mpv-scripts/tree/master/writename) - Write the currently playing filename/path to a file, optionally skipping/removing from current playlist and muting.
 - [when-to-loop](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/when-to-loop.lua) - Intelligently decide when mpv should loop, i.e. while shuffling or while playing a short file.
-- [UndoRedo](https://github.com/Eisa01/mpv-scripts#undoredo) - If you seek to a different time in the video, press undo [ctrl]+[z] to linearly undo the seeks in the video, and press redo [ctrl]+[y] to linearly return to previous undo positions. More details in the link above.
+- [UndoRedo](https://github.com/Eisa01/mpv-scripts#undoredo) - Undo and Redo feature for mpv. If you seek/jump to a different time in the video, press undo [ctrl]+[z] to linearly undo the seeks/jumps in the video, and press redo [ctrl]+[y] to linearly return to previous undo positions. More details in the link above.
 - [history](https://github.com/stax76/mpv-scripts) - Writes date, time, playtime and filename to a log file: `10.09.2022 19:50  3 D:\Samples\Big Buck Bunny.mkv`
 - [history](https://gist.github.com/garoto/e0eb539b210ee077c980e01fb2daef4a) - Simple played media logger. Will generate a `mpvhistory.log` in the default mpv config folder (%APPDATA%/mpv/ or $HOME/.config/mpv/) in the format `[$DATE $TIME] $PATH ($?MEDIA-TITLE)`. Only tested on Windows.
 - [history](http://git.smrk.net/mpv-scripts/file/history.lua.html) - Autosave played media items in an SQLite database, restore last played position, select (with dmenu(1)) and play item from history.
@@ -217,6 +217,8 @@ into popular sections, like Subtitles etc.
 - [lilskippa](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/lilskippa.lua) - Skip to black, skip to silence, skip to scene change.
 - [mpv_segment_length](https://github.com/shadax1/mpv_segment_length) - Displays the length of a segment/range from point A to point B.
 - [print-playlist](https://git.sr.ht/~jagrg/dotfiles/tree/master/item/common/.config/mpv/scripts/print-playlist.lua) - Cleans [the playlist formatting](https://github.com/mpv-player/mpv/issues/5868#issue-327675880) on the terminal.
+- [SmartSkip](https://github.com/Eisa01/mpv-scripts/#smartskip) - Automatically or manually skip opening, intro, outro, and preview, like never before. Jump to next file, previous file, and save your chapter changes! Much more explained in the link above.
+- [btime](https://github.com/butterw/bShaders/blob/master/mpv/settings/scripts/btime.js) - Shows a shorter time format when seeking: 0:15 / 3:10, 08:20 / 55:00, 0:00:05 / 1:30:14.
 
 ## File
 
@@ -235,8 +237,8 @@ into popular sections, like Subtitles etc.
 - [limited-autoload](https://github.com/glubsy/mpv-limited-autoload) - Auto-load files in a lazy way by limiting how many are loaded into playlist at once
 - [locate-file](https://github.com/nimatrueway/mpv-locatefile-lua-script) - Locate current media file on your OS file browser 
 - [fuzzydir](https://github.com/sibwaf/mpv-scripts) - Allows using wildcards for `sub-file-paths` and `audio-file-paths`.
-- [move-file](https://github.com/ayghub/move-file) - Moves files to the watched folder.
 - [separator](https://github.com/pvpscript/mpv-separator) - Copy or move video files you wanna keep.
+- [open-in-explorer](https://gist.github.com/Sneakpeakcss/05a97d509b8be67a6f11400b0bee54ab) - Shows the currently playing file in Windows File Explorer.
 
 ## On Screen Controller
 
@@ -320,6 +322,10 @@ into popular sections, like Subtitles etc.
 - [autosub](https://github.com/vayan/autosub-mpv/blob/master/autosub.lua) - Automatically download subtitles using **subliminal**.
 - [Audio WebDAV & Sub WebDAV](https://github.com/Kibakus/mpv-scripts) - Auto connection of external subtitles and sound, using the "WEBDAV" protocol. The connection is explicit due to explicitly specifying folders on the WebDAV server.
 - [sub-not-forced-not-sdh](https://github.com/pzim-devdata/mpv-scripts) - Prevents the selection of FORCED and SDH subtitles when you start playing a video.
+- [autoselect-forced-sub](https://github.com/pierretom/autoselect-forced-sub) - Automatically select forced subtitles in a different way.
+- [subtitle-lines](https://github.com/christoph-heinrich/mpv-subtitle-lines) - List and search subtitle lines of the selected subtitle track.
+- [auto-load-fonts](https://github.com/Hill-98/mpv-config/blob/main/scripts/auto-load-fonts.js) - Auto load the font files in the fonts folder under the play file path.
+- [rename-sub](https://github.com/ayghub/rename-sub) - Rename current subtitle file as the playing video.
 
 ## Learning
 
@@ -358,6 +364,7 @@ into popular sections, like Subtitles etc.
 - [Audio WebDAV & Sub WebDAV](https://github.com/Kibakus/mpv-scripts) - Auto connection of external subtitles and sound, using the "WEBDAV" protocol. The connection is explicit due to explicitly specifying folders on the WebDAV server.
 - [adevice-list](https://github.com/dyphire/mpv-scripts/blob/main/adevice-list.lua) - Interractive audio-device list menu.
 - [acompressor](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/acompressor.lua) - Dynamic range compressor using acompressor ffmpeg filter with controls to dynamically adjust parameters.
+- [switch-both-audio](https://github.com/70sh1/mpv-switch-both-audio) - Switch between playing one or two audio tracks simultaneously upon file load or with a hotkey.
 
 ## Streaming
 
@@ -378,7 +385,7 @@ into popular sections, like Subtitles etc.
 - [youtube-queue](https://github.com/ksyasuda/mpv-youtube-queue) - Implements the YouTube 'Add to Queue' functionality. Allows adding video urls to the queue from the clipboard, and provides a menu for interacting with the queue.
 - [webtorrent-hook](https://github.com/noctuid/mpv-webtorrent-hook) - Allows streaming torrents using webtorrent (same as mpv-peerflix-hook but using webtorrent instead). Webtorrent-cli can play in mpv with `webtorrent --mpv`, but this script allows using torrent identifiers as the file argument to mpv or pasting them into the current playlist using one of the pasting scripts listed here. It also supports additional functionality like automatic file cleanup and the ability to remember the last file played in the torrent. See the readme for more information. See [here](https://github.com/noctuid/mpv-webtorrent-hook#comparison-with-webtorrent-mpv-hook) for a comparison with the other javascript webtorrent plugin. I recommend this plugin over my others (mpv-peerflix-hook and btfs-stream).
 - [play-with](https://github.com/grmat/play-with) - A web browser extension that can open a video stream on a web page with an external player.
-- [confluence](https://github.com/ftk/mpv-confluence) - Open magnet links using [confluence](https://github.com/anacrolix/confluence) HTTP service.
+- [confluence](https://github.com/ftk/mpv-confluence) - Open magnet links using [confluence](https://github.com/anacrolix/confluence) HTTP service. Recommended to use [modified script](https://github.com/ftk/mpv-confluence/tree/torrserver) for [TorrServer](https://github.com/YouROK/TorrServer) instead.
 - [btfs-hook](https://github.com/aitet/mpv-btfs-hook) - Allows streaming torrents using FUSE via btfs. 
 - [btfs-stream](https://github.com/noctuid/mpv-btfs-stream) - Allows streaming torrents using btfs. As far as I can tell, it is much simpler than the above scripts (no long shell script execution) and much more configurable (the other scripts have no settings). This is much slower than using webtorrent though, so I recommend using webtorrent-hook instead.
 - [streamcache](https://gitlab.com/lvml/mpv-plugin-streamcache) - Provides for more network-glitch-robust caching of live streams by adjusting replay speed.
@@ -522,6 +529,7 @@ into popular sections, like Subtitles etc.
 - [oled-screensaver](https://github.com/Akemi/mpv-oled-screensaver) - To prevent burn-ins on OLED TVs, this script fades-in a black screen after 15 seconds when paused in fullscreen.
 - [notify-send](https://github.com/emilazy/mpv-notify-send) - A simpler and more recent notifications script for libnotify-compatible (i.e. Unix-like) notifications daemons only. Supports cover art.
 - [notify](https://github.com/rohieb/mpv-notify) - Adds desktop notifications to the mpv media player, which show metadata like artist, album name and track name when the track changes.
+- [notify](https://github.com/mpv-notify/mpv-notify) - Converging point for all forks of rohieb's notify scrip.
 - [osd-clock](https://github.com/blue-sky-r/mpv/blob/master/scripts/osd-clock.lua) - Periodically shows OSD clock (many configurable options).
 - [clock](https://gitlab.com/mozbugbox/mpv-script-mozbugbox) - Constantly show current time on the lower left corner of the video screen.
 - [txt](https://github.com/jgreco/mpv-txt) - Play text files using text-to-speech (TTS). (Works on Linux, MacOS).
@@ -548,6 +556,8 @@ into popular sections, like Subtitles etc.
 - [composition guides](https://github.com/Ares-0/mpv-composition-guides) - Overlay basic composition guides onto your video.
 - [clipboard](https://github.com/CogentRedTester/mpv-clipboard) - Provides a set of generic commands to interact with the clipboard. Specifically it allows user to copy arbitrary text to the clipboard and provides the ability to paste the contents of the clipboard into other commands.
 - [change-screen-by-aspect-ratio](https://gist.github.com/stt/9e55ffa7f5047605b2dd8af417cf36f0) - Change the active fs-screen based on video's aspect ratio (for systems with monitors in landscape and portrait orientations).
+- [mpvMatroska](https://github.com/hubblec4/mpvMatroska) - mpvMatroska turns mpv into a Matroska player.
+- [bstat](https://github.com/butterw/bShaders/blob/master/mpv/settings/scripts/bstat.js) - Calculates new user-data properties (req mpv v0.36) including avg-bitrate, rounded file-size, exact aspect ratio, etc. Output to terminal or OSD. Updates when a new file is loaded or on demand.
 
 # Music Player
 
@@ -631,6 +641,7 @@ into popular sections, like Subtitles etc.
 - [Pixel Clipper](https://github.com/Artoriuz/glsl-pixel-clipper) - Simple anti-ringing filter based on pixel clipping/clamping.
 - [JointBilateral & FastBilateral](https://github.com/Artoriuz/glsl-joint-bilateral) - Chroma upsamplers that use the luma plane as a guide to achieve sharper transitions without introducing any ringing.
 - [A-Pack](https://github.com/butterw/bShaders/tree/master/A-pack) - Shaders pack for quick Adjustment of (web) video: brightness/contrast curves (tooDark, tooBright, bShadows, bDim, etc.) and color (vibrance, skintones, Black&White). Runs on integrated graphics.
+
 
 # VapourSynth Scripts
 
