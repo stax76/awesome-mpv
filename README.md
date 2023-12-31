@@ -365,6 +365,7 @@ into popular sections, like Subtitles etc.
 - [adevice-list](https://github.com/dyphire/mpv-scripts/blob/main/adevice-list.lua) - Interractive audio-device list menu.
 - [acompressor](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/acompressor.lua) - Dynamic range compressor using acompressor ffmpeg filter with controls to dynamically adjust parameters.
 - [switch-both-audio](https://github.com/70sh1/mpv-switch-both-audio) - Switch between playing one or two audio tracks simultaneously upon file load or with a hotkey.
+- [cycle-adevice](https://gist.github.com/bitingsock/ad58ee5da560ecb922fa4a867ac0ecfd) - Cycle through available audio devices.
 
 ## Streaming
 
@@ -386,7 +387,7 @@ into popular sections, like Subtitles etc.
 - [webtorrent-hook](https://github.com/noctuid/mpv-webtorrent-hook) - Allows streaming torrents using webtorrent (same as mpv-peerflix-hook but using webtorrent instead). Webtorrent-cli can play in mpv with `webtorrent --mpv`, but this script allows using torrent identifiers as the file argument to mpv or pasting them into the current playlist using one of the pasting scripts listed here. It also supports additional functionality like automatic file cleanup and the ability to remember the last file played in the torrent. See the readme for more information. See [here](https://github.com/noctuid/mpv-webtorrent-hook#comparison-with-webtorrent-mpv-hook) for a comparison with the other javascript webtorrent plugin. I recommend this plugin over my others (mpv-peerflix-hook and btfs-stream).
 - [play-with](https://github.com/grmat/play-with) - A web browser extension that can open a video stream on a web page with an external player.
 - [confluence](https://github.com/ftk/mpv-confluence) - Open magnet links using [confluence](https://github.com/anacrolix/confluence) HTTP service. Recommended to use [modified script](https://github.com/ftk/mpv-confluence/tree/torrserver) for [TorrServer](https://github.com/YouROK/TorrServer) instead.
-- [mpv-torrserver](https://github.com/kritma/mpv-torrserver) - Allows streaming torrents using [TorrServer](https://github.com/YouROK/TorrServer). Support magnet links and .torrent files
+- [torrserver](https://github.com/kritma/mpv-torrserver) - Allows streaming torrents using [TorrServer](https://github.com/YouROK/TorrServer). Support magnet links and .torrent files
 - [btfs-hook](https://github.com/aitet/mpv-btfs-hook) - Allows streaming torrents using FUSE via btfs. 
 - [btfs-stream](https://github.com/noctuid/mpv-btfs-stream) - Allows streaming torrents using btfs. As far as I can tell, it is much simpler than the above scripts (no long shell script execution) and much more configurable (the other scripts have no settings). This is much slower than using webtorrent though, so I recommend using webtorrent-hook instead.
 - [streamcache](https://gitlab.com/lvml/mpv-plugin-streamcache) - Provides for more network-glitch-robust caching of live streams by adjusting replay speed.
