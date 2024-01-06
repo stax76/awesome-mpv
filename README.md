@@ -123,6 +123,7 @@ into popular sections, like Subtitles etc.
 - [mpvc-tui](https://github.com/gmt4/mpvc) - Command-line and TUI for mpv.
 - [contextmenu](https://gitlab.com/carmanaught/mpvcontextmenu) - Configurable context-menu based on Tcl/Tk (cross-platform).
 - [menu](https://github.com/nezumisama/mpvmenu) - Configurable on screen context-menu.
+- [menu-plugin](https://github.com/tsl0922/mpv-menu-plugin) - Configurable native context menu for mpv (Windows).
 
 ## Playback
 
@@ -560,6 +561,7 @@ into popular sections, like Subtitles etc.
 - [change-screen-by-aspect-ratio](https://gist.github.com/stt/9e55ffa7f5047605b2dd8af417cf36f0) - Change the active fs-screen based on video's aspect ratio (for systems with monitors in landscape and portrait orientations).
 - [mpvMatroska](https://github.com/hubblec4/mpvMatroska) - mpvMatroska turns mpv into a Matroska player.
 - [bstat](https://github.com/butterw/bShaders/blob/master/mpv/settings/scripts/bstat.js) - Calculates new user-data properties (req mpv v0.36) including avg-bitrate, rounded file-size, exact aspect ratio, etc. Output to terminal or OSD. Updates when a new file is loaded or on demand.
+- [debug-plugin](https://github.com/tsl0922/mpv-debug-plugin) - A debug tool for mpv script developers
 
 # Music Player
 
