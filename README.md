@@ -220,6 +220,8 @@ into popular sections, like Subtitles etc.
 - [print-playlist](https://git.sr.ht/~jagrg/dotfiles/tree/master/item/common/.config/mpv/scripts/print-playlist.lua) - Cleans [the playlist formatting](https://github.com/mpv-player/mpv/issues/5868#issue-327675880) on the terminal.
 - [SmartSkip](https://github.com/Eisa01/mpv-scripts/#smartskip) - Automatically or manually skip opening, intro, outro, and preview, like never before. Jump to next file, previous file, and save your chapter changes! Much more explained in the link above.
 - [btime](https://github.com/butterw/bShaders/blob/master/mpv/settings/scripts/btime.js) - Shows a shorter time format when seeking: 0:15 / 3:10, 08:20 / 55:00, 0:00:05 / 1:30:14.
+- [countdown](https://github.com/butterw/bShaders/blob/master/mpv/settings/scripts/countdown.lua) - Display a countdown on OSD for the final seconds of the video (or music file).
+- [mpv-slash-search](https://github.com/Anakievs/mpv-slash-search) - Simple and lightweight script that allows you to search for a file in the playlist and jump to the first match.
 
 ## File
 
@@ -345,7 +347,7 @@ into popular sections, like Subtitles etc.
 
 - [coverart](https://github.com/CogentRedTester/mpv-coverart) - Automatically loads external cover art for music files.
 - [metadata-osd](https://github.com/vc-01/metadata-osd) - Adds OSD showing song name, album name and other metadata.
-- [lrc](https://sr.ht/~guidocella/mpv-lrc) - Download synchronized lyrics of the currently playing song.
+- [lrc](https://github.com/guidocella/mpv-lrc) - Download synchronized lyrics of the currently playing song.
 
 ## Audio
 
@@ -448,7 +450,7 @@ into popular sections, like Subtitles etc.
 - [auto-mode](https://github.com/stax76/mpv-scripts) - Use mpv as video player, music player and image viewer, switch automatically between, video, audio and image mode.
 - [waifu2x](https://github.com/jonniek/mpv-waifu2x) - Take screenshot and convert images with waifu2x.
 - [webp-generator](https://github.com/DonCanjas/mpv-webp-generator) - Creates animated webp using mpv hotkeys. (Windows only)
-- [image-config](https://sr.ht/~guidocella/mpv-image-config) - A configuration to use mpv as an image viewer.
+- [image-config](https://github.com/guidocella/mpv-image-config) - A configuration to use mpv as an image viewer.
 - [gallery-dl_hook](https://github.com/jgreco/mpv-scripts/blob/master/gallery-dl_hook.lua) - Load online image galleries (imgur, etc) as playlists using [gallery-dl](https://github.com/mikf/gallery-dl/).
 - [gallery-dl-view](https://github.com/noctuid/gallery-dl-view) - Load image galleries directly in mpv like gallery-dl_hook but with extra functionality like binding a key to download images, optionally only loading images that are new since the gallery was last opened, and more.
 - [contact-sheet](https://github.com/occivink/mpv-gallery-view) - Display thumbnails of the current file in the style of a contact sheet
@@ -562,6 +564,7 @@ into popular sections, like Subtitles etc.
 - [mpvMatroska](https://github.com/hubblec4/mpvMatroska) - mpvMatroska turns mpv into a Matroska player.
 - [bstat](https://github.com/butterw/bShaders/blob/master/mpv/settings/scripts/bstat.js) - Calculates new user-data properties (req mpv v0.36) including avg-bitrate, rounded file-size, exact aspect ratio, etc. Output to terminal or OSD. Updates when a new file is loaded or on demand.
 - [debug-plugin](https://github.com/tsl0922/mpv-debug-plugin) - A debug tool for mpv script developers
+- [user-data-loader](https://github.com/CogentRedTester/mpv-user-data-loader) - Allows the `user-data` property to be set at launch using config files and changed using profiles and script-opts during runtime.
 
 # Music Player
 
