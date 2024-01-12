@@ -45,7 +45,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [Launcher](#launcher)
 - [Remote Control](#remote-control)
 - [Building](#building)
-- [Library](#library)
+- [Library](#library-1)
 - [Other Tools](#other-tools)
 
 # Media Player
