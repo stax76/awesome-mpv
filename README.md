@@ -706,6 +706,7 @@ into popular sections, like Subtitles etc.
 - [script](https://www.npmjs.com/package/@types/mpv-script) - npm TypeScript definitions (JavaScript).
 - [node](https://github.com/rcombs/node-mpv) - Node.js interface (JavaScript).
 - [js](https://github.com/Kagami/mpv.js) - Embeddable player for Electron/NW.js (JavaScript).
+- [object pascal](https://github.com/URUWorks/UW_MPVPlayer) - Embeddable player for Object Pascal.
 
 # Other Tools
 
