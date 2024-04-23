@@ -124,7 +124,9 @@ into popular sections, like Subtitles etc.
 - [mpvc-tui](https://github.com/gmt4/mpvc) - Command-line and TUI for mpv.
 - [contextmenu](https://gitlab.com/carmanaught/mpvcontextmenu) - Configurable context-menu based on Tcl/Tk (cross-platform).
 - [menu](https://github.com/nezumisama/mpvmenu) - Configurable on screen context-menu.
-- [menu-plugin](https://github.com/tsl0922/mpv-menu-plugin) - Configurable native context menu for mpv (Windows).
+- [menu-plugin](https://github.com/tsl0922/mpv-menu-plugin) - Win32 context menu, file dialog, clipboard support for mpv on Windows.
+- [console-select](https://github.com/guidocella/mpv-console-select) - Select a playlist entry, track, chapter, or subtitle line to seek to in mpv's console.
+- [dyn_menu](https://github.com/tsl0922/mpv-menu-plugin/blob/main/src/lua/dyn_menu.lua) - Dynamic menu items (tracks/chapters/...) support for mpv-menu-plugin.
 
 ## Playback
 
@@ -132,7 +134,7 @@ into popular sections, like Subtitles etc.
 - [trackselect](https://github.com/po5/trackselect) - Select tracks based on their title.
 - [chapterskip](https://github.com/po5/chapterskip) - Skip chapters based on their title.
 - [createchapter](https://github.com/shinchiro/mpv-createchapter) - Temporarily mark the current playback position as a chapter so you can seek to it later. Also allows writing current chapters as XML.
-- [chapters](https://github.com/zxhzxhz/mpv-chapters) - Display chapters and switch between chapters.
+- [chapters](https://github.com/zxhzxhz/mpv-chapters) - Display chapters and allow you to jump to them with a mouse click. ([Preview](https://i.imgur.com/f7WtKYN.png))
 - [chapter-list](https://github.com/CogentRedTester/mpv-scroll-list/blob/master/examples/chapter-list.lua) - Interractive chapter-list menu.
 - [chapter-make-read](https://github.com/dyphire/mpv-scripts/blob/main/chapter-make-read.lua) - Automatically read an load the namesake external chapter file with extension of CHP. Temporarily mark the current playback position as a chapter so you can seek to it later. Also allows writing current chapters as CHP or XML. Based on `createchapter`.
 - [chapters-menu](https://github.com/Seme4eg/mpv-scripts/tree/master#chapters-menu) - List all chapters of current video, search and choose any.
@@ -215,14 +217,15 @@ into popular sections, like Subtitles etc.
 - [autoloop](https://github.com/zc62/mpv-scripts/blob/master/autoloop.lua) - Automatically loops files that are under a given duration (default 5 seconds).
 - [autosave](https://gist.github.com/Hakkin/5489e511bd6c8068a0fc09304c9c5a82) - Periodically saves "watch later" data during playback, rather than only saving on quit. Newer [fork](https://gist.github.com/CyberShadow/2f71a97fb85ed42146f6d9f522bc34ef).
 - [auto-save-state](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/auto-save-state.lua) - Periodically saves progress with write-watch-later-config, and also cleans up the watch later data after the file is finished playing (so playlists may continue at the correct file).
-- [always-play-on-startup](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/always-play-on-startup.lua) - Always play on startup, never start playback in a paused state.
 - [lilskippa](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/lilskippa.lua) - Skip to black, skip to silence, skip to scene change.
 - [mpv_segment_length](https://github.com/shadax1/mpv_segment_length) - Displays the length of a segment/range from point A to point B.
 - [print-playlist](https://git.sr.ht/~jagrg/dotfiles/tree/master/item/common/.config/mpv/scripts/print-playlist.lua) - Cleans [the playlist formatting](https://github.com/mpv-player/mpv/issues/5868#issue-327675880) on the terminal.
 - [SmartSkip](https://github.com/Eisa01/mpv-scripts/#smartskip) - Automatically or manually skip opening, intro, outro, and preview, like never before. Jump to next file, previous file, and save your chapter changes! Much more explained in the link above.
 - [btime](https://github.com/butterw/bShaders/blob/master/mpv/settings/scripts/btime.js) - Shows a shorter time format when seeking: 0:15 / 3:10, 08:20 / 55:00, 0:00:05 / 1:30:14.
 - [countdown](https://github.com/butterw/bShaders/blob/master/mpv/settings/scripts/countdown.lua) - Display a countdown on OSD for the final seconds of the video (or music file).
-- [mpv-slash-search](https://github.com/Anakievs/mpv-slash-search) - Simple and lightweight script that allows you to search for a file in the playlist and jump to the first match.
+- [mpv-slash-search](https://codeberg.org/Anakiev/mpv-slash-search) - Simple and lightweight script that allows you to search for a file in the playlist and jump to the first match.
+- [mpvclip-mpvival-mpvloop](https://github.com/o770/mpvclip-mpvival-mpvloop) - Run MPV with options for loops and playback start and end times set according to a pattern or intervals of the total duration of a file.
+- [loop-until](https://github.com/ZreXoc/mpv-loop-until) - Loop the video until a specified amount of time. (e.g. loop a 30s wallpaper video to 30min)
 
 ## File
 
@@ -243,6 +246,7 @@ into popular sections, like Subtitles etc.
 - [fuzzydir](https://github.com/sibwaf/mpv-scripts) - Allows using wildcards for `sub-file-paths` and `audio-file-paths`.
 - [separator](https://github.com/pvpscript/mpv-separator) - Copy or move video files you wanna keep.
 - [open-in-explorer](https://gist.github.com/Sneakpeakcss/05a97d509b8be67a6f11400b0bee54ab) - Shows the currently playing file in Windows File Explorer.
+- [open-dir](https://github.com/ayghub/open-dir) - Opens the path of the current file in Windows File Explorer.
 
 ## On Screen Controller
 
@@ -287,6 +291,7 @@ into popular sections, like Subtitles etc.
 - [blackout](https://github.com/sibwaf/mpv-scripts) - A fast crossplatform boss-key, but without window minimization (and possible problems with some VO drivers).
 - [audio-file-keys](https://github.com/fbriere/mpv-scripts/blob/master/scripts/audio-file-keys.lua) - Automatically apply key bindings when playing audio files.
 - [auto-mode](https://github.com/stax76/mpv-scripts) - Use mpv as video player, music player and image viewer, switch automatically between, video, audio and image mode.
+- [mpv-omniGlass](https://github.com/guarapicci/mpv-omniGlass) - Touchpad gestures for mpv.
 
 ## Subtitle
 
@@ -330,6 +335,7 @@ into popular sections, like Subtitles etc.
 - [subtitle-lines](https://github.com/christoph-heinrich/mpv-subtitle-lines) - List and search subtitle lines of the selected subtitle track.
 - [auto-load-fonts](https://github.com/Hill-98/mpv-config/blob/main/scripts/auto-load-fonts.js) - Auto load the font files in the fonts folder under the play file path.
 - [rename-sub](https://github.com/ayghub/rename-sub) - Rename current subtitle file as the playing video.
+- [whisper-subs](https://github.com/GhostNaN/whisper-subs) - Generates subtitles at runtime with whisper.cpp on Linux.
 
 ## Learning
 
@@ -370,6 +376,8 @@ into popular sections, like Subtitles etc.
 - [acompressor](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/acompressor.lua) - Dynamic range compressor using acompressor ffmpeg filter with controls to dynamically adjust parameters.
 - [switch-both-audio](https://github.com/70sh1/mpv-switch-both-audio) - Switch between playing one or two audio tracks simultaneously upon file load or with a hotkey.
 - [cycle-adevice](https://gist.github.com/bitingsock/ad58ee5da560ecb922fa4a867ac0ecfd) - Cycle through available audio devices.
+- [Sofalizer](https://gist.github.com/kevinlekiller/9fd21936411d8dc5998793470c6e3d16#file-sofalizer-lua) - Simulates 7.1 surround sound to your headset. Get the sofa file from [here](https://sofacoustics.org/data/database/clubfritz/ClubFritz6.sofa)
+- [ff-silence](https://github.com/mesvam/ff-silence) - Fast forward through silences and quiet parts of audio, useful on videos where the speaker uses many long pauses.
 
 ## Streaming
 
@@ -505,7 +513,7 @@ into popular sections, like Subtitles etc.
 
 - [webm](https://github.com/ekisu/mpv-webm) - WebM converter based on MoonScript.
 - [manager](https://github.com/po5/mpv_manager) - Script and shader manager.
-- [copyStuff](https://github.com/0xR3V/mpv-copyStuff) - Copy to clipboard the filename, full filename path, relative filename path, current video time, current displayed subtitle text, video duration/metadata.
+- [copyStuff](https://github.com/rofe33/mpv-copyStuff) - Copy to clipboard the filename or URL, full filename path, current video time, current displayed subtitle text, video duration/metadata.
 - [copyTime](https://github.com/Arieleg/mpv-copyTime) - Copies the current time to the clipboard.
 - [copy to music](https://github.com/yazeed44/mpv-scripts) - Copies the current media file you're playing to a predefined directory, and plays the next entry in the playlist (Unix-like)
 - [copy-paste-URL](https://github.com/zenyd/mpv-scripts) - Paste URLs directly from clipboard into mpv
@@ -564,8 +572,9 @@ into popular sections, like Subtitles etc.
 - [change-screen-by-aspect-ratio](https://gist.github.com/stt/9e55ffa7f5047605b2dd8af417cf36f0) - Change the active fs-screen based on video's aspect ratio (for systems with monitors in landscape and portrait orientations).
 - [mpvMatroska](https://github.com/hubblec4/mpvMatroska) - mpvMatroska turns mpv into a Matroska player.
 - [bstat](https://github.com/butterw/bShaders/blob/master/mpv/settings/scripts/bstat.js) - Calculates new user-data properties (req mpv v0.36) including avg-bitrate, rounded file-size, exact aspect ratio, etc. Output to terminal or OSD. Updates when a new file is loaded or on demand.
-- [debug-plugin](https://github.com/tsl0922/mpv-debug-plugin) - A debug tool for mpv script developers
+- [debug-plugin](https://github.com/tsl0922/mpv-debug-plugin) - A debug tool for mpv script developers, with GUI support for properties and console.
 - [user-data-loader](https://github.com/CogentRedTester/mpv-user-data-loader) - Allows the `user-data` property to be set at launch using config files and changed using profiles and script-opts during runtime.
+- [lua-repl](https://github.com/guidocella/mpv-lua-repl) - A Lua REPL in the console with Tab completion and pretty-printing of returned tables. It lets you test mpv's and Lua's API without writing a script.
 
 # Music Player
 
@@ -649,7 +658,8 @@ into popular sections, like Subtitles etc.
 - [Pixel Clipper](https://github.com/Artoriuz/glsl-pixel-clipper) - Simple anti-ringing filter based on pixel clipping/clamping.
 - [JointBilateral & FastBilateral](https://github.com/Artoriuz/glsl-joint-bilateral) - Chroma upsamplers that use the luma plane as a guide to achieve sharper transitions without introducing any ringing.
 - [A-Pack](https://github.com/butterw/bShaders/tree/master/A-pack) - Shaders pack for quick Adjustment of (web) video: brightness/contrast curves (tooDark, tooBright, bShadows, bDim, etc.) and color (vibrance, skintones, Black&White). Runs on integrated graphics.
-
+- [ArtCNN](https://github.com/Artoriuz/ArtCNN) - Luma doublers trained on Manga109.
+- [CuNNy](https://github.com/cunnyplapper/CuNNy) - Cute and funny CNN-based upscaler optimized for anime.
 
 # VapourSynth Scripts
 
@@ -702,12 +712,16 @@ into popular sections, like Subtitles etc.
 
 - [python](https://github.com/jaseg/python-mpv) - Python interface.
 - [py](https://github.com/marcan/pympv) - Another Python interface.
-- [ruby](https://github.com/woodruffw/ruby-mpv) - Ruby interface.
 - [mpv.d.ts](https://github.com/Cerlancism/mpv.d.ts) - TypeScript definition file (JavaScript).
-- [script](https://www.npmjs.com/package/@types/mpv-script) - npm TypeScript definitions (JavaScript).
+- [script](https://www.npmjs.com/package/@types/mpv-script) - TypeScript definitions for builtin `mp` modules and globals.
+- [mpv.d.ts](https://www.npmjs.com/package/mpv.d.ts) - Another TypeScript definitions for mpv JavaScript API.
+- [promise](https://www.npmjs.com/package/mpv-promise) - Promise polyfill for mpv JavaScript runtime.
 - [node](https://github.com/rcombs/node-mpv) - Node.js interface (JavaScript).
 - [js](https://github.com/Kagami/mpv.js) - Embeddable player for Electron/NW.js (JavaScript).
+- [assdraw](https://www.npmjs.com/package/mpv-assdraw) - mpv assdraw module for JavaScript.
 - [object pascal](https://github.com/URUWorks/UW_MPVPlayer) - Embeddable player for Object Pascal.
+- [ruby](https://github.com/woodruffw/ruby-mpv) - Ruby interface.
+- [easy](https://github.com/mpv-easy/mpv-easy) - TS and React GUI toolkit for mpv script.
 
 # Other Tools
 
