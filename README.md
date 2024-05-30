@@ -287,6 +287,7 @@ into popular sections, like Subtitles etc.
 - [cycle-commands](https://github.com/CogentRedTester/mpv-scripts/blob/master/cycle-commands.lua) - Allows input.conf commands to be cycled through with keybinds.
 - [cycle_messages](https://gist.github.com/rrooij/59f57ff5f5a952e56bbb) - Cycle between custom OSD messages.
 - [boss-key](https://github.com/detuur/mpv-scripts) - Minimise and pause video at the same time. Windows/Linux. Eliminated the time lag in previous versions.
+- [boss-key-wayland](https://github.com/Man2Dev/mpv-wayland-Boss-key) - Minimise and pause video at the same time in Linux through xdg-portals.
 - [blackout](https://github.com/dya-tel/mpv-scripts) - Couldn't find the "Boss key", but you don't want someone (or simply anyone) to see what you are watching?
 - [blackout](https://github.com/sibwaf/mpv-scripts) - A fast crossplatform boss-key, but without window minimization (and possible problems with some VO drivers).
 - [audio-file-keys](https://github.com/fbriere/mpv-scripts/blob/master/scripts/audio-file-keys.lua) - Automatically apply key bindings when playing audio files.
