@@ -83,9 +83,10 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 # Installation/Download
 
 - [Official mpv installation instruction](https://mpv.io/installation)
-- [shinchiro GitHub](https://github.com/shinchiro/mpv-winbuild-cmake) - Daily Windows builds of mpv and libmpv.
-- [shinchiro Sourceforge](https://sourceforge.net/projects/mpv-player-windows/files/) - Weekly windows builds of mpv and libmpv.
-- [zhongfly GitHub](https://github.com/zhongfly/mpv-winbuild) - Daily Windows builds of mpv and libmpv.
+- [zhongfly GitHub](https://github.com/zhongfly/mpv-winbuild) - Windows builds of mpv and libmpv.
+- [shinchiro GitHub](https://github.com/shinchiro/mpv-winbuild-cmake) - Windows builds of mpv and libmpv.
+- [mitzsch GitHub](https://github.com/mitzsch/mpv-winbuild) - Windows builds of mpv and libmpv.
+- [shinchiro Sourceforge](https://sourceforge.net/projects/mpv-player-windows/files/) - Windows builds of mpv and libmpv.
 
 # Documentation
 
