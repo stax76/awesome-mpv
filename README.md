@@ -88,6 +88,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [zhongfly](https://github.com/zhongfly/mpv-winbuild) - Windows builds of mpv and libmpv.
 - [mitzsch](https://github.com/mitzsch/mpv-winbuild) - Windows builds of mpv and libmpv.
 - [Andarwinux](https://github.com/Andarwinux/mpv-winbuild) - Windows builds of mpv and libmpv including ARM64 architecture.
+- [mpsm](https://github.com/mpv-easy/mpv-easy/tree/main/mpv-mpsm) - mpsm is a mpv script manager, you can install scripts provided by [mpsm-scripts](https://github.com/mpv-easy/mpsm-scripts), or install any script with added [meta info](https://github.com/mpv-easy/mpsm-scripts?tab=readme-ov-file#meta-info) via url.
 
 # Documentation
 
@@ -127,8 +128,8 @@ into popular sections, like Subtitles etc.
 - [contextmenu](https://gitlab.com/carmanaught/mpvcontextmenu) - Configurable context-menu based on Tcl/Tk (cross-platform).
 - [menu](https://github.com/nezumisama/mpvmenu) - Configurable on screen context-menu.
 - [menu-plugin](https://github.com/tsl0922/mpv-menu-plugin) - Win32 context menu, file dialog, clipboard support for mpv on Windows.
-- [console-select](https://github.com/guidocella/mpv-console-select) - Select a playlist entry, track, chapter, or subtitle line to seek to in mpv's console.
 - [dyn_menu](https://github.com/tsl0922/mpv-menu-plugin/blob/main/src/lua/dyn_menu.lua) - Dynamic menu items (tracks/chapters/...) support for mpv-menu-plugin.
+- [playlist-kdialog](https://gist.github.com/ftk/5e26656a2ec9a6cb0fef46918f741d0a) - Use KDE's KDialog or GTK's zenity to show current playlist or select playlist entry.
 
 ## Playback
 
@@ -266,7 +267,7 @@ into popular sections, like Subtitles etc.
 - [progressbar](https://github.com/torque/mpv-progressbar) - A minimalistic OSC replacement. It provides a small, unintrusive progress bar that persists at the bottom of the video window.
 - [osd-bar](https://github.com/422658476/MPV-EASY-Player/blob/master/portable-data/scripts/osd-bar.lua) - Always show osd progress bar, with the more beautiful color matching in the [configuration file](https://github.com/422658476/MPV-EASY-Player/blob/master/mpv-easy-data/rjno1.conf), you can make the osd progress bar display the current progress at the bottom of the window beautifully,this is a [preview](https://raw.githubusercontent.com/422658476/MPV-EASY-Player/master/img/mpv-easy-player-osd-bar-lua.jpg).
 - [osc-style](https://github.com/422658476/MPV-EASY-Player/tree/master/mpv-easy-data/osc-style) - Change the mpv OSC to a more beautiful and practical look, which is the osc theme feature, a variety of styles to choose from,this is a [tutorial and a preview](https://github.com/422658476/MPV-EASY-Player#%E7%9C%8B%E5%88%B0%E4%B8%8A%E9%9D%A2%E5%9B%BE%E4%B8%8A%E8%BF%99%E4%BA%9Bosc%E6%A0%B7%E5%BC%8F%E4%BA%86%E5%90%97%E5%AE%83%E4%BB%AC%E4%B8%8D%E4%BB%85%E5%8F%AF%E4%BB%A5%E5%AD%98%E5%9C%A8%E4%BA%8Empv-easy-player%E4%B8%AD%E4%BD%A0%E4%BD%BF%E7%94%A8%E7%9A%84mpv%E7%9A%84osc%E4%B9%9F%E5%8F%AF%E4%BB%A5%E5%8F%98%E6%88%90%E8%BF%99%E6%A0%B7).
-- [osc-show-hide-hotkey](https://github.com/linguisticmind/mpv-scripts/tree/master/osc-show-hide-hotkey) - Toggles the on-screen controller with a hotkey. [Video demonstration](https://www.youtube.com/watch?v=b-5XOZpXZMg&t=1h7m17s)
+- [osc-show-hide](https://github.com/linguisticmind/mpv-scripts/tree/master/osc-show-hide) - Toggles the on-screen controller with a hotkey.
 - [osc-orange](https://github.com/maoiscat/mpv-osc-orange) - An osc/ui replacement in dark theme.
 - [mfpbar](https://codeberg.org/NRK/mpv-toolbox/src/branch/master/mfpbar) - A minimalistic progressbar and osc replacement.
 - [osc-simple](https://github.com/maoiscat/mpv-osc-simple) - An OSC/UI replacement of white theme.
@@ -397,7 +398,7 @@ into popular sections, like Subtitles etc.
 - [youtube-search](https://github.com/rozari0/mpv-youtube-search) - Use zenity and youtube-dl to search YouTube.
 - [youtube-upnext](https://github.com/cvzi/mpv-youtube-upnext) - A menu for (auto) playing YouTube's "up next"/recommended videos, that show up on the right side on the website.
 - [ytdlautoformat](https://github.com/Samillion/mpv-ytdlautoformat) - Auto change ytdl-format for Youtube and Twitch.
-- [ytdl-preload](https://gist.github.com/bitingsock/17d90e3deeb35b5f75e55adb19098f58) - Precache the next entry in your playlist if it is a network source by downloading it to a temp file ahead of time. Updated to download all streams in parallel so you can watch it while it downloads.
+- [ytdl-preload](https://github.com/bitingsock/ytdl-preload) - Precache the next entry in your playlist if it is a network source by downloading it to a temp file ahead of time. Updated to download all streams in parallel so you can watch it while it downloads.
 - [youtube-queue](https://github.com/ksyasuda/mpv-youtube-queue) - Implements the YouTube 'Add to Queue' functionality. Allows adding video urls to the queue from the clipboard, and provides a menu for interacting with the queue.
 - [webtorrent-hook](https://github.com/noctuid/mpv-webtorrent-hook) - Allows streaming torrents using webtorrent (same as mpv-peerflix-hook but using webtorrent instead). Webtorrent-cli can play in mpv with `webtorrent --mpv`, but this script allows using torrent identifiers as the file argument to mpv or pasting them into the current playlist using one of the pasting scripts listed here. It also supports additional functionality like automatic file cleanup and the ability to remember the last file played in the torrent. See the readme for more information. See [here](https://github.com/noctuid/mpv-webtorrent-hook#comparison-with-webtorrent-mpv-hook) for a comparison with the other javascript webtorrent plugin. I recommend this plugin over my others (mpv-peerflix-hook and btfs-stream).
 - [play-with](https://github.com/grmat/play-with) - A web browser extension that can open a video stream on a web page with an external player.
@@ -416,6 +417,7 @@ into popular sections, like Subtitles etc.
 - [acestream](https://github.com/Digitalone1/mpv-acestream) - Add AceStream protocol handler to mpv. Let the user open streams by dropping Acestream links into mpv GUI or by passing them as command line argument.
 - [reduce_stream_cache](https://github.com/divout/mpv_reduce_stream_cache) - Reduces MPV cache for streams by increasing playback speed. Works with Twitch through Streamlink.
 - [last.fm scrobbler](https://github.com/l29ah/w3crapcli/blob/master/last.fm/mpv-lastfm.lua) - Sends the information about playing tracks to [last.fm](http://last.fm/), see http://www.last.fm/help/faq?category=99 for more info.
+- [http-ytproxy](https://gist.github.com/ftk/253347b2c9a53bbd6087f086970106b6) - Simple MitM http proxy to modify Range http headers. Can be used to speed up youtube videos.
 
 ## Video
 
@@ -465,10 +467,10 @@ into popular sections, like Subtitles etc.
 - [image-config](https://github.com/guidocella/mpv-image-config) - A configuration to use mpv as an image viewer.
 - [gallery-dl_hook](https://github.com/jgreco/mpv-scripts/blob/master/gallery-dl_hook.lua) - Load online image galleries (imgur, etc) as playlists using [gallery-dl](https://github.com/mikf/gallery-dl/).
 - [gallery-dl-view](https://github.com/noctuid/gallery-dl-view) - Load image galleries directly in mpv like gallery-dl_hook but with extra functionality like binding a key to download images, optionally only loading images that are new since the gallery was last opened, and more.
-- [contact-sheet](https://github.com/occivink/mpv-gallery-view) - Display thumbnails of the current file in the style of a contact sheet
-- [abs-screenshot](https://github.com/Thann/mpv-abs-screenshot/blob/master/abs-screenshot.lua) - Uses Exiftool to get the "Date/Time Original" and saves a screenshot with the name being the actual time the video was taken.
+- [contact-sheet](https://github.com/occivink/mpv-gallery-view) - Display thumbnails of the current file in the style of a contact sheet.
 - [mpv-image-viewer](https://github.com/occivink/mpv-image-viewer) - Configuration, scripts and tips for using mpv as an image viewer.
 - [screenshot-mosaic](https://github.com/noaione/mpv-js-scripts) - Create a mosaic/thumbnail image.
+- [abs-screenshot](https://github.com/Thann/mpv-abs-screenshot/blob/master/abs-screenshot.lua) - Uses Exiftool to get the "Date/Time Original" and saves a screenshot with the name being the actual time the video was taken.
 
 ## Video Editing
 
@@ -521,8 +523,7 @@ into popular sections, like Subtitles etc.
 - [copy to music](https://github.com/yazeed44/mpv-scripts) - Copies the current media file you're playing to a predefined directory, and plays the next entry in the playlist (Unix-like)
 - [copy-paste-URL](https://github.com/zenyd/mpv-scripts) - Paste URLs directly from clipboard into mpv
 - [copy-permalink](https://gist.github.com/olejorgenb/a5194d9bc183dbe0bfb02aac18fe37f9) - Copy `mpv --time=<current-position> <path-playing>` to clipboard. Useful for sharing when playing URLs.
-- [copy-time-in-seconds](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-time-in-seconds) - Copies current playback position in seconds with milliseconds to clipboard.
-- [copy-time](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-time) - Copies current timecode in HH:MM:SS.MS format to clipboard.
+- [copy-timestamp](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-timestamp) - Copies current timecode in HH:MM:SS.MS format to clipboard.
 - [cp-paste-URL](https://github.com/yassin-l/cp-paste-url.git) - Fork of copy-paste-URL with support for Linux.
 - [SmartCopyPaste-3.0](https://github.com/Eisa01/mpv-scripts#smartcopypaste) - Powerful copy paste features. Paste URL or local videos directly to mpv. Copy URL or currently playing video in mpv player then paste to access at a later time. Add videos to playlist simply by pasting. Much more explained in the link above.
 - [SmartCopyPaste-II-3.0](https://github.com/Eisa01/mpv-scripts#smartcopypaste_ii) - Powerful copy paste and clipboard list features using a log file. Select, filter, and search from your clipboard list. Paste URL or local videos directly to mpv. Copy URL or currently playing video in mpv player then paste to access at a later time. Paste to access previously copied times of same video. Much more explained in the link above.
@@ -662,14 +663,12 @@ into popular sections, like Subtitles etc.
 - [JointBilateral & FastBilateral](https://github.com/Artoriuz/glsl-joint-bilateral) - Chroma upsamplers that use the luma plane as a guide to achieve sharper transitions without introducing any ringing.
 - [A-Pack](https://github.com/butterw/bShaders/tree/master/A-pack) - Shaders pack for quick Adjustment of (web) video: brightness/contrast curves (tooDark, tooBright, bShadows, bDim, etc.) and color (vibrance, skintones, Black&White). Runs on integrated graphics.
 - [ArtCNN](https://github.com/Artoriuz/ArtCNN) - Luma doublers trained on Manga109.
-- [CuNNy](https://github.com/cunnyplapper/CuNNy) - Cute and funny CNN-based upscaler optimized for anime.
+- [CuNNy](https://github.com/funnyplanter/CuNNy) - Cute and funny CNN-based upscaler optimized for anime.
 
 # VapourSynth Scripts
 
 - [mvtools](https://github.com/haasn/gentoo-conf/blob/xor/home/nand/.mpv/filters/mvtools.vpy) - Use [MVTools](https://github.com/dubhater/vapoursynth-mvtools)'s BlockFPS function to perform motion interpolation on the video in realtime.
-- [nnedi3](https://github.com/haasn/gentoo-conf/blob/xor/home/nand/.mpv/filters/nnedi3.vpy) - Use [NNEDI3](https://github.com/dubhater/vapoursynth-nnedi3) to double the resolution of the video. This always performs a single doubling. Note that the vapoursynth-nnedi3 filter is so slow that this practically can't be used in realtime, so it's not much use in practice. 
-- [neo_f3kdb_dither](https://github.com/DonCanjas/mpv-dotfiles/blob/main/vs/neo_f3kdb_dither.py) - Use [neo_f3kdb](https://github.com/HomeOfAviSynthPlusEvolution/neo_f3kdb) to dither the video, with dynamic grain as the default. 
-- [CCD](https://github.com/DonCanjas/mpv-dotfiles/blob/main/vs/camcorder_color_denoise.py) - Use [CCD](https://github.com/End-of-Eternity/vs-ccd) (Camcorder Color Denoise) to apply chroma denoise/derainbow to video. 
+- [nnedi3](https://github.com/haasn/gentoo-conf/blob/xor/home/nand/.mpv/filters/nnedi3.vpy) - Use [NNEDI3](https://github.com/dubhater/vapoursynth-nnedi3) to double the resolution of the video. This always performs a single doubling. Note that the vapoursynth-nnedi3 filter is so slow that this practically can't be used in realtime, so it's not much use in practice.
 
 # Video Editing Tools
 
