@@ -622,6 +622,7 @@ into popular sections, like Subtitles etc.
 - [zenwarr](https://github.com/zenwarr/mpv-config)
 - [mustaqimM](https://github.com/mustaqimM/mpv-scripts)
 - [Zabooby](https://github.com/Zabooby/mpv-config)
+- [tuilakhanh](https://github.com/tuilakhanh/mpv-config)
 
 # Social Tools
 
