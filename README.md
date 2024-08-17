@@ -115,6 +115,7 @@ into popular sections, like Subtitles etc.
 
 ## Menu
 
+- [select](https://github.com/mpv-player/mpv/blob/master/player/lua/select.lua) - Simple menu script built into mpv.
 - [command_palette](https://github.com/stax76/mpv-scripts) - Searchable menu for bindings, playlist, chapters, profiles, all tracks, audio tracks, video tracks, subtitle tracks, secondary subtitle tracks, subtitle lines, commands, properties, options, audio devices, Blu-ray Titles.
 - [uosc](https://github.com/tomasklaen/uosc) - Popular OSC with menu.
 - [M-x](https://github.com/Seme4eg/mpv-scripts/tree/master#m-x) - Searchable and configurable menu to quickly find key bindings and commands.
