@@ -120,7 +120,7 @@ into popular sections, like Subtitles etc.
 - [command_palette](https://github.com/stax76/mpv-scripts) - Searchable menu for
   bindings, playlist, chapters, profiles, all tracks, audio tracks, video tracks,
   subtitle tracks, secondary subtitle tracks, subtitle lines, commands, properties,
-  options, audio devices, Blu-ray titles, stream quality, aspect ratio.
+  options, audio devices, Blu-ray titles, stream quality, aspect ratio, recent files.
 - [uosc](https://github.com/tomasklaen/uosc) - Popular OSC with menu.
 - [M-x](https://github.com/Seme4eg/mpv-scripts/tree/master#m-x) - Searchable and configurable menu to quickly find key bindings and commands.
 - [search-page](https://github.com/CogentRedTester/mpv-search-page) - Searchable and configurable menu to quickly find key bindings, commands, options and properties.
@@ -133,7 +133,7 @@ into popular sections, like Subtitles etc.
 - [contextmenu](https://gitlab.com/carmanaught/mpvcontextmenu) - Configurable context-menu based on Tcl/Tk (cross-platform).
 - [menu](https://github.com/nezumisama/mpvmenu) - Configurable on screen context-menu.
 - [menu-plugin](https://github.com/tsl0922/mpv-menu-plugin) - Win32 context menu, file dialog, clipboard support for mpv on Windows.
-- [dyn_menu](https://github.com/tsl0922/mpv-menu-plugin/blob/main/src/lua/dyn_menu.lua) - Dynamic menu items (tracks/chapters/...) support for mpv-menu-plugin.
+- [dyn_menu](https://github.com/tsl0922/mpv-menu-plugin/blob/main/src/lua/dyn_menu.lua) - Context Menu with support for defining the context menu in input.conf.
 - [playlist-kdialog](https://gist.github.com/ftk/5e26656a2ec9a6cb0fef46918f741d0a) - Use KDE's KDialog or GTK's zenity to show current playlist or select playlist entry.
 
 ## Playback
@@ -670,6 +670,8 @@ into popular sections, like Subtitles etc.
 - [A-Pack](https://github.com/butterw/bShaders/tree/master/A-pack) - Shaders pack for quick Adjustment of (web) video: brightness/contrast curves (tooDark, tooBright, bShadows, bDim, etc.) and color (vibrance, skintones, Black&White). Runs on integrated graphics.
 - [ArtCNN](https://github.com/Artoriuz/ArtCNN) - Luma doublers trained on Manga109.
 - [CuNNy](https://github.com/funnyplanter/CuNNy) - Cute and funny CNN-based upscaler optimized for anime.
+- [AniSD ArtCNN](https://github.com/Sirosky/Upscale-Hub/releases/tag/AniSD-ArtCNN) - AniSD ArtCNN shader for standard definition anime content.
+- [Ani4K v2 ArtCNN](https://github.com/Sirosky/Upscale-Hub/releases/tag/Ani4k-v2-ArtCNN) - Ani4K shader v2 targets modern anime, from high quality Bluray to crappy WEB releases, for upscaling to either 2K or 4K.
 
 # VapourSynth Scripts
 
