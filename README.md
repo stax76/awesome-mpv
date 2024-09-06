@@ -594,6 +594,7 @@ into popular sections, like Subtitles etc.
 # Mobile Player
 
 - [mpv-android](https://github.com/mpv-android/mpv-android) - For Android, based on Kotlin.
+- [mpvKt](https://github.com/abdallahmehiz/mpvKt) - For Android, based on Kotlin.
 
 # Media Center
 
