@@ -387,6 +387,7 @@ into popular sections, like Subtitles etc.
 - [cycle-adevice](https://gist.github.com/bitingsock/ad58ee5da560ecb922fa4a867ac0ecfd) - Cycle through available audio devices.
 - [Sofalizer](https://gist.github.com/kevinlekiller/9fd21936411d8dc5998793470c6e3d16#file-sofalizer-lua) - Simulates 7.1 surround sound to your headset. Get the sofa file from [here](https://sofacoustics.org/data/database/clubfritz/ClubFritz6.sofa)
 - [ff-silence](https://github.com/mesvam/ff-silence) - Fast forward through silences and quiet parts of audio, useful on videos where the speaker uses many long pauses.
+- [aspeed.lua](https://github.com/TinosNitso/mpv-scripts/blob/main/aspeed.lua) - Multi-stereo speed randomization & tri-color clocks. Applies arbitrary speed formula & has chipmunk mode for left-channel. Also has double-mute insta-toggle. Primary channel may be left or right. A filterchain applies to all speakers - each is its own mpv. Has many script-messages.  For mpv v0.34→v0.38, SMPlayer, Windows, Linux, MacOS, Android, YouTube, mp4, mp3, jpg, etc. But no randomization for Android. ([Example](https://raw.githubusercontent.com/TinosNitso/mpv-scripts/main/SCREENSHOT.webp) clock).
 
 ## Streaming
 
@@ -443,6 +444,9 @@ into popular sections, like Subtitles etc.
 - [dynamic-crop](https://github.com/Ashyni/mpv-scripts#dynamic-croplua) - Dynamically crop the video by using lavfi's cropdetect filter to detect hard-coded black bars for Ultra Wide Screen (21:9) or any screen different from 16:9 (phone/old TV).
 - [crop](https://github.com/occivink/mpv-scripts#croplua) - Crop the video by defining the target rectangle with the cursor.
 - [cropmode](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/cropmode.lua) - Adds a keyboard-oriented mode for cropping, outputting the result in a format suitable for ffmpeg.
+- [autocrop.lua](https://github.com/TinosNitso/mpv-scripts/blob/main/autocrop.lua) - Modded version randomizes aspect ratio & crops black bars off videos & images while maintaining center in horizontal & vertical. Double-mute toggles the crop & auto_aspect. Has tolerance options, & varies limit (& start/end limits) with media-title. Can display all cropdetect or bbox metadata. Handles transparent input.  For mpv v0.34→v0.38, SMPlayer, Windows, Linux, MacOS, Android, YouTube, mp4, mp3, jpg, etc. [Example](https://raw.githubusercontent.com/TinosNitso/mpv-scripts/main/SCREENSHOT.webp) of auto_aspect btwn 16:9 & 4:3.
+- [autocomplex.lua](https://github.com/TinosNitso/mpv-scripts/blob/main/autocomplex.lua) - Accurate stereo spectrum overlay, with volume bars. Has many options for showfreqs, showvolume, moving overlays, colormixes, normalizers, interpolation, etc. Easy to distinguish stereo from mono.  Has many script-messages. For mpv v0.34→v0.38, SMPlayer, Windows, Linux, MacOS, Android, YouTube, mp4, mp3, etc.  [Example](https://github.com/TinosNitso/mpv-scripts/releases/download/v1.5.5/SCREENSHOT.webp) of dual-complex.
+- [automask.lua](https://github.com/TinosNitso/mpv-scripts/blob/main/automask.lua) - Applies filterchain to animated masked region with inversion (blinking) & invisibility. `geq` uses any formula. Smooth toggle with double-mute. Comes with 14 examples, including blinking monacle, binacles, pentagon, spinning triangle, scanning visors etc. Has many script-messages.  For mpv v0.34→v0.38, SMPlayer, Windows, Linux, MacOS, Android, YouTube, mp4, mp3, jpg, etc. [Example](https://raw.githubusercontent.com/TinosNitso/mpv-scripts/main/SCREENSHOT.webp) mask.
 - [use-cpu](https://github.com/422658476/MPV-EASY-Player/blob/master/portable-data/scripts/use-cpu.lua) - If the width of the video is greater than 3000 or the height of the video is greater than 2000, it will automatically switch back to using cpu decoding.
 - [waveform](https://github.com/MikelSotomonte/mpv-waveform/tree/main) - Displays a waveform of the video in real-time.
 - [BoxToWide](https://github.com/Samillion/mpv-boxtowide) - A simple mpv script to change 4:3 aspect-ratio of video files/streams to 16:9 automatically.
@@ -584,6 +588,7 @@ into popular sections, like Subtitles etc.
 - [debug-plugin](https://github.com/tsl0922/mpv-debug-plugin) - A debug tool for mpv script developers, with GUI support for properties and console.
 - [user-data-loader](https://github.com/CogentRedTester/mpv-user-data-loader) - Allows the `user-data` property to be set at launch using config files and changed using profiles and script-opts during runtime.
 - [lua-repl](https://github.com/guidocella/mpv-lua-repl) - A Lua REPL in the console with Tab completion and pretty-printing of returned tables. It lets you test mpv's and Lua's API without writing a script.
+- [main.lua](https://github.com/TinosNitso/mpv-scripts/blob/main/main.lua) - Loads other scripts, hooks in yt-dlp, displays title, has subtitle override, loops short files, sets options (with delay), & has detailed commentary. Has many script-messages. For mpv v0.34→v0.38, SMPlayer, Windows, Linux, MacOS, Android, YouTube, mp4, mp3, jpg, etc. But no yt-dlp for Android. [Example](https://youtu.be/le2JGgjRJBw) title. 
 
 # Music Player
 
