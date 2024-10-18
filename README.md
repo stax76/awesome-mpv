@@ -109,7 +109,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 
 # User Script
 
-The most complete/up-to-date list of user scrips can be found
+The most complete/up-to-date list of user scripts can be found
 in the [wiki](https://github.com/mpv-player/mpv/wiki/User-Scripts),
 the advantage of the following list is that everything is categorized
 into popular sections, like Subtitles etc.
