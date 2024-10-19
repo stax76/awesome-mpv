@@ -345,6 +345,7 @@ into popular sections, like Subtitles etc.
 - [auto-load-fonts](https://github.com/Hill-98/mpv-config/blob/main/scripts/auto-load-fonts.js) - Auto load the font files in the fonts folder under the play file path.
 - [rename-sub](https://github.com/ayghub/rename-sub) - Rename current subtitle file as the playing video.
 - [whisper-subs](https://github.com/GhostNaN/whisper-subs) - Generates subtitles at runtime with whisper.cpp on Linux.
+- [ytsub](https://github.com/Idlusen/mpv-ytsub/) - Load automatic captions from Youtube, can select language interactively or automatically.
 
 ## Learning
 
