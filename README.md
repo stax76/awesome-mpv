@@ -212,6 +212,7 @@ into popular sections, like Subtitles etc.
 - [playlist-view](https://github.com/occivink/mpv-gallery-view) - Display and navigate the playlist in a grid view of thumbnails.
 - [playlist-navigator](https://github.com/drogers141/mpv-playlist-navigator) - OSD display features easy navigation with scrolling and search to select files to play or remove from playlist.
 - [permanent-pause-indicator](https://github.com/oltodosel/mpv-scripts#pause-indicatorlua) - Displays a permanent indicator in the middle of the screen while mpv is paused. [Preview](https://github.com/oltodosel/mpv-scripts/raw/master/pause-indicator.jpg)
+- [pause-indicator-lite](https://github.com/Samillion/ModernZ/tree/main/extras/pause-indicator-lite) - A simple script that displays an indicator on pause, with options to adjust icon, color, height, width, opacity and whether to toggle pause with a keybind or not.
 - [pause-indicator](https://gist.github.com/torque/9dbc69543118347d2e5f43239a7e609a) - Displays a momentary icon that flashes in the middle of the screen, similar to YouTube.
 - [nextfile](https://github.com/jonniek/mpv-nextfile) - Force opens next or previous file in the currently playing files directory.
 - [Change-OSD-Media-Title](https://github.com/nmoorthy1/mpv-Change-OSD-Media-Title) - Displays filename, percentage watched, current chapter, and number of frames dropped in the OSD media title and updates it whenever one of the values has changed.
@@ -262,6 +263,7 @@ into popular sections, like Subtitles etc.
 - [osc-modern](https://github.com/maoiscat/mpv-osc-modern) - Modern OSC replacement.
 - [ModernX](https://github.com/cyl0/ModernX) - Modern OSC replacement.
 - [modern-x-compact](https://github.com/1-minute-to-midnight/mpv-modern-x-compact) - Compact version of modern-x.
+- [ModernZ](https://github.com/Samillion/ModernZ) - A fork of ModernX designed to enhance functionality by adding more features, all while preserving the core standards of mpv's OSC.
 - [tethys](https://github.com/Zren/mpv-osc-tethys) - OSC replacement with seekbar thumbnail preview.
 - [dark-box](https://github.com/maoiscat/mpv-dark-box) - OSC replacement.
 - [oscc](https://github.com/longtermfree/oscc) - Dark-themed OSC.
