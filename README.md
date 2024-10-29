@@ -715,7 +715,7 @@ into popular sections, like Subtitles etc.
 - [KDE Connect](https://kdeconnect.kde.org) - Enabling communication between all your devices.
   - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/) - Implementation of KDE Connect for GNOME.
 - [mpv-remote-app](https://github.com/mcastorina/mpv-remote-app) - For Android, based on Java/Python.
-- [mpv-remote-app](https://github.com/husudosu/mpv-remote-app) - For Android, based on Web/VUI/Ionic/Node.js.
+- [mpv-remote-app](https://github.com/husudosu/mpv-remote-app) - For Android, based on Vue.js/Ionic/Node.js.
 - [MPVMediaControl](https://github.com/datasone/MPVMediaControl) - Windows 10 System Media Transport Controls (SMTC).
 - Classic remote control used by stax76: 'One For All Contour URC1210' using Philips code 0556 together with 'FLIRC USB (gen2)'.
 
