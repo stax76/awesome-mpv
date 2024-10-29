@@ -148,6 +148,8 @@ into popular sections, like Subtitles etc.
 - [chapters-menu](https://github.com/Seme4eg/mpv-scripts/tree/master#chapters-menu) - List all chapters of current video, search and choose any.
 - [betterchapters](https://gist.github.com/Hakkin/4f978a5c87c31f7fe3ae) ([update](https://github.com/mpv-player/mpv/issues/4738#issuecomment-321298846)) - Loads the next or previous playlist entry if there are no more chapters in the seek direction.
 - [chapters_for_mpv](https://github.com/mar04/chapters_for_mpv) - Add, remove and edit chapters of the currently played media. Chapters you create can be saved into a separate text file and automatically loaded when you open the same media file again.
+- [autochapters](https://github.com/po5/mpv-auto-chapters) - Automatically finds chapters for your anime files.
+- [chapter-converter](https://github.com/VimWei/mpv-config/blob/main/scripts/chapter-converter.lua) - Converts chapter format between YouTube (e.g., "00:10 chapter title") and mpv (FFmpeg metadata).
 - [sort_script](https://github.com/TheAMM/mpv_sort_script) - Sort directories and files.
 - [fastforward](https://github.com/zsugabubus/mpv-fastforward) - Fast-forward instead of skipping.
 - [libunity](https://github.com/mrlotfi/mpv-libunity) - Show a nice progress bar on your Linux panel/dock.
@@ -348,6 +350,8 @@ into popular sections, like Subtitles etc.
 - [rename-sub](https://github.com/ayghub/rename-sub) - Rename current subtitle file as the playing video.
 - [whisper-subs](https://github.com/GhostNaN/whisper-subs) - Generates subtitles at runtime with whisper.cpp on Linux.
 - [ytsub](https://github.com/Idlusen/mpv-ytsub/) - Load automatic captions from Youtube, can select language interactively or automatically.
+- [dualsubs utils](https://github.com/VimWei/mpv-config) - Auto load dual subs; Auto reload dual subs; Swap primary/secondary subs position; Merge dual subs to one ASS sub.
+- [srt-resegment](https://github.com/VimWei/mpv-config/blob/main/scripts/srt-resegment.lua) - Resegment srt by synchronize plain text with whisper's word-level timestamps JSON.
 
 ## Learning
 
@@ -406,7 +410,7 @@ into popular sections, like Subtitles etc.
 - [youtube-search](https://github.com/CogentRedTester/mpv-scripts/blob/master/youtube-search.lua) - A script that allows users to search youtube and open results from within mpv. Requires a couple of extra API scripts, along with curl and a personal youtube API key.
 - [youtube-search](https://github.com/rozari0/mpv-youtube-search) - Use zenity and youtube-dl to search YouTube.
 - [youtube-upnext](https://github.com/cvzi/mpv-youtube-upnext) - A menu for (auto) playing YouTube's "up next"/recommended videos, that show up on the right side on the website.
-- [ytdlautoformat](https://github.com/Samillion/mpv-ytdlautoformat) - Auto change ytdl-format for Youtube and Twitch.
+- [ytdlautoformat](https://github.com/Samillion/mpv-ytdlautoformat) - Automatically adjusts `ytdl-format` (yt-dlp) for specified domains.
 - [ytdl-preload](https://github.com/bitingsock/ytdl-preload) - Precache the next entry in your playlist if it is a network source by downloading it to a temp file ahead of time. Updated to download all streams in parallel so you can watch it while it downloads.
 - [youtube-queue](https://github.com/ksyasuda/mpv-youtube-queue) - Implements the YouTube 'Add to Queue' functionality. Allows adding video urls to the queue from the clipboard, and provides a menu for interacting with the queue.
 - [webtorrent-hook](https://github.com/noctuid/mpv-webtorrent-hook) - Allows streaming torrents using webtorrent (same as mpv-peerflix-hook but using webtorrent instead). Webtorrent-cli can play in mpv with `webtorrent --mpv`, but this script allows using torrent identifiers as the file argument to mpv or pasting them into the current playlist using one of the pasting scripts listed here. It also supports additional functionality like automatic file cleanup and the ability to remember the last file played in the torrent. See the readme for more information. See [here](https://github.com/noctuid/mpv-webtorrent-hook#comparison-with-webtorrent-mpv-hook) for a comparison with the other javascript webtorrent plugin. I recommend this plugin over my others (mpv-peerflix-hook and btfs-stream).
