@@ -84,14 +84,10 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 # Installation/Download
 
 - [Official mpv installation instruction](https://mpv.io/installation)
-- [shinchiro GitHub](https://github.com/shinchiro/mpv-winbuild-cmake)
-  - Daily Windows builds of mpv and libmpv. This is the most popular choice on Windows.
-- [shinchiro Sourceforge](https://sourceforge.net/projects/mpv-player-windows/files/)
-  - Windows builds of mpv and libmpv. The advantage of this choice is that it has old builds.
-- [zhongfly](https://github.com/zhongfly/mpv-winbuild) - Windows builds of mpv and libmpv.
-  This choice is very similar to `shinchiro GitHub`, so it's also a recommendation.
-- [Andarwinux](https://github.com/Andarwinux/mpv-winbuild)
-  - Daily Windows builds of mpv and libmpv including ARM64 architecture.
+- [shinchiro GitHub](https://github.com/shinchiro/mpv-winbuild-cmake) - Daily Windows builds of mpv and libmpv. This is the most popular choice on Windows.
+- [shinchiro Sourceforge](https://sourceforge.net/projects/mpv-player-windows/files/) - Windows builds of mpv and libmpv. The advantage of this choice is that it has old builds.
+- [zhongfly](https://github.com/zhongfly/mpv-winbuild) - Windows builds of mpv and libmpv. This choice is very similar to `shinchiro GitHub`, so it's also a recommendation.
+- [Andarwinux](https://github.com/Andarwinux/mpv-winbuild) - Daily Windows builds of mpv and libmpv including ARM64 architecture.
 - [mitzsch](https://github.com/mitzsch/mpv-winbuild) - Windows builds of mpv and libmpv.
 - [mpsm](https://github.com/mpv-easy/mpv-easy/tree/main/mpv-mpsm) - mpsm is a mpv script manager, you can install scripts provided by [mpsm-scripts](https://github.com/mpv-easy/mpsm-scripts), or install any script with added [meta info](https://github.com/mpv-easy/mpsm-scripts?tab=readme-ov-file#meta-info) via url.
 
