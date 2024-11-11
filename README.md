@@ -106,6 +106,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - https://mpv.io/community/
 - https://www.reddit.com/r/mpv
 - https://github.com/mpv-player/mpv/issues
+- https://github.com/mpv-player/mpv/discussions
 
 # User Script
 
