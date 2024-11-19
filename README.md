@@ -430,7 +430,7 @@ into popular sections, like Subtitles etc.
 - [peerflix-hook](https://github.com/noctuid/mpv-peerflix-hook) - Stream magnet links in mpv with peerflix.
 - [acestream](https://github.com/Digitalone1/mpv-acestream) - Add AceStream protocol handler to mpv. Let the user open streams by dropping Acestream links into mpv GUI or by passing them as command line argument.
 - [reduce_stream_cache](https://github.com/divout/mpv_reduce_stream_cache) - Reduces MPV cache for streams by increasing playback speed. Works with Twitch through Streamlink.
-- [last.fm scrobbler](https://github.com/l29ah/w3crapcli/blob/master/last.fm/mpv-lastfm.lua) - Sends the information about playing tracks to [last.fm](http://last.fm/), see http://www.last.fm/help/faq?category=99 for more info.
+- [last.fm scrobbler](https://github.com/MugoSquero/mpv_scrobbler) - Sends the information about playing tracks to [last.fm](http://last.fm/), see http://www.last.fm/help/faq?category=99 for more info.
 - [http-ytproxy](https://gist.github.com/ftk/253347b2c9a53bbd6087f086970106b6) - Simple MitM http proxy to modify Range http headers. Can be used to speed up youtube videos.
 
 ## Video
