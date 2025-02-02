@@ -366,6 +366,7 @@ into popular sections, like Subtitles etc.
 - [rikai](https://github.com/fxmarty/rikai-mpv) - Integrated Japanese dictionary and parser to translate by hovering over words. Works on Linux.
 - [mpv2anki](https://github.com/SenneH/mpv2anki) - A simple way to add notes to Anki with Audio, screenshots and/or subtitles, with few dependencies.
 - [lang-learner](https://github.com/liberlanco/mpv-lang-learner) - Turn MPV into language learner tool. Includes:  AB-loop current subtitle or auto loop each one, quick switch between lang you know and lang you are learning, forward to browser (dictionaries, translators), record for future extra learning, export to external script for integrations, and a bit more.
+- [mpv-Subtitle-Definition](https://github.com/tripasect/mpv-Subtitle-Definition) - Instant, on-screen definitions for difficult or obscure words found in subtitles.
 
 ## Music
 
