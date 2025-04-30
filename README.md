@@ -95,7 +95,6 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 
 - [Manual](https://mpv.io/manual/stable/)
 - [Wiki](https://github.com/mpv-player/mpv/wiki)
-- [Guides](https://github.com/mpv-player/mpv.io/tree/master/source/guides)
 - [How to Use MPV on Windows](https://www.makeuseof.com/how-to-use-mpv-on-windows)
 - [mpv: The Best Video Player for Language Learning](https://www.youtube.com/watch?v=bbg6ztWecbU)
 - https://wiki.archlinux.org/title/mpv
