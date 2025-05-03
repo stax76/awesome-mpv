@@ -375,8 +375,8 @@ into popular sections, like Subtitles etc.
 - [subs2srs](https://github.com/kelciour/mpv-scripts/blob/master/subs2srs.lua) - Automatically add new card in Anki with audio, picture and text.
 - [sub-voracious](https://github.com/kelciour/mpv-scripts/blob/master/sub-voracious.lua) - Reading and listening practice.
 - [rikai](https://github.com/fxmarty/rikai-mpv) - Integrated Japanese dictionary and parser to translate by hovering over words. Works on Linux.
-- [mpv2anki](https://github.com/SenneH/mpv2anki) - A simple way to add notes to Anki with Audio, screenshots and/or subtitles, with few dependencies.
-- [mpv2anki](https://github.com/alyssabedard/mpv2anki) - (Different script with Windows, macOS and Linux support) A simple script to assist your language learning journey in any language by automatically capturing multimedia content from mpv to Anki. 
+- [mpv2anki SenneH](https://github.com/SenneH/mpv2anki) - A simple way to add notes to Anki with Audio, screenshots and/or subtitles, with few dependencies.
+- [mpv2anki alyssabedard](https://github.com/alyssabedard/mpv2anki) - (Different script with Windows, macOS and Linux support) A simple script to assist your language learning journey in any language by automatically capturing multimedia content from mpv to Anki. 
 - [lang-learner](https://github.com/liberlanco/mpv-lang-learner) - Turn MPV into language learner tool. Includes:  AB-loop current subtitle or auto loop each one, quick switch between lang you know and lang you are learning, forward to browser (dictionaries, translators), record for future extra learning, export to external script for integrations, and a bit more.
 - [mpv-Subtitle-Definition](https://github.com/tripasect/mpv-Subtitle-Definition) - Instant, on-screen definitions for difficult or obscure words found in subtitles.
 
