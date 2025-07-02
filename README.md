@@ -508,6 +508,7 @@ into popular sections, like Subtitles etc.
 - [abs-screenshot](https://github.com/Thann/mpv-abs-screenshot/blob/master/abs-screenshot.lua) - Uses Exiftool to get the "Date/Time Original" and saves a screenshot with the name being the actual time the video was taken.
 - [sorted-screenshots](https://github.com/BanchouBoo/mpv-sorted-screenshots) - Sort screenshots based on the file they're screenshotted from and nested directories.
 - [screenshotfolder](https://github.com/zydezu/mpvconfig/blob/main/scripts/screenshotfolder.lua) - Place screenshots into folders for each video, along with timestamping them.
+- [webp-avif-generator](https://github.com/outlook84/mpv-webp-avif-generator) - Creates animated webp/avif using mpv A-B loop and FFmpeg. (Windows only)
 
 ## Video Editing
 
