@@ -10,6 +10,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
   - [Windows](#windows)
   - [MacOS](#macos)
   - [Linux](#linux)
+  - [Android](#android)
 - [Installation/Download](#installationdownload)
 - [Documentation](#documentation)
 - [Support](#support)
@@ -80,6 +81,11 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [Haruna](https://invent.kde.org/multimedia/haruna) - Based on C++/QT/QML.
 - [Deepin Movie](https://github.com/linuxdeepin/deepin-movie-reborn) - Unmaintained, based on C++/QT.
 - [bomi player](https://bomi-player.github.io) - Unmaintained, based on C++/QT.
+
+## Android
+
+- [android](https://github.com/mpv-android/mpv-android) - Player for Android, based on Kotlin.
+- [Kt](https://github.com/abdallahmehiz/mpvKt) - Player for Android, based on Kotlin.
 
 # Installation/Download
 
@@ -639,11 +645,6 @@ into popular sections, like Subtitles etc.
 - [Harmonoid](https://harmonoid.com) - Cross-platform, based on Dart/Flutter.
 - [Olivia](https://github.com/keshavbhatt/olivia) - Linux cloud music player, based on C++/QT/Web.
 - [vmn](https://github.com/Dudemanguy/vmn) - Cross-platform CLI music player, based on C/TUI.
-
-# Mobile Player
-
-- [mpv-android](https://github.com/mpv-android/mpv-android) - For Android, based on Kotlin.
-- [mpvKt](https://github.com/abdallahmehiz/mpvKt) - For Android, based on Kotlin.
 
 # Media Center
 
