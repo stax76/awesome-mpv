@@ -783,6 +783,7 @@ into popular sections, like Subtitles etc.
 - [object pascal](https://github.com/URUWorks/UW_MPVPlayer) - Embeddable player for Object Pascal.
 - [ruby](https://github.com/woodruffw/ruby-mpv) - Ruby interface.
 - [easy](https://github.com/mpv-easy/mpv-easy) - TS and React GUI toolkit for mpv script.
+- [Kit](https://github.com/mpvkit/MPVKit) - MPVKit is a collection of tools to use mpv in iOS, macOS, tvOS applications. It includes scripts to build mpv native libraries.
 
 # Other Tools
 
