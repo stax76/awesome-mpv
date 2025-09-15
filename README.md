@@ -22,9 +22,9 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
   - [Subtitle](#subtitle)
   - [Learning](#learning)
   - [Music](#music)
-  - [Audio](#audio)
   - [Streaming](#streaming)
   - [Video](#video)
+  - [Audio](#audio)
   - [Image](#image)
   - [Video Editing](#video-editing)
   - [Social](#social)
@@ -117,7 +117,6 @@ into popular sections, like Subtitles etc.
 ## Menu
 
 - [select](https://github.com/mpv-player/mpv/blob/master/player/lua/select.lua) - Menu script built into mpv.
-- [selectmenu](https://gitlab.com/carmanaught/mpvselectmenu) - Context-menu inspired by `select.lua` utilising mpv's `input` and `console` script functionality.
 - [command_palette](https://github.com/stax76/mpv-scripts) - Searchable menu for
   bindings, playlist, chapters, profiles, all tracks, audio tracks, video tracks,
   subtitle tracks, secondary subtitle tracks, subtitle lines, commands, properties,
@@ -132,11 +131,11 @@ into popular sections, like Subtitles etc.
 - [menu](https://github.com/jonniek/mpv-menu) - Configurable on screen menu to run custom commands.
 - [osm](https://github.com/stax76/mpv-scripts) - Configurable on screen menu to run custom commands.
 - [mpvc-tui](https://github.com/gmt4/mpvc) - Command-line and TUI for mpv.
-- [contextmenu](https://gitlab.com/carmanaught/mpvcontextmenu) - Configurable context-menu based on Tcl/Tk (cross-platform).
 - [menu](https://github.com/nezumisama/mpvmenu) - Configurable on screen context-menu.
 - [menu-plugin](https://github.com/tsl0922/mpv-menu-plugin) - Win32 context menu, file dialog, clipboard support for mpv on Windows.
 - [dyn_menu](https://github.com/tsl0922/mpv-menu-plugin/blob/main/src/lua/dyn_menu.lua) - Context Menu with support for defining the context menu in input.conf.
 - [playlist-kdialog](https://gist.github.com/ftk/5e26656a2ec9a6cb0fef46918f741d0a) - Use KDE's KDialog or GTK's zenity to show current playlist or select playlist entry.
+- [mpvselectmenu](https://gitlab.com/carmanaught/mpvselectmenu) - Context-menu inspired by `select.lua` utilising mpv's `input` and `console` script functionality. Uses other scripts (see Requirements).
 
 ## Playback
 
@@ -179,6 +178,8 @@ into popular sections, like Subtitles etc.
 - [memo](https://github.com/po5/memo) - A recent files/history menu for mpv with optional uosc integration.
 - [plugin-bookmark](https://github.com/yozorayuki/mpv-plugin-bookmark) - Record your playing history for each folder.
 - [bookmarker-menu](https://github.com/NurioHin/mpv-bookmarker) - Menu to manage all your bookmarks.
+- [bookmarks](https://github.com/texiwustion/bookmarks) - Support add/delete/prev/next bookmarks, and persistence to sidecar JSON or config directory.
+- [SimpleBookmark-1.0](https://github.com/Eisa01/mpv-scripts#simplebookmark) - Bookmark with a [ctrl]+[b], then list and access your bookmarks with [b]. Assign your favorites to a keybind then access your favorites with that same keybind. Much more explained in the link above.
 - [misc](https://github.com/stax76/mpv-scripts) - When seeking display position and duration like so: 70:00 / 80:00
 - [misc](https://github.com/stax76/mpv-scripts) - Navigate in playlist to next/previous/first/last file.
 - [misc](https://github.com/stax76/mpv-scripts) - Jump to a random position in the playlist.
@@ -199,7 +200,6 @@ into popular sections, like Subtitles etc.
 - [speed-transition](https://github.com/zenyd/mpv-scripts) - Increases playback speed if a subtitle will not be displayed soon. Resumes normal speed just before the subtitle shows up.
 - [speed](https://github.com/oltodosel/mpv-scripts#speedlua) - Changing speed based on regex of filename/path.
 - [speed](https://github.com/vflorelle/mpv-scripts#speed) - Always show current playback speed on the OSD.
-- [SimpleBookmark-1.0](https://github.com/Eisa01/mpv-scripts#simplebookmark) - Bookmark with a [ctrl]+[b], then list and access your bookmarks with [b]. Assign your favorites to a keybind then access your favorites with that same keybind. Much more explained in the link above.
 - [SimpleHistory-1.0](https://github.com/Eisa01/mpv-scripts#simplehistory) - Powerful history features that logs videos that you opened into a log file along with the time you have reached on each video. Select, filter, and search from your history list, Optional resume by [ctrl]+[r] for all videos you have played. Much more explained in the link above.
 - [SimpleUndo-3.2](https://github.com/Eisa01/mpv-scripts#simpleundo) - Simple undo feature. If you accidentally seek/jump to a different time in the video, press undo [ctrl]+[z] to return to your previous time and vice-versa. More details in the link above.
 - [skipchapters](https://github.com/haasn/gentoo-conf/blob/xor/home/nand/.mpv/scripts/avail/skipchapters.lua) - Automatically skip chapters matching a given list of regular expressions (eg. "OP" or "Opening").
@@ -241,6 +241,8 @@ into popular sections, like Subtitles etc.
 - [mpvclip-mpvival-mpvloop](https://github.com/o770/mpvclip-mpvival-mpvloop) - Run MPV with options for loops and playback start and end times set according to a pattern or intervals of the total duration of a file.
 - [loop-until](https://github.com/ZreXoc/mpv-loop-until) - Loop the video until a specified amount of time. (e.g. loop a 30s wallpaper video to 30min)
 - [generate-edl](https://gist.github.com/guidocella/5f05794d0a8400b2393fe7a9995ebb43) - Bookmark scenes in EDL files.
+- [autoload-archive-hook](https://gist.github.com/po5/2415cb39c94760ac8c2c7666a30bf02c) - When playing a direct file from within an archive with e.g. `archive://test.rar|/09.png`, mpv doesn't fill the playlist. This script does so transparently. It also supports nested and remote archives.
+- [LoopToFile](https://github.com/NovaFormaLab/LoopToFile) - Functional script that allows you to generate playback loops and extract media fragments into new files. L∞p → file.ext.
 
 ## File
 
@@ -287,6 +289,7 @@ into popular sections, like Subtitles etc.
 - [osc-show-hide](https://github.com/linguisticmind/mpv-scripts/tree/master/osc-show-hide) - Toggles the on-screen controller with a hotkey.
 - [osc-orange](https://github.com/maoiscat/mpv-osc-orange) - An osc/ui replacement in dark theme.
 - [mfpbar](https://codeberg.org/NRK/mpv-toolbox/src/branch/master/mfpbar) - A minimalistic progressbar and osc replacement.
+- [mfpbar-drag](https://github.com/layercak3/mfpbar-drag) - mfpbar with support for dragging the bar.
 - [osc-simple](https://github.com/maoiscat/mpv-osc-simple) - An OSC/UI replacement of white theme.
 - [osc-modern-f](https://github.com/FinnRaze/mpv-osc-modern-f) - OSC script forked from [mpv-osc-modern](https://github.com/maoiscat/mpv-osc-modern).
 
@@ -362,8 +365,8 @@ into popular sections, like Subtitles etc.
 - [dualsubs utils](https://github.com/VimWei/mpv-config) - Auto load dual subs; Auto reload dual subs; Swap primary/secondary subs position; Merge dual subs to one ASS sub.
 - [srt-resegment](https://github.com/VimWei/mpv-config/blob/main/scripts/srt-resegment.lua) - Resegment srt by synchronize plain text with whisper's word-level timestamps JSON.
 - [subber](https://framagit.org/Midgard/mpv-subber) - Write subtitles in mpv.
-- [llm-subtrans](https://github.com/sorz/mpv-llm-subtrans/) - Extract & translate subtitles with OpenAI API.
 - [sub-fastwhisper](https://github.com/dyphire/mpv-sub-fastwhisper) - Generate SRT subtitles through voice transcription using faster-whisper.
+- [llm-subtrans](https://github.com/sorz/mpv-llm-subtrans/) - Extract & translate subtitles with OpenAI API. Streaming & contextual.
 
 ## Learning
 
@@ -394,7 +397,6 @@ into popular sections, like Subtitles etc.
 - [pitchcontrol](https://github.com/FichteFoll/mpv-scripts/blob/master/pitchcontrol.lua) - Adjusts audio pitch in half-tone steps.
 - [volnorm](https://gitlab.com/derobert/mpv-volnorm) - Client-server setup to provide EBU R.128 volume leveling to MPV, even if files stored on a server and played on multiple machines. (Works on Linux, probably all Unix-like; server in Perl).
 - [firequalizer15](https://github.com/mfcc64/mpv-scripts/blob/master/firequalizer15.lua) - Linear phase 15-bands equalizer.
-- [equalizer](https://github.com/he2a/mpv-scripts) - Togglable parametric equalizer with EQ configuration similar to EqualizerAPO format present in a csv format.
 - [drcbox](https://gist.github.com/richardpl/0c8011dc23d7ac7b7831b2e6d680114f) - Dynamic Audio Normalizer filter with visual feedback.
 - [dbvol](https://gist.github.com/Artefact2/0a9c87d6d0f0ef6a565e44d830943fff) - Replaces the default volume controls with a decibel (dB) scale instead of arbitrary percentages.
 - [cycle-audio-device](https://gist.github.com/bitingsock/ad58ee5da560ecb922fa4a867ac0ecfd) - Cycle through available audio devices with key binds.
@@ -408,7 +410,6 @@ into popular sections, like Subtitles etc.
 - [cycle-adevice](https://gist.github.com/bitingsock/ad58ee5da560ecb922fa4a867ac0ecfd) - Cycle through available audio devices.
 - [Sofalizer](https://gist.github.com/kevinlekiller/9fd21936411d8dc5998793470c6e3d16#file-sofalizer-lua) - Simulates 7.1 surround sound to your headset. Get the sofa file from [here](https://sofacoustics.org/data/database/clubfritz/ClubFritz6.sofa)
 - [afilter](https://github.com/he2a/mpv-scripts) - Script for easy access to certain audio compressors and HRTF sofalizer in mpv with option to whitelist filters based on type of media. 
-- [anilist-updater](https://github.com/AzuredBlue/mpv-anilist-updater) - Automatically updates your AniList when reaching 80% completion based on the file name.
 - [ff-silence](https://github.com/mesvam/ff-silence) - Fast forward through silences and quiet parts of audio, useful on videos where the speaker uses many long pauses.
 - [aspeed.lua](https://github.com/TinosNitso/mpv-scripts/blob/main/aspeed.lua) - Multi-stereo speed randomization & tri-color clocks. Applies arbitrary speed formula & has chipmunk mode for left-channel. Also has double-mute insta-toggle. Primary channel may be left or right. A filterchain applies to all speakers - each is its own mpv. Has many script-messages.  For mpv v0.34→v0.38, SMPlayer, Windows, Linux, MacOS, Android, YouTube, mp4, mp3, jpg, etc. But no randomization for Android. ([Example](https://raw.githubusercontent.com/TinosNitso/mpv-scripts/main/SCREENSHOT.webp) clock).
 
@@ -424,7 +425,7 @@ into popular sections, like Subtitles etc.
 - [quality-menu](https://github.com/christoph-heinrich/mpv-quality-menu) - Change the streamed video and audio quality (ytdl-format) on the fly.
 - [youtube-download](https://github.com/cvzi/mpv-youtube-download) - Download YouTube audio and video with one key press.
 - [youtube-search](https://github.com/CogentRedTester/mpv-scripts/blob/master/youtube-search.lua) - A script that allows users to search youtube and open results from within mpv. Requires a couple of extra API scripts, along with curl and a personal youtube API key.
-- [youtube-search](https://github.com/rozari0/mpv-youtube-search) - Use zenity and youtube-dl to search YouTube.
+- [youtube-search](https://github.com/rozari0/mpv-youtube-search) - Use zenity and youtube-dl to search YouTube. Linux only.
 - [youtube-upnext](https://github.com/cvzi/mpv-youtube-upnext) - A menu for (auto) playing YouTube's "up next"/recommended videos, that show up on the right side on the website.
 - [ytdlautoformat](https://github.com/Samillion/mpv-ytdlautoformat) - Automatically adjusts `ytdl-format` (yt-dlp) for specified domains.
 - [ytdl-preload](https://github.com/bitingsock/ytdl-preload) - Precache the next entry in your playlist if it is a network source by downloading it to a temp file ahead of time. Updated to download all streams in parallel so you can watch it while it downloads.
@@ -486,7 +487,10 @@ into popular sections, like Subtitles etc.
 - [delogo](https://github.com/GitHubUserKaito/mpv-delogo) - Remove channel logo from videos.
 - [pickshader](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/pickshader.lua) - Provides a ^R-esque interface for easily setting/appending to --glsl-shaders (this does not install shaders for you).
 - [sview](https://github.com/he2a/mpv-scripts) - Displays all loaded shaders in a clean format. It suppresses the default OSD message, allowing the custom list to be viewed by toggling it or when changing shaders.
-- [mpvif](https://github.com/layercak3/mpvif) - A wayland VO patch and C plugin which forwards keyboard and mouse input to a headless compositor for playing 2D games with upscaling mpv user shaders.
+- [if](https://github.com/layercak3/mpvif) - A wayland VO patch and C plugin which forwards keyboard and mouse input to a headless compositor for playing 2D games with upscaling mpv user shaders.
+- [hdr-mode](https://github.com/dyphire/mpv-scripts/blob/main/hdr-mode.lua) - Automatically switches the display's SDR and HDR modes for HDR passthrough based on the content of the video being played.
+- [mpv360](https://github.com/kasper93/mpv360) - Interactive 360° Video Viewer. With full camera control through mouse and keyboard inputs.
+- [display-plugin](https://github.com/dyphire/mpv-display-plugin) - More display properties for mpv, support toggle Windows HDR.
 
 ## Image
 
@@ -509,6 +513,7 @@ into popular sections, like Subtitles etc.
 - [sorted-screenshots](https://github.com/BanchouBoo/mpv-sorted-screenshots) - Sort screenshots based on the file they're screenshotted from and nested directories.
 - [screenshotfolder](https://github.com/zydezu/mpvconfig/blob/main/scripts/screenshotfolder.lua) - Place screenshots into folders for each video, along with timestamping them.
 - [webp-avif-generator](https://github.com/outlook84/mpv-webp-avif-generator) - Creates animated webp/avif using mpv A-B loop and FFmpeg. (Support Windows and Linux)
+- [gallery-screenshots](https://github.com/XeinyX/mpv_gallery-screenshots) - In‑player tiled screenshot gallery that turns your screenshots into visual bookmarks for fast navigation. Click thumbnails to jump instantly. Export screenshots to contact sheets (PNG), CSV, and Excel table XLSX.
 
 ## Video Editing
 
@@ -523,6 +528,7 @@ into popular sections, like Subtitles etc.
 - [slicing](https://github.com/Kagami/mpv_slicing) - Cut uncompressed fragments of the video.
 - [slicing_copying](https://github.com/snylonue/mpv_slicing_copy) - Cut fragments of video in original format.
 - [excerpt](https://gitlab.com/lvml/mpv-plugin-excerpt) - Allows you to quickly create excerpts from media files, you just have to set begin and end markers.
+- [clipper](https://github.com/lunagus/mpv-clipper) - Quickly trim videos using ffmpeg within mpv.
 
 ## Social
 
@@ -623,6 +629,10 @@ into popular sections, like Subtitles etc.
 - [kodi hook](https://github.com/Eskander/kodi-mpv-hook) - Allows Kodi streaming add-ons to work correctly when using mpv as an [external player for Kodi](https://kodi.wiki/view/External_players) by parsing and extracting protocol options from Kodi's [custom URL format](https://kodi.wiki/view/HTTP).
 - [socket](https://github.com/Farzat07/mpv_socket) - Creates one IPC socket per mpv instance. Configurable. Socket name can be modified while playing.
 - [trakt-scrobble](https://github.com/dyphire/trakt-scrobble) - Connects trakt.tv with mpv and automatically scrobbles movies/shows.
+- [anilist-updater](https://github.com/AzuredBlue/mpv-anilist-updater) - Automatically updates your AniList when reaching 80% completion based on the file name.
+- [equalizer](https://github.com/he2a/mpv-scripts) - Script for togglable parametric equalizer with EQ configuration similar to EqualizerAPO format present in a csv format. Script can be whitelisted based on whether the content is audio, video or a movie. Settings are located in equalizer.conf in ./script-opts folder and equalizer configuration in ./script-opts/equalizer folder.
+- [lines-meme-generator](https://github.com/WatanabeChika/mpv-lines-meme-generator) - Allow users to take screenshots in MPV, crop them to keep only the bottom portion, and stitch them together into a long vertical image, just like a meme of lines.
+- [notification-osd](https://github.com/layercak3/mpv-notification-osd) - XDG desktop notification OSD plugin for track changes or media key playback control while the window is unfocused. Supports cover art and video thumbnail of the current time position.
 
 # Music Player
 
@@ -712,6 +722,7 @@ into popular sections, like Subtitles etc.
 - [CuNNy](https://github.com/funnyplanter/CuNNy) - Cute and funny CNN-based upscaler optimized for anime.
 - [AniSD ArtCNN](https://github.com/Sirosky/Upscale-Hub/releases/tag/AniSD-ArtCNN) - AniSD ArtCNN shader for standard definition anime content.
 - [Ani4K v2 ArtCNN](https://github.com/Sirosky/Upscale-Hub/releases/tag/Ani4k-v2-ArtCNN) - Ani4K shader v2 targets modern anime, from high quality Bluray to crappy WEB releases, for upscaling to either 2K or 4K.
+- [Snapdragon Game Super Resolution (GSR) v1](https://gist.github.com/agyild/7715b6b1f38427839d58f80884902cab) - Snapdragon Game Super Resolution (GSR) v1 is a single-pass spatial upscaling technique originally developed by Qualcomm for mobile devices. It integrates upscaling and edge sharpening into one GPU shader pass, leveraging a 12-tap Lanczos-like scaling filter and an adaptive sharpening filter.
 
 # VapourSynth Scripts
 
