@@ -33,7 +33,6 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
   - [Library](#library)
   - [Other](#other)
 - [Music Player](#music-player)
-- [Mobile Player](#mobile-player)
 - [Media Center](#media-center)
 - [Streaming Tools](#streaming-tools)
 - [User Configuration](#user-configuration)
