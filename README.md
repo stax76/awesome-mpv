@@ -252,6 +252,7 @@ into popular sections, like Subtitles etc.
 - [LoopToFile](https://github.com/NovaFormaLab/LoopToFile) - Functional script that allows you to generate playback loops and extract media fragments into new files. L∞p → file.ext.
 - [abstime-osd](https://github.com/whether1/mpv-abstime-osd) - Show absolute time of the playing audio or video.(OSD).
 - [mpv-PiP](https://github.com/WatanabeChika/mpv-PiP) - Allow users to switch to borderless and top-level picture-in-picture mode with shortcut keys.
+- [PiP Lite](https://github.com/Samillion/ModernZ/blob/main/extras/pip-lite) - This script adds a PiP mode when pin (ontop) is enabled, which also enhances the pin button on ModernZ turning it into a PiP button. When pin is enabled, window is resized and moved to bottom right.
 
 ## File
 
@@ -487,7 +488,7 @@ into popular sections, like Subtitles etc.
 - [automask.lua](https://github.com/TinosNitso/mpv-scripts/blob/main/automask.lua) - Applies filterchain to animated masked region with inversion (blinking) & invisibility. `geq` uses any formula. Smooth toggle with double-mute. Comes with 14 examples, including blinking monacle, binacles, pentagon, spinning triangle, scanning visors etc. Has many script-messages.  For mpv v0.34→v0.38, SMPlayer, Windows, Linux, MacOS, Android, YouTube, mp4, mp3, jpg, etc. [Example](https://raw.githubusercontent.com/TinosNitso/mpv-scripts/main/SCREENSHOT.webp) mask.
 - [use-cpu](https://github.com/422658476/MPV-EASY-Player/blob/master/portable-data/scripts/use-cpu.lua) - If the width of the video is greater than 3000 or the height of the video is greater than 2000, it will automatically switch back to using cpu decoding.
 - [waveform](https://github.com/MikelSotomonte/mpv-waveform/tree/main) - Displays a waveform of the video in real-time.
-- [BoxToWide](https://github.com/Samillion/mpv-boxtowide) - A simple mpv script to change 4:3 aspect-ratio of video files/streams to 16:9 automatically.
+- [BoxToWide](https://github.com/Samillion/mpv-boxtowide) - This script automatically adjusts video aspect ratios in mpv. By default, it converts legacy 4:3 content to 16:9, but it can also handle other ratios using configurable range or precise checks.
 - [frame_info](https://github.com/Kagami/mpv_frame_info) - Show frame info, similar to ffdshow's OSD.
 - [live-filters](https://github.com/hdb/mpv-live-filters) - Add, remove or toggle ffmpeg video filters during mpv playback.
 - [histogram](https://github.com/detuur/mpv-scripts) - Exposes a configurable way to overlay ffmpeg histograms in mpv. There is a substantial amount of config available.
@@ -812,6 +813,7 @@ Other projects from me
 A list of my other projects can be found here:
 
 https://stax76.github.io/software-list
+
 
 
 
