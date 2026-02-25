@@ -813,8 +813,3 @@ Other projects from me
 A list of my other projects can be found here:
 
 https://stax76.github.io/software-list
-
-
-
-
-
