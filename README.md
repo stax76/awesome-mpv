@@ -95,6 +95,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [zhongfly](https://github.com/zhongfly/mpv-winbuild) - Windows builds of mpv and libmpv. This choice is very similar to `shinchiro GitHub`, so it's also a recommendation.
 - [Andarwinux](https://github.com/Andarwinux/mpv-winbuild) - Daily Windows builds of mpv and libmpv including ARM64 architecture.
 - [mitzsch](https://github.com/mitzsch/mpv-winbuild) - Windows builds of mpv and libmpv.
+- [mpx](https://github.com/yuukidach/mpx) - A fisher-style plugin manager for mpv. No central registry — install plugins directly from GitHub with auto file type detection and symlink-based installation.
 - [mpsm](https://github.com/mpv-easy/mpv-easy/tree/main/mpv-mpsm) - mpsm is a mpv script manager, you can install scripts provided by [mpsm-scripts](https://github.com/mpv-easy/mpsm-scripts), or install any script with added [meta info](https://github.com/mpv-easy/mpsm-scripts?tab=readme-ov-file#meta-info) via url.
 
 # Documentation
