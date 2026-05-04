@@ -578,7 +578,7 @@ into popular sections, like Subtitles etc.
 
 - [webm](https://github.com/ekisu/mpv-webm) - WebM converter based on MoonScript.
 - [manager](https://github.com/po5/mpv_manager) - Script and shader manager.
-- [copyStuff](https://github.com/rofe33/mpv-copyStuff) - Copy to clipboard the filename or URL, full filename path, current video time, current displayed subtitle text, video duration/metadata.
+- [copyStuff](https://codeberg.org/raphaeltannous/mpv-copyStuff) - Copy to clipboard the filename or URL, full filename path, current video time, current displayed subtitle text, video duration/metadata.
 - [copyTime](https://github.com/Arieleg/mpv-copyTime) - Copies the current time to the clipboard.
 - [copy to music](https://github.com/yazeed44/mpv-scripts) - Copies the current media file you're playing to a predefined directory, and plays the next entry in the playlist (Unix-like)
 - [copy-paste-URL](https://github.com/zenyd/mpv-scripts) - Paste URLs directly from clipboard into mpv
