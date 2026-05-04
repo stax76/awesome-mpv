@@ -67,6 +67,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [mpc-qt](https://github.com/mpc-qt/mpc-qt) - Based on C++/QT.
 - [MPV-EASY Player](https://github.com/422658476/MPV-EASY-Player)
 - [MMP: Minimalist Media Player](https://github.com/BazzaCuda/MinimalistMediaPlayerX) - Player/Manager/Editor for audio and video, and Viewer/Manager for images/thumbnails; maintained, based on 64-bit Delphi Pascal. Official [wiki](https://minimalistmediaplayer.com).
+- [Vayou](https://github.com/0hgawa/vayou-desktop) - Based on Rust/Tauri/Svelte. Multi-track audio and subtitles, OpenSubtitles search, on-the-fly subtitle translation.
 
 ## MacOS
 
