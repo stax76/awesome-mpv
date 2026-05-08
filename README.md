@@ -329,6 +329,7 @@ into popular sections, like Subtitles etc.
 
 ## Subtitle
 
+- [mpv-subfinder](https://github.com/rashad-07/mpv-subfinder) - Download subtitles with a GUI from OpenSubtitles and SubDL.
 - [assrt by AssrtOSS](https://github.com/AssrtOSS/mpv-assrt) - Download subtitles from assrt.net.
 - [sub-assrt by dyphire](https://github.com/dyphire/mpv-sub-assrt) - Download Chinese subtitles from assrt.
 - [autosub](https://github.com/davidde/mpv-autosub) - Automatic subtitle downloading.
