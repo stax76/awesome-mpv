@@ -393,6 +393,7 @@ into popular sections, like Subtitles etc.
 - [mpv2anki alyssabedard](https://github.com/alyssabedard/mpv2anki) - (Different script with Windows, macOS and Linux support) A simple script to assist your language learning journey in any language by automatically capturing multimedia content from mpv to Anki. 
 - [lang-learner](https://github.com/liberlanco/mpv-lang-learner) - Turn MPV into language learner tool. Includes:  AB-loop current subtitle or auto loop each one, quick switch between lang you know and lang you are learning, forward to browser (dictionaries, translators), record for future extra learning, export to external script for integrations, and a bit more.
 - [mpv-Subtitle-Definition](https://github.com/tripasect/mpv-Subtitle-Definition) - Instant, on-screen definitions for difficult or obscure words found in subtitles.
+- [PerfectSentenceShadowing](https://github.com/JayXT/PerfectSentenceShadowing) - A convenient way to arrange Refold's perfect sentence shadowing by extracting looped audio, recording yourself, playing your audio, the original, comparing yours and the original back-to-back or overlaying both.
 
 ## Music
 
