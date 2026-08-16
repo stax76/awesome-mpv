@@ -688,6 +688,7 @@ into popular sections, like Subtitles etc.
 - [mustaqimM](https://github.com/mustaqimM/mpv-scripts)
 - [Zabooby](https://github.com/Zabooby/mpv-config)
 - [tuilakhanh](https://github.com/tuilakhanh/mpv-config)
+- [RMN_Player](https://github.com/RMNO21/RMN_Player)
 
 # Social Tools
 
