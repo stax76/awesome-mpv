@@ -543,6 +543,7 @@ into popular sections, like Subtitles etc.
 - [slicing_copying](https://github.com/snylonue/mpv_slicing_copy) - Cut fragments of video in original format.
 - [excerpt](https://gitlab.com/lvml/mpv-plugin-excerpt) - Allows you to quickly create excerpts from media files, you just have to set begin and end markers.
 - [clipper](https://github.com/lunagus/mpv-clipper) - Quickly trim videos using ffmpeg within mpv.
+- [tachytome](https://github.com/nnra6864/tachytome) - Keyboard Driven, AV1/H265/Lossless, MPV Video Cutter.
 
 ## Social
 
