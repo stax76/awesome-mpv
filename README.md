@@ -59,6 +59,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [Baka-MPlayer](https://github.com/u8sand/Baka-MPlayer) - Unmaintained, based on C++/QT.
 - [movie-monad](https://github.com/lettier/movie-monad) - Unmaintained, based on Haskell/GTK.
 - [OvoPlayer](https://github.com/varianus/ovoplayer) - Unmaintained, based on Pascal.
+- [TMPlayer](https://github.com/dracu-lah/TMPlayer) - Telegram video player for Android TV and Desktop (based on Kotlin/Compose Multiplatform).
 
 ## Windows
 
