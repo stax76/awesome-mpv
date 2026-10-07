@@ -71,6 +71,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 ## MacOS
 
 - [IINA](https://iina.io) - Based on Swift/Cocoa.
+- [IPTVMac](https://github.com/Goelir/IPTVMac) - IPTV player for Xtream Codes and M3U playlists, based on Swift/SwiftUI and libmpv.
 
 ## Linux
 
