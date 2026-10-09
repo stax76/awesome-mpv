@@ -56,10 +56,10 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [MoonPlayer](https://github.com/coslyk/moonplayer) - Based on C++/QT/QML.
 - [SMPlayer](https://github.com/smplayer-dev/smplayer) - Based on C++/QT.
 - [ImPlay](https://github.com/tsl0922/ImPlay) - Based on C++/imgui.
+- [TMPlayer](https://github.com/dracu-lah/TMPlayer) - Plays the videos in your Telegram chats. Based on Kotlin/Compose Multiplatform.
 - [Baka-MPlayer](https://github.com/u8sand/Baka-MPlayer) - Unmaintained, based on C++/QT.
 - [movie-monad](https://github.com/lettier/movie-monad) - Unmaintained, based on Haskell/GTK.
 - [OvoPlayer](https://github.com/varianus/ovoplayer) - Unmaintained, based on Pascal.
-- [TMPlayer](https://github.com/dracu-lah/TMPlayer) - Telegram video player for Android TV and Desktop (based on Kotlin/Compose Multiplatform).
 
 ## Windows
 
