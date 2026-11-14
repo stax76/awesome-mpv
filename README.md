@@ -423,6 +423,7 @@ into popular sections, like Subtitles etc.
 - [afilter](https://github.com/he2a/mpv-scripts) - Script for easy access to certain audio compressors and HRTF sofalizer in mpv with option to whitelist filters based on type of media. 
 - [ff-silence](https://github.com/mesvam/ff-silence) - Fast forward through silences and quiet parts of audio, useful on videos where the speaker uses many long pauses.
 - [aspeed.lua](https://github.com/TinosNitso/mpv-scripts/blob/main/aspeed.lua) - Multi-stereo speed randomization & tri-color clocks. Applies arbitrary speed formula & has chipmunk mode for left-channel. Also has double-mute insta-toggle. Primary channel may be left or right. A filterchain applies to all speakers - each is its own mpv. Has many script-messages.  For mpv v0.34→v0.38, SMPlayer, Windows, Linux, MacOS, Android, YouTube, mp4, mp3, jpg, etc. But no randomization for Android. ([Example](https://raw.githubusercontent.com/TinosNitso/mpv-scripts/main/SCREENSHOT.webp) clock).
+- [anyaudio](https://github.com/joaodutra88/mpv-audio-freedom) - Play the video of one file with the audio of another, without remuxing.
 
 ## Streaming
 
