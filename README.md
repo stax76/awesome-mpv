@@ -56,6 +56,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [MoonPlayer](https://github.com/coslyk/moonplayer) - Based on C++/QT/QML.
 - [SMPlayer](https://github.com/smplayer-dev/smplayer) - Based on C++/QT.
 - [ImPlay](https://github.com/tsl0922/ImPlay) - Based on C++/imgui.
+- [Coreplay](https://github.com/imCore-ai/coreplay) - Player for movies and EXR/DPX image sequences for film and VFX, based on C++/Qt, with OpenColorIO colour and A/B compare.
 - [Baka-MPlayer](https://github.com/u8sand/Baka-MPlayer) - Unmaintained, based on C++/QT.
 - [movie-monad](https://github.com/lettier/movie-monad) - Unmaintained, based on Haskell/GTK.
 - [OvoPlayer](https://github.com/varianus/ovoplayer) - Unmaintained, based on Pascal.
